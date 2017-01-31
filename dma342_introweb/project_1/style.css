@@ -1,0 +1,167 @@
+/*html{
+    background: url("images/nyc_banner.jpg") no-repeat center center fixed;
+    background-size: cover;
+}*/
+
+#background img{
+/*    COVER  https://css-tricks.com/perfect-full-page-background-image/ */
+    /* background: url("images/nyc_banner.jpg") no-repeat center center fixed;
+    background-size: cover; */
+
+    min-height: 100%;
+    min-width: 1024px;
+/*    width: 100%;*/
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.75;
+}
+    
+header {
+    text-align: center;
+}
+
+#navbar{
+    background: #74ccd1;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    margin: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    
+}
+
+#navbar ul li{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size : 30px;
+    letter-spacing : .15em;
+    color: #494949;
+    padding: 24px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#navbar ul p{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size : 35px;
+    color: #fff;
+}
+
+body{
+    
+}
+
+#banner img{
+    text-align: center;
+    min-width: 1024px;
+    min-height: auto;
+/*    position: absolute;*/
+    width: 100%;
+    opacity: 1.0;
+}
+
+/* FIX #banner img:hover{
+    text-align: center;
+    min-width: 1024px;
+    min-height: auto;
+    width: 100%;
+    opacity: 1.0; */
+}
+
+/*
+#banner{
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}*/
+
+#main{
+    
+}
+
+footer{
+  background: #74ccd1;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+
+footer h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
+  text-transform: none;
+  font-size: 30px;
+  letter-spacing : .075em;
+  color: #494949;
+  margin: 10px;
+  padding: 1px;
+  height: 16vh;
+}
+
+footer h2 a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing : .075em;
+  color: #fff;
+}
+
+footer h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
+  text-transform: none;
+  font-size: 60px;
+  letter-spacing : 0.1em;
+  color: #494949;
+  margin: 10px;
+  padding: 1px;
+  height: 16vh;
+}
+
+footer a i{
+  text-transform: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+#email{
+  float: left;
+  width: 50vw;
+    padding: 1vh 0;
+}
+
+#icons {
+  text-align: right;
+  float: right;
+  width: 50vw;
+  padding: 1vh 0;
+}
+
+#footer p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; 
+  text-align: center;
+  font-size: 15px;
+  letter-spacing : .075em;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 1vh;
+}

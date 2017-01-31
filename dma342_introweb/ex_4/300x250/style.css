@@ -1,0 +1,22 @@
+body {
+    background-color: #ccc;
+    position:relative;
+}
+* {
+	position:relative;
+}
+
+#logo {
+    opacity: 0;
+}
+
+#chopsticks{
+    opacity: 0;
+}
+
+#sushibox {
+  width: 300px;
+  height:250px;
+  background:#fff;
+  position:absolute;
+}

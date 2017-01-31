@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700|Rubik+One|Yellowtail" rel="stylesheet">
+    <link href="adbanner_final_style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+       <h1>jQuery Advertising Banner</h1>
+       <h2>DMA 217 | Final Project | December 14th</h2>
+       <h3>Rachel Peck & Alex Goupil</h3>
+       <a href="http://www3.canisius.edu/~peckr/DMA217/final_adbanner/adbanner_final_1.html">Click here if banner doesn't load</a><br><br>
+       <div id="adholder">
+        <div id="ad"><!-- background -->
+            <div id="buff">Welcome to Buffalo</div>
+<!--         Logo for Visit Buffalo Niagara ...-->
+            <div id="logo"><img src="logo2.svg" alt="Visit Buffalo Niagara Logo"></div> 
+            <div id="button">Click for More Info!</div>
+             <div id="bills"><img src="bills2.jpg" alt="Buffalo Bills"></div>
+             <div id="sports">Sports</div>
+             <div id="wings"><img src="wings.jpg" alt="Chicken Wings"></div>
+             <div id="food">Food</div>
+             <div id="concert"><img src="concert.jpg" alt="Canalside Concert"></div>
+             <div id="ent">Night</div>
+             <div id="ent2">Life</div>
+            <div id="skyline1"><img src="buffalo.svg" alt="Buffalo Skyline"></div>
+            <div id="skyline2"><img src="buffalo.svg" alt="Buffalo Skyline"></div>
+        </div>
+       </div> 
+       <br>
+       
+<!--  PRESENTATION  -->
+       <div id="process">
+           <h3>Sketches</h3>
+               <img src="sketch1.jpg" alt="Sketch 1"><br>
+               <img src="sketch2.jpg" alt="Sketch 2"><br>
+               <img src="sketch3.jpg" alt="Sketch 3"><br>
+               <img src="mockup.png" alt="Sketch 3">
+           <h3>What were we trying to achieve?</h3>
+             <p>The purpose of our banner ad is to convince people that Buffalo is a thriving city with a lot to offer and this will make them want to visit. We featured iconic aspects of Buffalo like Sports and Food with photos of the Buffalo Bills and Chicken Wings. We also incorporated Entertainment, with a photo of a Canalside concert, as a way to show the lesser known aspects of Buffalo that could draw people to the city.</p>
+            <h3>Process</h3>
+                <ul>
+                    <li><p>First we sketched out multiple possible designs on a note pad</p></li>
+                     <li><p>Once we desided on a design, we began by gathering pictures relating to the buffalo area</p></li>
+                    <li><p>If the pictures didn't not come in PNG format, we imported them into photoshop, cut them out, and exported them as a PNG</p></li>
+                    <li><p>When it came to the code, we took the shell from the previous example and modified it to fit our needs</p></li>
+                     <li><p>We went with a column design because we felt the horizontal design would be too cluttered</p></li>
+                    <li><p>For the skyline, well placed two images in a row behind each other at the bottom of our column, so when it would cycle across the screen, it would give the appearance of an endless loop</p></li>
+                    <li><p>When clicking on our project, you are directed to a website dedicated to visiting and tourism in Buffalo</p></li>
+                    <br>
+                    <br>
+                    <li><p>Decided to advertise the city of Buffalo to encourage people to visit, sketched ideas, solidified idea in Illustrator</p></li>
+                    <li><p>Gathered materials (photos, graphics) & created basic wide skyscraper banner</p></li>
+                    <li><p>Positioned skyline graphic, figured out how to animate position in jQuery, reset back to original state and created a function to run animation on an infinite loop</p></li>
+                    <li><p>Set timing and fade in / fade out for typography and photos in jQuery</p></li>
+                    <li><p>Converted logo to SVG format in Illustrator, set timing and fade in after photos</p></li>
+                    <li><p>Made entire banner reative link to <a href="http://www.visitbuffaloniagara.com/">visitbuffaloniagara.com</a></p></li>
+                    <li><p>Created button to give people a place to click that makes sense to them. We had issues with making the button reactive in CSS until we discovered that we had previously set reactivity in jQuery for the button that was overriding the CSS.</p></li>
+                </ul>
+            <h3>Sources</h3>
+              <h4>Photos</h4>
+               <ul>
+                  <li><a href="https://www.pinterest.com/explore/buffalo-bills-defense/">Pinterest</a></li>
+                  <li><a href="http://www.rd.com/food/fun/food-trivia/">Reader's Digest</a></li>
+                  <li><a href="https://www.buffalorising.com/2014/05/summer-2014-concert-schedule-announced-at-canalside/">Buffalo Rising</a></li>
+                  </ul>
+              <h4>Graphics</h4>
+                <ul>
+                 <li><a href="http://www.istockphoto.com/vector/buffalo-new-york-city-skyline-silhouette-gm185517216-27325382?st=_p_buffalo%20ny%20skyline">iStock Photo</a></li>
+                </ul>
+              <h4>Website Link & Logo</h4>
+                <ul>
+                 <li><a href="http://www.visitbuffaloniagara.com/">Visit Buffalo Niagara</a></li>
+               </ul>
+       </div>
+    </main>
+</body>
+    <script src="adbanner_final_jQuery_1.js"></script>
+</html>

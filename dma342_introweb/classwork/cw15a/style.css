@@ -1,0 +1,53 @@
+button {
+    background: #80043d;
+    text-decoration: inherit;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border: solid #fff 3px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1.5px rgba(0,0,0,.5);
+    position: relative;
+    float: right;
+}
+
+button a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+button:hover {
+    opacity: 0.75;  
+}
+
+button a:hover{
+    color: #80043d;
+    opacity: 1;
+    text-shadow: 2px 2px .5px rgba(255,255,255,1);
+}
+
+button:active {
+    opacity: 1; 
+}
+
+#circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: purple;
+    position: relative;
+    left: 50px;
+    top:50px;
+    animation: bounce 2s ease-in infinite;
+}
+
+@keyframes bounce {
+    from {background-color: #74ccd1;}
+    to {background-color: rgba(128, 0, 128, 0.5);}
+    to {transform: scale(10)}

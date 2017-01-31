@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f2de;
+    font-family: sans-serif;
+}
+
+nav li {
+/*    list-style: square;*/
+/*    list-style: url(images/folder.png);*/
+    list-style: none;
+}
+
+ol li {
+/*        list-style-position: inside;*/
+}
+
+table {
+    background: #ccc;
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+table tr:nth-child(2n+2) {
+    background: #fff;
+}
+
+table td,table th {
+    padding: 0.5em;
+    text-align: left;
+}
+
+table td{
+    color: #747b2b;
+}
+
+table td:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+table tr{
+    transition: background ease 0.2s;
+}
+
+table tr:hover {
+    cursor: pointer;
+    background: #555;
+    color: #fff;
+}
+
+table tr:last-of-type td {
+    text-align: center;
+    font-style: italic;
+}
+
+
+nav{
+    background: #555;
+}
+
+nav > ul > li{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li ul{
+    position: absolute;
+    background: #555;
+    width: 200px;
+    left: -9999px;
+}
+
+nav li:hover ul{
+    left: 0px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+header{
+    background:url(images/header_bg.png);
+    height: 100px;
+}
+
+#content{
+    background:center center url(img/bg.jpg);
+    background-size: cover;
+    position: absolute;
+/*    Hack for background */
+    top:0;
+    right:0;
+    left: 0;
+    bottom: 0;
+}
+
+div.container{
+    max-width:1000px;
+    margin: auto;
+}
+
+.semi{
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+

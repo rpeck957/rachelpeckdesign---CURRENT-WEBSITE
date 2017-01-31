@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+body {
+    background: #f1f2de;
+    font-family:sans-serif;
+}
+
+nav li {
+/*    list-style: square; */
+/*    list-style: url(images/folder.png);*/
+    list-style:none;
+}
+
+ol li {
+    /*    list-style-position:inside;*/
+}
+
+table {
+    background: #ccc;
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    overflow:hidden;
+}
+
+table tr:nth-child(2n+2) {
+    background: #fff;
+}
+
+table td,
+table th {
+    padding: 0.5em;
+    text-align: left;
+}
+table td {
+    color:#747b2b;
+}
+table td:first-child {
+    color:#1f4a84;
+    font-weight:bold;
+}
+
+table tr {
+    transition:background ease 0.2s;
+}
+
+table tr:hover {
+    cursor:pointer;
+    background:#555;
+    color:#fff;
+}
+table tr:last-of-type td {
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    background:#1e295e;
+}
+nav > ul > li {
+    display:inline-block;
+    position:relative;
+}
+
+nav ul li ul {
+    position:absolute;
+    z-index:100;
+    background:#1e295e;
+    width:200px;
+    left:-9999px;
+}
+
+nav ul li:hover ul {
+    left:0;
+}
+nav ul li a {
+    display:block;
+    padding:1em;
+    color:#fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+nav a: hover{
+    background: #000; 
+}
+
+header {
+    background:url(images/header_bg.png);
+    height:100px;
+}
+
+header h1{
+    text-indent: -9999em;
+    background: url(images/logo-lofi.gif) no-repeat;
+    position: relative;
+    top: 30px;
+}
+
+header h2{
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);    
+}
+
+#main{
+    float:left;
+    width: 75%;
+    padding:1em;
+}
+
+form{
+    position: relative;
+}
+
+.searchbutton{
+    position: absolute;
+    right:14px;
+    top:13px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    border-radius: 20em;
+    padding: .5em;
+    width: 40px;
+    height: 40px;
+}
+
+.location_box{
+    padding:1em;
+    border:10px solid #eadb9e;
+    border-radius: 1em;
+    width: 100%; 
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

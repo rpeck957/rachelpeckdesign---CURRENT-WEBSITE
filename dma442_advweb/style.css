@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    font-family: sans-serif;
+    font: avenir next;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    color: #bbb;
+    padding: 12px;
+    margin: 12px;
+    float: top;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#wrapper{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    text-align: center;
+/*    background: #eee;*/
+    position: relative;
+    width: 385px;;
+/*    margin: auto;*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border:10px solid #74ccd1;
+    border-radius:.20em;
+  
+    
+}
+
+nav li{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    padding: .35em;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: light;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 22px;
+    padding: 7px;
+    margin: 5px;
+    color: #74ccd1;
+    border:4px solid #74ccd1;
+    border-radius:.20em;
+    position: relative;
+    width: 14em;
+    height: auto;
+}
+
+#classworklist{
+    margin: 3em;
+    font-size: 1.5em;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color: #74ccd1;
+}
+
+#classworklist a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #bbb;
+}
+
+#main{
+    text-align: center;
+    font-family: sans-serif;
+    font: avenir next;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    padding: 12px;
+    margin: 12px;
+    color: #bbb;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer{
+  text-align: center;
+    font-family: sans-serif;
+    font: avenir next;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    color: #bbb;
+    padding: 12px;
+    margin: 12px;
+    float: bottom;  
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

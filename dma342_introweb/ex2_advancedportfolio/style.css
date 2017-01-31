@@ -1,0 +1,97 @@
+header{
+    font-size:28px;
+    font-family: sans-serif;
+    font: source sans pro;
+    font-weight: lighter;
+    text-transform:uppercase;
+    color:#bbb;
+    letter-spacing:0.3em;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 28px;
+    font-family: sans-serif;
+    font: source sans pro;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #74ccd1;
+    letter-spacing: 0.1em;
+}
+
+p{
+    text-align: center;
+    color: #bbb;
+    letter-spacing: 0.05em;
+}
+
+#wrapper a {
+    text-align: center;
+    display: block;
+    width:160px;
+    height:160px;
+    float: left;
+    color:#4850b4;
+    text-decoration: none;
+    font: source sans pro;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    font-size: 12px;
+    color: #bbb;
+    padding:1.5em;
+    border:3px solid #4850b4;
+    border-color: #74ccd1;
+    border-radius:.40em;
+    margin:.5em;
+/*    opacity:.4;*/
+    transition:opacity 0.3s ease;
+}
+
+#wrapper img{
+}
+
+a:hover{
+    opacity:1;
+    color: #74ccd1;
+}
+
+#wrapper {
+    margin: auto;
+}
+
+h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #74ccd1;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 1em;
+    
+}
+
+nav ul li{
+    display: inline;
+    background-color: #74ccd1;
+    padding: 1em;
+    text-align: center;
+    margin: 1em;
+    
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}

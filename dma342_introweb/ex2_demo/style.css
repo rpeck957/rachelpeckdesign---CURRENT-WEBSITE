@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size:18px;
+    text-transform:uppercase;
+    color:#bbb;
+    letter-spacing:0.3em;
+}
+
+#wrapper a {
+    display: block;
+    width:160px;
+    height:200px;
+    float: left;
+    color:#4850b4;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 13px;
+    padding:1em;
+    border:1px solid #4850b4;
+    margin:.5em;
+    opacity:.4;
+    transition:opacity 0.3s ease;
+}
+
+a:hover{
+    opacity:1;
+}
+
+#wrapper {
+    margin: auto;
+}
