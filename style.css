@@ -17,7 +17,7 @@ CONTENT
     color: #465151;
 */
 
-/* COLORS 
+/* COLORS
 
 Main Blue
     color: #74ccd1;
@@ -58,11 +58,11 @@ body{
     #content {
         flex-direction: column;
     }
-    
+
     #navbar {
         flex-direction: column;
     }
-    
+
     #buttons {
         flex-direction: column;
     }
@@ -72,9 +72,9 @@ body{
 
 header {
     text-align: center;
-    height: 220px;  
+    height: 220px;
     background: rgba(116,204,209,0.5);
-    
+
     display: flex;
     justify-content: center;
     align-content: center;
@@ -96,7 +96,7 @@ header img{
     padding: 8px;
     width: 100%;
 /*    height: 20%;*/
-    
+
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -133,6 +133,7 @@ header img{
     text-shadow: 0px 0px 0px rgba(255,255,255,0.5);
 }
 
+/* ADD DROPDOWN */
 /* INDEX MAIN CONTENT */
 
 #content {
@@ -160,7 +161,7 @@ header img{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     text-align: center;
-    
+
     position: relative;
     width: 100%;
     display: flex;
@@ -210,7 +211,7 @@ header img{
     font-size: 1.25em;
     margin-left: 0.15em;
     margin-top: 0.05em;
-    
+
     text-shadow: 0.5px 0.5px 0.5px rgba(70, 81, 81,0.35);
 }
 
@@ -226,24 +227,24 @@ header img{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    
+
     display: flex;
     flex: 0.5;
     margin: 1em;
 }
 
-.buttons {    
-    background: rgba(116,204,209,0.9);
+.buttons {
+    background: rgba(116,204,209,0.75);
     height: 250px;
     width: 250px;
     position: relative;
 /*    margin: 40px;*/
     text-align: center;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 /*
     border:#fff;
     border-style: solid;
@@ -256,7 +257,7 @@ header img{
     width: 92%;
     position: relative;
     text-align: center;
-    
+
     border:rgba(9255,255,255,0.9);
     border-style: solid;
     border-width: 7px;
@@ -281,7 +282,7 @@ footer{
   padding: 7px;
   display: flex;
   justify-content: space-between;
-  
+
   color: #465151;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -352,7 +353,7 @@ footer .fa{
 
 #student{
     position: relative;
-    
+
 }
 
 #designer{
@@ -366,7 +367,7 @@ footer .fa{
 
 /*
 #untitled{
-    position: relative;   
+    position: relative;
 }
 */
 
@@ -383,7 +384,7 @@ footer .fa{
 #work h1{
     font-size: 3em;
     padding: 0.15em;
-    b÷ackground: rgba(255,255,255,0.75);
+    background: rgba(255,255,255,0.75);
 }
 
 #work h2{
@@ -419,7 +420,7 @@ footer .fa{
     width:250px;
     height: 250px;
     text-align: center;
-    
+
     display: flex;
     justify-content: center;
     align-content: center;
@@ -432,7 +433,7 @@ footer .fa{
     width: 92%;
     position: relative;
     text-align: center;
-    
+
     display: flex;
     justify-content: center;
     align-content: center;
@@ -443,7 +444,7 @@ footer .fa{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    
+
     margin: 1em;
 }
 
@@ -451,6 +452,54 @@ footer .fa{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    
+
     margin: 1em;
+}
+
+/* CLASS WEBSITE */
+
+#dma {
+  /*display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;*/
+  position: relative;
+  width: 100%;
+  margin: 1em;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+#dma2{
+  position:absolute;
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dma {
+  background: rgba(116,204,209,0.75);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  padding: .5em;
+}
+
+.dma h2 a:visited {
+  text-decoration: none;
+  color: #465151;
+}
+
+.dma h2 a:link {
+  text-decoration: none;
+  color: #465151;
+}
+
+.dma h2 a:visited {
+  text-decoration: none;
+  color: #465151;
 }
