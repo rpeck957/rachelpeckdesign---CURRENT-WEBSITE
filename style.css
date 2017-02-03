@@ -147,7 +147,8 @@ header img{
     justify-content:center;
     align-content: center;
     padding:.5em;
-    margin: 1em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
     background: rgba(255,255,255,0.7);
     /*box-shadow: 1.5px 1.5px 5px rgba(70, 81, 81,0.25);*/
 }
@@ -263,7 +264,8 @@ header img{
     border:rgba(9255,255,255,0.9);
     border-style: solid;
     border-width: 7px;
-    box-shadow: 1.5px 1.5px 1px rgba(0,0,0,0.15), inset 1.5px 1.5px 1px rgba(0,0,0,0.15);
+    box-shadow: 1.5px 1.5px 1px rgba(0,0,0,0.15),
+    inset 1.5px 1.5px 1px rgba(0,0,0,0.15);
 }
 
 .buttons a img{
@@ -272,6 +274,7 @@ header img{
     position: relative;
     padding: 3.5%;
 }
+
 
 /* FOOTER */
 
@@ -416,35 +419,26 @@ footer .fa{
 
 /* CLASS WEBSITE */
 
-#dma {
-  /*display: flex;
-  flex: 1;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;*/
-  position: relative;
+#dma2{
+  position:relative;
   width: 100%;
-  margin: 1em;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
 }
 
-#dma2{
-  position:absolute;
-  display: flex;
-  flex:1;
-  flex-direction: row;
-  justify-content: center;
+#dma2 h1{
+  width: 100%;
 }
 
 .dma {
   background: rgba(116,204,209,0.75);
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  margin: 1em;
+  position:relative;
+  margin-top: .5em;
+  margin-bottom: .5em;
   padding: .5em;
+  border-radius: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  float:left;
 }
 
 .dma h2 a:visited {
@@ -460,4 +454,8 @@ footer .fa{
 .dma h2 a:visited {
   text-decoration: none;
   color: #465151;
+}
+
+.dma h2 a:hover {
+  color: #fff;
 }
