@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+p {
+
+}
+
+/*HEADER*/
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#head{
+  font-size: 3em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/*ASIDE LEFT*/
+
+.leftsidebar{
+
+}
+
+/*MAIN*/
+
+.main{
+
+}
+
+.largepic{
+
+}
+
+.gallery{
+
+}
+
+/*ASIDE RIGHT*/
+
+.rightsidebar{
+
+}
+
+.sociallinks{
+
+}
+
+/*FOOTER*/
+
+footer{
+  width:100%;
+  background: #74ccd1;
+  display: flex;
+  justify-content: center;
+}
