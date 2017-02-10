@@ -35,10 +35,11 @@ nav{
     text-align: center;
 /*    background: #eee;*/
     position: relative;
-    width: 385px;;
+    width: 420px;;
 /*    margin: auto;*/
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 

@@ -1,99 +1,368 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    background:#BBD3F2;
+  background: rgba(22,47,148,1);
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-/*    background:#124268; */
-    background:#5E7E97;
-    color:#fff;
+p {
+  font-size: 1em;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight:400;
+  letter-spacing: -0.01em;
+  color: #fff;
 }
 
-header {
-    text-align: center;
+h1 {
+  font-size: 4em;
+  font-family: 'Dosis', sans-serif;
+  font-weight:300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
 }
 
-nav li,
-.widget li {
-    list-style: none;
+/*HEADER*/
+
+header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+
+  position: relative;
+  padding: .5em;
 }
 
-nav li {
-    display: inline-block;
-    margin: 0 1em;
+/*NAV*/
+
+#navbar {
+  width: 100%;
+  height: 40px;
+  background: #E0C01B;
+  /*box-shadow: 2px 2px 0px rgba(0,0,0,0.5);*/
+
+  position: relative;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*padding: 1em;*/
+  text-align: center;
 }
 
-nav li a {
-    text-decoration: none;
+/*#navbar ul{
+  display: flex;
+}*/
+
+#navbar ul li {
+  display: inline;
+  /*justify-content: space-around;*/
+  padding: 1.5em;
+
+  font-size: 1.35em;
+  font-family: 'Dosis', sans-serif;
+  font-weight:300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  justify-content: space-around;
 }
 
-aside,
-.main {
-    float: left;
-    padding:0 1rem;
+#navbar ul li a{
+  text-decoration: none;
+  color: rgba(22,47,148,1);
 }
 
-aside a, .main a, footer a {
-    color:#fff;
+#navbar ul li a:hover{
+  color: #fff;
 }
 
+/*ASIDE LEFT*/
 
+.leftsidebar{
+  width: 25%;
+  display: flex;
+  /*justify-content: center;*/
+  position: relative;
+  padding: .5em;
 
-.main {
-    max-width: 800px;
-    background:#124268;
 }
 
-aside {
-    width: 200px;
+/*MAIN*/
+#main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em;
 }
 
-ul.widget {
-    padding: 1em;
-    border: 1px solid #777;
-    border-radius: 1em;
+.main{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  padding: .5em;
+
+  /*background: rgba(255,255,255,.75);*/
 }
 
-header img {
-width:100%;
-    height:auto;
+.largepic{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
 }
+
+.largepic img{
+  position: relative;
+  width: 75%;
+  height: 75%;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.gallery{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+/*ASIDE RIGHT*/
+
+.rightsidebar{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+
+  position:relative;
+  padding: .5em;
+}
+
+.rightsidebar a{
+  text-decoration: none;
+  color:#E0C01B;
+  font-weight: 700;
+}
+
+.rightsidebar a:hover{
+  color: #fff;
+}
+
+.sociallinks{
+  position: relative;
+  /*width: 25%;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  clear: both;
+  /*margin:1em;*/
+}
+
+.sociallinks a{
+  padding:.25em;
+  font-size: 3.25em;
+
+}
+
+/*FOOTER*/
+
 footer {
-        background:#5E7E97;
-    padding:1rem;
-
-}
-footer,
-nav {
-    text-align: center;
-    clear: both;
-}
-
-/*CLASS 4b*/
-
-@media (max-width:500px) {
-    aside, .main {
-        float:none;
-        width:100%;
-    }
+  width:100%;
+  height: 35px;
+  background: #E0C01B;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  position: fixed;
+  bottom: 0;
+  padding: .25em;
+  text-align: center;
 }
 
-.largepic img {
-    width:100%;
-    margin:1rem 0;
+footer p{
+  color: rgba(22,47,148,1);
+
+  font-family: 'Dosis', sans-serif;
+  font-weight:300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
 }
 
-@media (min-width:501px) and (max-width:800px) {
-  aside, .main{
-    width:50%;
-    position: absolute;
+footer a{
+  text-decoration: none;
+  color: rgba(22,47,148,1);
+}
+
+footer a:hover{
+  color: #fff;
+}
+
+/*RESPONSIVE*/
+
+/*PHONE*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media (max-width:500px){
+  body{
+    width: 100%;
   }
-}
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  header{
+    width: 100%;
+    /*height: 100px;*/
+  }
+
+  #navbar {
+    width: 100%;
+    height: 180px;
+
+  }
+
+  #navbar ul li{
+    padding:.2em;
+    display:block;
+  }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .leftsidebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .rightsidebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  footer {
+    width:100%;
+    height: 50px;
+    background: #E0C01B;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: .25em;
+  }
+
+  footer p{
+    font-size: .85em;
+  }
+} /*End of sheet*/
+
+/*TABLET*/
+
+@media (min-width:501px) and (max-width:1200px){
+  body{
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  header{
+    width: 100%;
+    height: 180px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: 180px;
+
+  }
+
+  #navbar ul li{
+    padding:.2em;
+    font-size: 1.25em;
+    display:block;
+  }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .leftsidebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .rightsidebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  footer {
+    width:100%;
+    height: 35px;
+    background: #E0C01B;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: .25em;
+  }
+
+  footer p{
+    font-size: .95em;
+  }
+} /*End of sheet*/
