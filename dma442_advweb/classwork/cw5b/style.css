@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+body {
+  background: rgba(176,22,22,0.5);
+  color: #fff;
+}
+
+button {
+  padding: 1em;
+  border: none;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  opacity: .6;
+}
+
+button:hover {
+  opacity: 1;
+  cursor:pointer;
+  transition: opacity .3s ease;
+}
