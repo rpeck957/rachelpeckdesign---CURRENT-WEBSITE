@@ -56,64 +56,30 @@ body, html {
     flex: 1;
 }
 
-/* MOBILE RESPONSIVE */
-
-@media (max-width:1000px){
-    #content {
-        flex-direction: column;
-    }
-
-    #navbar {
-        flex-direction: column;
-    }
-
-    #buttons {
-        flex-direction: column;
-    }
-}
-
-/* HEADER */
-
-header {
-    text-align: center;
-    height: 220px;
-    background: rgba(116,204,209,0.5);
-
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-header img{
-    height: 100%;
-    padding: 20px;
-    /*text-shadow: 0.75px 0.75px 0.5px rgba(70, 81, 81,0.5);*/
-}
-
 /* NAVBAR */
 
 #navbar{
-/*    background: rgba(88, 154, 158, 0.75);*/
-    background: rgba(116,204,209,.90);
-/*    background: rgba(70, 81, 81,.5);*/
+    background: rgba(116,204,209,1);
     text-align: center;
     padding: 8px;
     width: 100%;
-/*    height: 20%;*/
+    height: 15vh;
+    /*7.5vh footer*/
 
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: space-around;
 }
 
 #navbar ul li{
     display: inline;
-    font-family: 'Oswald', sans-serif;
+    font-family: "korolev",sans-serif;
+    font-style: normal;
     font-weight: 300;
     text-transform: uppercase;
-    font-size : 1.2em;
-/*    font-size:18px;*/
-    letter-spacing : 0.15em;
+    font-size : 2em;
+    letter-spacing : 0.04em;
     color: #465151;
 /*    color: #fff;*/
     padding: 1.25em;
@@ -122,7 +88,6 @@ header img{
 #navbar a{
     text-decoration: none;
     color: #465151;
-    text-shadow: 0.5px 0.5px 0.5px rgba(255,255,255,0.5);
 }
 
 #navbar ul li a:hover{
@@ -483,4 +448,20 @@ footer .fa{
   letter-spacing: 0.15em;
 
   text-shadow: 0.5px 0.5px 0.5px rgba(255,255,255,0.5);
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:1000px){
+    #content {
+        flex-direction: column;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #buttons {
+        flex-direction: column;
+    }
 }
