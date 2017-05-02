@@ -150,7 +150,7 @@ header img{
     padding:.5em;
     margin-top: 2.5em;
     margin-bottom: 2.5em;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.9);
     /*box-shadow: 1.5px 1.5px 5px rgba(70, 81, 81,0.25);*/
 }
 
@@ -180,7 +180,7 @@ header img{
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #74ccd1;
-    text-shadow: 0.75px 0.75px 0.5px rgba(70, 81, 81,0.5);
+    /*text-shadow: 0.75px 0.75px 0.5px rgba(70, 81, 81,0.5);*/
 }
 
 #content h2, #contentwork h2 {
