@@ -54,7 +54,6 @@ body, html {
 }
 
 #wrapper{
-    /*background-color: rgba(185,215,217,.5)*/
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -112,17 +111,18 @@ body, html {
 }
 
 #content {
-    width: 100%;
     display: flex;
     flex: 1;
     flex-direction: row;
     align-content: center;
-    justify-content:space-between;
+    justify-content: space-between;
     /*justify-content:center;*/
     /*padding:.25em;*/
     /*background: rgba(255,255,255,0.9);*/
 
     font-family: "korolev", sans-serif;
+
+    margin: 1.25em;
 }
 
 #homelogo{
@@ -131,7 +131,6 @@ body, html {
     flex-direction: column;
     align-content: center;
     justify-content: space-around;
-    margin: 1.25em;
     padding: 0.25em;
 }
 
@@ -148,7 +147,6 @@ body, html {
     flex-direction: column;
     align-content: center;
     padding:2em;
-    margin: 1.25em;
     background-color: rgba(255,255,255,.97);
 }
 
@@ -189,39 +187,25 @@ body, html {
 }
 
 #textlinks, #textcontact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #textlinks p{
-  font-size: 1.36em;
+    font-size: 1.36em;
 }
 
 #textcontact p{
-  font-size: 1.8em;
+    font-size: 1.8em;
 }
 
 #textlinks a, #textcontact a{
-  display: inline-block;
-  padding: 0.25em;
+    display: inline-block;
+    padding: 0.25em;
 }
 
-/*CHECK*/
-
-#content ul, #contentwork ul {
-    margin:1em;
-    padding: .15em;
-}
-
-#content ul li, #contentwork ul li{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size : 0.85em;
-    letter-spacing : 0.025em;
-    color: #465151;
-}
 
 /* END OF INDEX CONTENT */
 /* FOOTER */
@@ -466,8 +450,74 @@ footer a{
     #navbar {
         flex-direction: column;
     }
+}
 
-    #buttons {
-        flex-direction: column;
-    }
+/*PHONE*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media (max-width:500px){
+
+  #navbar{
+    /*opacity:0;*/
+  }
+
+  #navbar ul{
+    flex-direction: column;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  #homelogo{
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #homelogo img{
+    width: 80%;
+  }
+
+  .text{
+    width:100%;
+    padding: 1.25em;
+  }
+
+  #content h1{
+    font-size: 2em;
+  }
+
+  #content p{
+  }
+
+  #textlinks, #textcontact {
+    flex-direction: column;
+  }
+
+  #textlinks p{
+    font-size: 1.3em;
+  }
+
+  #textcontact p{
+    font-size: 1.3em;
+  }
+
+  #textlinks a, #textcontact a {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+  }
+
+
+
+
+}
+
+/*TABLET*/
+
+@media (min-width:501px) and (max-width:1200px){
 }
