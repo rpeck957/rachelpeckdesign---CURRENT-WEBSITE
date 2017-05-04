@@ -1,31 +1,32 @@
 /*FONTS
 
-ALL CAPS HEADINGS (Nav Bar)
+KOROLEV
 
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    letter-spacing: 0.15em;
+    font-family: "korolev",sans-serif;
+    THIN
+      font-weight: 200;
+    LIGHT
+      font-weight: 300;
+    BOLD
+      font-weight: 700;
 
-CONTENT
-
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size : 0.75em;
-    letter-spacing : 0.075em;
-    color: #465151;
+    KERNING 40
+      letter-spacing: 0.04em;
+    KERNING 20
+      letter-spacing: 0.02em;
 */
 
 /* COLORS
 
 Main Blue
-    color: #74ccd1;
-    rgb(116,204,209);
+    color: rgba(116,204,209,1);
 
-Gray
-    color: #465151;
-    rgb(70, 81, 81);
+Light Gray
+    color: rgba(82,94,94,1);
+Dark Gray
+    color: rgba(70,81,81,1);
+White
+    color: rgba(255,255,255,1);
 
 */
 
@@ -102,9 +103,8 @@ body, html {
     color: rgba(116, 204,209,1);
 }
 
-/* ADD DROPDOWN */
-
-/* INDEX MAIN CONTENT */
+/* END OF NAV BAR */
+/* INDEX CONTENT */
 
 .column {
     flex-direction: column;
@@ -160,7 +160,7 @@ body, html {
 
 .text a:hover{
     text-decoration: none;
-    color: rgba(82,94,94,1);
+    color: rgba(82,94,94,.85);
 }
 
 #content h1 {
@@ -208,7 +208,6 @@ body, html {
   padding: 0.25em;
 }
 
-
 /*CHECK*/
 
 #content ul, #contentwork ul {
@@ -224,6 +223,7 @@ body, html {
     color: #465151;
 }
 
+/* END OF INDEX CONTENT */
 /* FOOTER */
 
 footer{
@@ -254,7 +254,6 @@ footer{
 
   padding:0.5em;
 }
-
 
 footer a img{
   width: 2em;
