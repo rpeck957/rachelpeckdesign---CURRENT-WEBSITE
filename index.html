@@ -6,70 +6,71 @@
     <title>Rachel Peck Design</title>
     <script src="https://use.typekit.net/xkh0obe.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link rel="icon" href="images/rplogo_small.png">
+    <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d7164769e0/UntitledProject/style.css"> -->
     <script src="https://use.fontawesome.com/825d01d0f3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="src/css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- TAKE OUT -->
-  <!-- <div id=const>Thanks for visiting! This website is currently a work in progess & will be finished soon!</div> -->
 
     <div id="wrapper">
 
 <!-- NAVBAR -->
 
-        <nav id="navbar">
+        <nav id="navbar" style="padding:2.25rem;">
             <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <!-- <li><a href="#">Web Design</a></li> -->
-                <li><a href="#">Photography</a></li>
+                <li><a href="index.html"><img src="images/rplogo.svg" alt="Home" id="hideindex"></a></li>
+                <li><a href="about.html" class="mobile">About</a></li>
+                <li><a href="work.html" class="mobile">Work</a></li>
+                <li><a href="resume.html" class="mobile">Resume</a></li>
+                <li><a href="photography.html" class="mobile">Photography</a></li>
                 <!-- <li><a href="#">Other Mediums</a></li> -->
-                <li><a href="classwebsites.html">Class Website</a></li>
-                <!-- Add Class Dropdown -->
+                <li><a href="classwebsites.html" class="mobile">Class Website</a></li>
             </ul>
         </nav>
 
 <!-- END OF NAVBAR -->
-      <!-- Edit Page Here -->
 <!-- CONTENT -->
 
-        <div id="content" class="column">
+        <!-- Edit Page Here -->
+
+        <div id="content" class="content">
+
               <div id="homelogo">
-                <img src="images/rplogo.svg" alt="logo">
+                <img src="images/rplogo_s.png" alt="logo">
               </div>
               <div class="text">
-                  <h1>Welcome to my portfolio!</h1>
-                  <br>
-                  <p>Hello, I’m Rachel Peck. I'm a graphic designer in Buffalo, NY. This portfolio website is a collection of my work, both collegiate & professional & features a wide range of what I can do, graphic design & beyond. It represents an evolution of my skills throughout my design career & will continue to as I grow as a designer.
-                    <br><br>I will graduate from Canisius College this May & I hope to begin my career as a designer within an advertising agency in the Buffalo area.
-                  </p>
-                  <br>
-                  <h1>Thanks for Visiting!</h1>
+                  <h2>Welcome to my portfolio!</h2>
+                  <p>Hello, I’m Rachel Peck. I'm a graphic designer in Buffalo, NY. This portfolio website is a collection of my work, both collegiate & professional & features a wide range of what I can do, graphic design & beyond. It represents an evolution of my skills throughout my design career & will continue to as I grow as a designer.</p><br>
+                  <p>I will graduate from Canisius College this May & I hope to begin my career as a designer within an advertising agency in the Buffalo area.</p>
+                  <h2>Thanks for Visiting!</h2>
                   <div id="textlinks">
-                    <p>Want to know more about me?<a href="about.html"><i class="fa fa-arrow-right"></i></a></p>
-                    <p>Want to see what I can do?<a href="about.html"><i class="fa fa-arrow-right"></i></a></p>
-                  </div>
-                  <div id="textcontact">
-                    <p><a href="mailto:rachelpeckdesign@gmail.com"><i class="fa fa-envelope"></i></a>Want to contact me? I'd love to hear from you!</p>
+                    <p>Learn about me<a href="about.html"><i class="fa fa-arrow-right"></i></a></p>
+                    <p>See my work<a href="work.html"><i class="fa fa-arrow-right"></i></a></p>
+                    <p>Contact me<a href="mailto:rachelpeckdesign@gmail.com"><i class="fa fa-envelope"></i></a></p>
                   </div>
                 </div>
+
         </div>
 
-<!-- Stop Edit Page Here -->
+        <!-- Stop Edit Page Here -->
+
 <!-- END OF CONTENT -->
 <!-- FOOTER -->
 
         <footer>
           <div id="footercontent">
               <div id="email">
-                <a href="mailto:rachelpeckdesign@gmail.com"><img src="images/icon_email.svg" alt="Email"> rachelpeckdesign@gmail.com</a>
+                <a href="mailto:rachelpeckdesign@gmail.com"><img src="images/icon_email.svg" alt="Email">rachelpeckdesign@gmail.com</a>
               </div>
-                <p>© 2017 Rachel Peck, All Rights Reserved.</p>
+                © 2017 Rachel Peck, All Rights Reserved.
  <!-- ICONS -->
                 <div id="icons">
-                        <a href="https://www.behance.net/rpeck957d323" target="_blank"><img src="images/icon_behance.svg" alt="Behance"></a>
+                        <!-- <a href="https://www.behance.net/rpeck957d323" target="_blank"><i><span class="icon-icon_behance" class="icons"></span></i></a> -->
+                        <a href="mailto:rachelpeckdesign@gmail.com" target="_blank"><img src="images/icon_email.svg" alt="Email" id="hideindex"></a>
+                        <a href="https://www.behance.net/rpeck957d323" target="_blank"><img src="images/icon_behance.svg" alt="Instagram"></a>
                         <a href="https://www.instagram.com/rpeck957/" target="_blank"><img src="images/icon_instagram.svg" alt="Instagram"></a>
                         <a href="http://www.facebook.com/rachel.peck.58" target="_blank"><img src="images/icon_facebook.svg" alt="Facebook"></a>
                         <a href="https://www.linkedin.com/in/rachelpeck7/" target="_blank"><img src="images/icon_linkedin.svg" alt="Linkedin"></a>
@@ -80,5 +81,6 @@
         </footer>
 <!-- END OF FOOTER -->
     </div>
+    <script src="src/js/lightbox.js"></script>
 </body>
 </html>

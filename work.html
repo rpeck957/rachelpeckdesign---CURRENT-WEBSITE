@@ -1,86 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Rachel Peck Design</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300|Source+Sans+Pro:300,300i,600|Open+Sans:300,400,400i,600,800" rel="stylesheet">
+    <script src="https://use.typekit.net/xkh0obe.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link rel="icon" href="images/rplogo_small.png">
+    <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d7164769e0/UntitledProject/style.css"> -->
     <script src="https://use.fontawesome.com/825d01d0f3.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link href="src/css/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> </head>
-
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
     <div id="wrapper">
 
-        <!-- NAVBAR -->
+<!-- NAVBAR -->
 
         <nav id="navbar">
-            <div id="homelogo">
-              <a href="index.html"><img src="images/rplogo.png" alt="logo"></a>
-            </div>
             <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="work.html">Work</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <!-- <li><a href="#">Web Design</a></li> -->
-              <li><a href="#">Photography</a></li>
-              <!-- <li><a href="#">Other Mediums</a></li> -->
-              <li><a href="classwebsites.html">Class Website</a></li>
-              <!-- Add Class Dropdown -->
+                <li><a href="index.html"><img src="images/rplogo.svg" alt="Home"></a></li>
+                <li><a href="about.html" class="mobile">About</a></li>
+                <li><a href="work.html" class="mobile">Work</a></li>
+                <li><a href="resume.html" class="mobile">Resume</a></li>
+                <li><a href="photography.html" class="mobile">Photography</a></li>
+                <!-- <li><a href="#">Other Mediums</a></li> -->
+                <li><a href="classwebsites.html" class="mobile">Class Website</a></li>
             </ul>
         </nav>
 
+<!-- END OF NAVBAR -->
+<!-- CONTENT -->
+
         <!-- Edit Page Here -->
 
-    <div id="content" class="column">
-      <div id="filter">
-      <h1>This is a collection of my graphic design work. Click to see more information about each project.<br>To view work by client, click here. To view work by project type, click here.</h1>
-      <h1>Filter work by category...</h1>
-        <ul>
-          <li><a href="#">All</a></li>
-          <li><a href="#">Print</a></li>
-          <li><a href="#">Web</a></li>
-          <li><a href="#">Advertising</a></li>
-          <li><a href="#">Motion</a></li>
-          <li><a href="#">Logos</a></li>
-          <li><a href="#">Graphics</a></li>
-          <li><a href="#">Branding</a></li>
-        </ul>
-      </div>
-      <div class="work">
-        <!-- Insert Images of Work -->
-          <a href="images/hopecenter.png" data-lightbox="logos" data-title="Type-based Logo – Matt Urban Hope Center: Hope House"><img src="images/hopecenter.png"></a>
-          <a href="images/juicy.png" data-lightbox="juicy" data-title="JuiCy Burger Bar Logo"><a href="images/p_juicy.jpg" data-lightbox="juicy" data-title="JuiCy Burger Bar"><img src="images/juicy_thumbnail.jpg"></a></a>
-          <a href="images/drugfree.png" data-lightbox="drug free" data-title="Town of Hamburg Drug Free Coalition Logo"><a href="images/p_drugfree.jpg" data-lightbox="drug free" data-title="Town of Hamburg Drug Free Coalition Logo"><img src="images/drugfree_thumbnail.png"></a></a>
-          <a href="images/p_quadcmyk.jpg" data-lightbox="quad" data-title="CMYK Quadrangle Publication"><a href="images/p_quadcmyk.jpg" data-lightbox="quad" data-title="CMYK Quadrangle Publication"><img src="images/p_quadcmyk.jpg"></a></a>
-      </div>
-    </div>
+        <div id="workcontent" class="content" class="column">
+
+        <div id="filter">
+          <h3>Filter work by category:</h3>
+          <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Print</a></li>
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Motion</a></li>
+            <li><a href="#">Logos</a></li>
+            <li><a href="#">Graphics</a></li>
+            <li><a href="#">Branding</a></li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <!-- PROJECT NAME -->
+          <a href="images/p_quadcmyk.jpg" data-lightbox="quadcmyk" data-title="CMYK Publication" class="card" id="pr1">
+            <div class="overlay">
+              <span class="title">Project 1</span>Drawing
+            </div>
+          </a>
+          <!-- PROJECT NAME -->
+          <a href="images/p_quadcmyk.jpg" data-lightbox="quadcmyk" data-title="CMYK Publication" class="card" id="pr1">
+            <div class="overlay">
+              <span class="title">Project 1</span>Drawing
+            </div>
+          </a>
+          <!-- PROJECT NAME -->
+          <a href="images/p_quadcmyk.jpg" data-lightbox="quadcmyk" data-title="CMYK Publication" class="card" id="pr1">
+            <div class="overlay">
+              <span class="title">Project 1</span>Drawing
+            </div>
+          </a>
+          <!-- PROJECT NAME -->
+          <a href="images/p_quadcmyk.jpg" data-lightbox="quadcmyk" data-title="CMYK Publication" class="card" id="pr1">
+            <div class="overlay">
+              <span class="title">Project 1</span>Drawing
+            </div>
+          </a>
+          <!-- PROJECT NAME -->
+          <a href="images/p_quadcmyk.jpg" data-lightbox="quadcmyk" data-title="CMYK Publication" class="card" id="pr1">
+            <div class="overlay">
+              <span class="title">Project 1</span>Drawing
+            </div>
+          </a>
+          <!-- PROJECT NAME -->
+          <div class="card" id="pr2">
+            <div class="overlay">
+             <span class="boldtitle">CMYK Publication</span>Typography
+            </div>
+          </div>
+          <div class="card" id="pr3">
+            <div class="overlay">
+              <span class="boldtitle"> Project 3</span>Drawing
+            </div>
+          </div>
+          <div class="card" id="pr4">
+            <div class="overlay">
+              <span class="boldtitle"> Project 4</span>Drawing
+            </div>
+          </div>
+          <div class="card" id="pr5">
+            <div class="overlay">
+              <span class="boldtitle"> Project 5</span>Drawing
+            </div>
+          </div>
+
+          <div class="card" id="pr6">
+            <div class="overlay">
+              <span class="boldtitle"> Project 6</span>Drawing
+            </div>
+          </div>
+
+        </div>
+
+        </div>
 
         <!-- Stop Edit Page Here -->
-        <!-- FOOTER -->
+
+<!-- END OF CONTENT -->
+<!-- FOOTER -->
 
         <footer>
-                <div id="email">
-                        <a href="mailto:rachelpeckdesign@gmail.com"><i class="fa fa-envelope"></i> rachelpeckdesign@gmail.com</a>
-               </div>
-    <!-- ICONS -->
-               <div id="copyright">
-                  © 2017 Rachel Peck, All Rights Reserved.
-               </div>
+          <div id="footercontent">
+              <div id="email">
+                <a href="mailto:rachelpeckdesign@gmail.com"><img src="images/icon_email.svg" alt="Email">rachelpeckdesign@gmail.com</a>
+              </div>
+                © 2017 Rachel Peck, All Rights Reserved.
+ <!-- ICONS -->
                 <div id="icons">
-                        <a href="https://www.behance.net/rpeck957d323" target="_blank"><i class="fa fa-behance"></i></a>
-                        <a href="https://www.instagram.com/rpeck957/" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a href="http://www.facebook.com/rachel.peck.58" target="_blank"><i class="fa fa-facebook-official"></i></a>
-                        <a href="https://www.linkedin.com/in/rachelpeck7/" target="_blank"><i class="fa  fa-linkedin"></i></a>
-                        <a href="https://www.pinterest.com/rpeck957/" target="_blank"><i class="fa fa-pinterest"></i></a>
-                        <a href="https://twitter.com/rpeck957" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <!-- <a href="https://www.behance.net/rpeck957d323" target="_blank"><i><span class="icon-icon_behance" class="icons"></span></i></a> -->
+                        <a href="https://www.behance.net/rpeck957d323" target="_blank"><img src="images/icon_behance.svg" alt="Instagram"></a>
+                        <a href="https://www.instagram.com/rpeck957/" target="_blank"><img src="images/icon_instagram.svg" alt="Instagram"></a>
+                        <a href="http://www.facebook.com/rachel.peck.58" target="_blank"><img src="images/icon_facebook.svg" alt="Facebook"></a>
+                        <a href="https://www.linkedin.com/in/rachelpeck7/" target="_blank"><img src="images/icon_linkedin.svg" alt="Linkedin"></a>
+                        <a href="https://www.pinterest.com/rpeck957/" target="_blank"><img src="images/icon_pinterest.svg" alt="Pinterest"></a>
+                        <a href="https://twitter.com/rpeck957" target="_blank"><img src="images/icon_twitter.svg" alt="Twitter"></a>
                </div>
+          </div>
         </footer>
-        </div>
+<!-- END OF FOOTER -->
     </div>
     <script src="src/js/lightbox.js"></script>
 </body>
-
 </html>

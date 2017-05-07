@@ -1,3 +1,7 @@
+/*SAVE SVG IN EDITABLE FORMAT*/
+/*CREATE ICON FONT*/
+/*FIX LOGO IN NAV BAR*/
+
 /*FONTS
 
 KOROLEV
@@ -9,6 +13,16 @@ KOROLEV
       font-weight: 300;
     BOLD
       font-weight: 700;
+
+KOROLEV CONDENSED
+    font-family: "korolev-condensed",sans-serif;
+    THIN
+      font-weight: 200;
+    LIGHT
+      font-weight: 300;
+    BOLD
+      font-weight: 700;
+
 
     KERNING 40
       letter-spacing: 0.04em;
@@ -65,27 +79,34 @@ body, html {
     background: rgba(116,204,209,1);
     text-align: center;
     width: 100%;
-    height: 5.5em;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
 
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#navbar ul li img{
+    width: 80%;
+    height: auto;
 }
 
 #navbar ul{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
 }
 
 #navbar ul li{
-    display: inline;
-    font-family: "korolev",sans-serif;
+    display: inline-flex;
+    font-family: "korolev-condensed",sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    font-size : 1.75em;
+    font-size : 2em;
     letter-spacing : 0.04em;
 }
 
@@ -103,26 +124,24 @@ body, html {
 }
 
 /* END OF NAV BAR */
-/* INDEX CONTENT */
+/* GENERAL CONTENT */
+
+.content{
+  margin:1.25rem;
+}
 
 .column {
     flex-direction: column;
     flex:1;
 }
 
+/* INDEX CONTENT */
+
 #content {
     display: flex;
     flex: 1;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    /*justify-content:center;*/
-    /*padding:.25em;*/
-    /*background: rgba(255,255,255,0.9);*/
-
     font-family: "korolev", sans-serif;
-
-    margin: 1.25em;
 }
 
 #homelogo{
@@ -131,7 +150,9 @@ body, html {
     flex-direction: column;
     align-content: center;
     justify-content: space-around;
-    padding: 0.25em;
+    padding-top:1.25rem;
+    padding-bottom:1.25rem;
+    padding-right: 1.25rem;
 }
 
 #homelogo img{
@@ -145,15 +166,17 @@ body, html {
     height: auto;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    padding:2em;
-    background-color: rgba(255,255,255,.97);
+    align-items: flex-start;
+    padding:2rem;
+    background-color: rgba(255,255,255,.87);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
 }
 
 .text a{
     text-decoration: none;
     color: rgba(116,204,209,1);
-    font-size: 1.25em;
+    font-size: 1.4em;
+    margin-left: 0.5em;
 }
 
 .text a:hover{
@@ -161,52 +184,55 @@ body, html {
     color: rgba(82,94,94,.85);
 }
 
-#content h1 {
+h2 {
     font-weight: 300;
-    font-size: 2.8em;
+    font-size: 3.2em;
     letter-spacing: 0.04em;
-    font-family:"korolev-condensed";
+    font-family:"korolev-condensed",sans-serif;
     text-transform: uppercase;
-    text-align: center;
     color: rgba(116,204,209,1);
+    line-height: 1.25em;
 }
 
-/*CHECK*/#content h2 {
-    font-size: 2.4em;
-    color: #465151;
-    text-transform: none;
-    letter-spacing : .025em;
-    padding: 0.05em
-}
-
-#content p{
+h3 {
     font-weight: 300;
-    font-size: 1.3em;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(82,94,94,1)
+    font-size: 2em;
+    letter-spacing: 0.04em;
+    font-family:"korolev-condensed",sans-serif;
+    text-transform: uppercase;
+    color: rgba(116,204,209,1);
+    line-height: 1.25em;
 }
 
-#textlinks, #textcontact {
+p{
+    font-weight: 300;
+    font-size: 1.4em;
+    letter-spacing: 0em;
+    color: rgba(82,94,94,1);
+    line-height: normal;
+    /*margin-top: 0.75em;*/
+}
+
+/*a i {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+i:hover{
+  color: rgba(82,94,94,1);
+}*/
+
+#textlinks {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #textlinks p{
-    font-size: 1.36em;
+    font-size: 1.6em;
 }
-
-#textcontact p{
-    font-size: 1.8em;
-}
-
-#textlinks a, #textcontact a{
-    display: inline-block;
-    padding: 0.25em;
-}
-
 
 /* END OF INDEX CONTENT */
 /* FOOTER */
@@ -214,15 +240,8 @@ body, html {
 footer{
   background: rgba(116,204,209,1);
   width: 100%;
-  /*height: 2.75em;*/
-  /*bottom: 0;*/
-
-  /*overflow: hidden;*/
-/*
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-around;*/
+  bottom: 0;
+  padding:0.75rem;
 }
 
 #footercontent{
@@ -235,20 +254,21 @@ footer{
   color: rgba(82,94,94,1);
   font-family: "korolev",sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.25em;
   letter-spacing: 0em;
-
-  padding:1rem;
 }
 
 footer a img{
-  width: 2em;
+  width: 2.5rem;
   height: auto;
-  display:inline;
+  /*display:inline;*/
+  fill: #fff;
 }
 
-footer a{
-  text-decoration: none;
+footer a img:hover{
+    text-decoration: none;
+    fill: rgba(82,94,94,.85);
+    opacity: 0.25;
 }
 
 #email a{
@@ -260,17 +280,9 @@ footer a{
 #email a{
   text-decoration: none;
   color:rgba(82,94,94,1);
-  padding: 0.1em;
 }
 #email a img {
   margin-right: .5rem;
-}
-
-#footercontent p{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
 
 #icons {
@@ -278,7 +290,7 @@ footer a{
 }
 
 #icons a{
-  padding: 0.1em;
+  margin: 0.2em;
 }
 
 /* END OF INDEX */
@@ -325,56 +337,199 @@ footer a{
    position: relative;
 }
 
-/*
-#untitled{
-    position: relative;
-}
-*/
-
 /* END OF ABOUT */
 
-/*GRAPHIC DESIGN*/
+/*WORK*/
 
-/*GRAPHIC DESIGN CONTENT*/
+/*WORK CONTENT*/
 
-#work{
-    margin: 1em;
+#workcontent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  font-family: "korolev", sans-serif;
 }
 
-#work h1{
-    font-size: 3em;
-    padding: 0.15em;
-    /*background: rgba(255,255,255,0.75);*/
+#filter{
+  width:100%;
+  background-color: rgba(255,255,255,.7);
+  padding:0.5rem;
+  margin-bottom: 1.25em;
 }
 
-#work h2{
-    font-size: 1.5em;
-    padding: 0.15em;
-    /*background: rgba(255,255,255,0.75);*/
+#filter ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
-#logobuttons{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+#filter ul li{
+    display: inline-flex;
+    font-family: "korolev-condensed",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size : 1.5em;
+    letter-spacing : 0.04em;
+    color: rgba(82,94,94,1);
+    /*color: rgba(116,204,209,1);*/
 }
 
-#logoimg{
-    background: rgba(255, 255, 255,0.75);
+#filter a{
+    text-decoration: none;
+    color: rgb(82,94,94);
 }
 
-#printbuttons{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin: 1em;
+#filter ul li a:hover{
+    color: rgba(116,204,209,1);
 }
 
-#adbuttons{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin: 1em;
+.gallery {
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+.gallery a{
+  text-decoration: none;
+}
+
+.card {
+  background:#fff;
+  width:100%;
+  margin-bottom:1rem;
+  height:160px;
+  display:flex;
+  background-position:center center;
+}
+
+.overlay {
+  background:rgba(82,94,94,.85);
+  color:#fff;
+  text-align: center;
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  justify-content:center;
+  opacity:0;
+  cursor:pointer;
+  transition:opacity ease .4s;
+
+  font-family: "korolev",sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0em;
+}
+
+.title{
+  font-family: "korolev-condensed",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 2rem;
+}
+
+.overlay:hover {
+  opacity:1;
+}
+
+/* PUT PROJECT IMAGES HERE */
+
+#pr1 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}
+
+#pr2 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}
+
+#pr3 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}
+
+#pr4 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}
+
+#pr5 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}
+
+#pr6 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}
+
+/* RESUME */
+
+#resumecontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.res2col{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+
+  padding: 1.25rem;
+  background: rgba(255,255,255,.97);
+}
+
+.resbox{
+  width: 50%;
+}
+
+.resbox h2{
+  font-family: "korolev-condensed",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing:0.02em;
+  font-size: 2em;
+
+  color: rgba(116,204,209,1);
+}
+
+.resbox h3{
+  font-family: "korolev",sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing:0em;
+  font-size: 1.5em;
+
+  color: rgba(82,94,94,1);
+}
+
+#resplace {
+  font-weight: 200;
+}
+
+.resbox h4{
+  font-family: "korolev",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing:0.02em;
+  font-size: 1.25em;
+
+  color: rgba(82,94,94,1);
+}
+
+.resbox ul{
+}
+
+.resbox ul li{
+  font-family: "korolev",sans-serif;
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing:0em;
+  font-style: normal;
+  font-size: 1em;
+
+  color: rgba(82,94,94,1);
 }
 
 /* CLASS WEBSITE */
@@ -420,30 +575,6 @@ footer a{
   color: #fff;
 }
 
-/*TAKE OUT*/
-
-#const{
-  background: rgba(116,204,209,0.5);
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-
-  color: #465151;
-
-  margin-bottom: 1em;
-
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  letter-spacing: 0.15em;
-
-  text-shadow: 0.5px 0.5px 0.5px rgba(255,255,255,0.5);
-}
-
 /* MOBILE RESPONSIVE */
 
 @media (max-width:1000px){
@@ -462,66 +593,113 @@ footer a{
   width: device-width;
 }
 
-@media (max-width:500px){
+/*HIDING LOGO ON INDEX*/
+
+@media (min-width:1000px){
+
+  #hideindex{
+    display: none;
+  }
+
+}
+
+@media (min-width:0px) and (max-width:500px){
 
   #navbar{
-    /*opacity:0;*/
+    padding:0rem;
+  }
+
+  .mobile{
+    display: none;
   }
 
   #navbar ul{
     flex-direction: column;
   }
 
+  #navbar ul li img{
+      width: 100%;
+      height: auto;
+  }
+
+  .content{
+    margin: 0.75rem;
+  }
+
   #content {
     flex-direction: column;
+
   }
 
   #homelogo{
-    width: 100%;
-    justify-content: center;
-    padding: 0;
-  }
-
-  #homelogo img{
-    width: 80%;
+    display: none;
   }
 
   .text{
     width:100%;
-    padding: 1.25em;
+    padding: 1em;
   }
 
-  #content h1{
-    font-size: 2em;
+  .text a{
+    /*font-size: 2em;*/
   }
 
-  #content p{
+  h2{
+    font-size: 1.85em;
+    line-height: 2em;
   }
 
-  #textlinks, #textcontact {
+  p{
+    font-size: 1.25em;
+  }
+
+  #textlinks {
     flex-direction: column;
+    align-items:flex-start;
   }
 
   #textlinks p{
-    font-size: 1.3em;
+    font-size: 1.5em;
+
   }
 
-  #textcontact p{
-    font-size: 1.3em;
+  footer{
+    padding: 0.25rem;
   }
 
-  #textlinks a, #textcontact a {
-    display: block;
-    font-size: 3em;
-    text-align: center;
+  #footercontent{
+    flex-direction:column-reverse;
+    font-size: 1em;
+    /*font-size: 1em;*/
   }
 
-
-
+  #email{
+    display: none;
+  }
 
 }
 
 /*TABLET*/
 
 @media (min-width:501px) and (max-width:1200px){
+}
+
+/*FROM WORK CODEPEN*/
+@media (min-width:720px) {
+  .card {
+    width:49%;
+  }
+
+  .card:last-child {
+  margin-right:auto;
+  margin-left:2%;
+}
+
+@media (min-width:1170px) {
+  .card {
+    width:24%;
+  }
+  .card:last-child {
+  margin-right:auto;
+  margin-left:1.333333333%;
 }
