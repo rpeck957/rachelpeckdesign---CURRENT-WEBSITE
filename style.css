@@ -1,6 +1,7 @@
 /*SAVE SVG IN EDITABLE FORMAT*/
 /*CREATE ICON FONT*/
 /*FIX LOGO IN NAV BAR*/
+/*FIGURE OUT SHIT WITH NAV BAR - SPACING LEFT OF ABOUT*/
 
 /*FONTS
 
@@ -603,13 +604,20 @@ footer a img:hover{
 
 }
 
+/* NAV BAR TOGGLE */
+
+.visible {
+  display:block !important;
+}
+
+
 @media (min-width:0px) and (max-width:500px){
 
   #navbar{
     padding:0rem;
   }
 
-  .mobile{
+  .mobile {
     display: none;
   }
 
@@ -679,6 +687,7 @@ footer a img:hover{
 
 }
 
+
 /*TABLET*/
 
 @media (min-width:501px) and (max-width:1200px){
@@ -702,4 +711,7 @@ footer a img:hover{
   .card:last-child {
   margin-right:auto;
   margin-left:1.333333333%;
+}
+#icons svg {
+  fill:red;
 }

@@ -1,0 +1,349 @@
+/*
+COLORS
+Blue - rgba(14,39,86,1)
+Yellow - rgba(253,221,0,1)
+
+Light Blue - rgba(43,84,162,1)
+
+Light Blue - rgba(26,74,162,1)
+Light Blue - rgba(16,45,99,1)
+
+Light Blue - rgba(22,62,137,1)*
+
+Color Picker Blue - rgba(20, 57, 124,1)
+
+FONTS
+
+Raleway
+font-family: 'Raleway', sans-serif;
+Light - 300
+Regular - 400
+Bold - 700
+Extra-Bold - 800
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  /*background: rgba(22,62,137,1);*/
+  background: rgba(26,74,162,1);
+
+  /*background: rgba(14,39,86,1);*/
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header{
+  height:
+}
+
+header img{
+  width:25%;
+  height: auto;
+  padding: 1rem;
+}
+
+nav{
+  /*background: rgba(26,74,162,1);*/
+  background: rgba(14,39,86,.5);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 0.75rem;
+}
+
+nav ul{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline-flex;
+  }
+
+nav a{
+  text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: rgba(253,221,0,1);
+}
+
+/*DROPDOWN MENU*/
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(20, 57, 124,1);
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 0.75em;
+    text-decoration: none;
+    display: block;
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(253,221,0,1); color:rgba(20, 57, 124,1);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+#info{
+  width:100%;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background: url(images/stock_1.jpg) no-repeat 50% 0% fixed;
+  background-size: cover;
+
+  /*background-image:;
+  background-repeat:;
+  background-attachment:;
+  background-position:; */
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2.25em;
+  letter-spacing: 0.02em;
+  padding: 3em;
+  line-height: 1.25em;
+
+  color:#fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+}
+
+#questions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.5em;
+  background: rgba(14,39,86,.5);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+#questions a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#questions a:hover{
+  color: rgba(253,221,0,1);
+}
+
+#line{
+  width: .25%;
+  height: auto;
+  background: #fff;
+}
+
+#accomplishments {
+  width:100%;
+  height: 25vh;
+
+  display: flex;
+  /*flex: 1;*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  letter-spacing: 0.02em;
+
+  color:#fff;
+
+  background: url(images/vi_screening.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+#accomplishments ul{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#accomplishments i{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: .5em;
+  font-size: 5.5em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+
+.projectgo{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75em;
+
+  background: rgba(14,39,86,.5);
+  color: #fff;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.projectgo:hover{
+  background: rgba(253,221,0,1);
+}
+
+.projectgo:hover i{
+  color: rgba(20, 57, 124,1);
+}
+
+#left{
+  /*justify-content: flex-start;*/
+}
+
+#right{
+  /*justify-content: flex-end;*/
+}
+
+.projectgo i{
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+footer{
+  /*background: rgba(14,39,86,1);*/
+  background: rgba(26,74,162,1);
+  width: 100%;
+  padding: 0.75rem;
+  bottom: 0;
+}
+
+#footercontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.02em;
+  color:#fff;
+}
+
+#icons{
+  padding: 1rem;
+}
+
+#icons a{
+  padding: 0.75rem;
+}
+
+#icons i{
+  padding: 0.5em;
+  font-size: 2.5em;
+  width: 2em;
+  height: 2em;
+  /*width: 1.5em;
+  height: auto;*/
+  border-radius: 50%;
+
+  color: rgba(26,74,162,1);
+  background: #fff;
+}
+
+#icons i:hover{
+  background: rgba(253,221,0,1);
+}
+
+
+/*RESPONSIVE*/
+
+@media (min-width:0px) and (max-width:500px){
+
+nav ul{
+    flex-direction: column;
+}
+
+#info{
+    flex-direction: column;
+    padding: 0.75em;
+    font-size: 1.5em;
+}
+
+#questions{
+    flex-direction: column;
+    font-size: 1.75em;
+}
+
+#accomplishments{
+    flex-direction: column;
+    padding: 0.75em;
+}
+
+#accomplishments ul{
+    padding: 0.25;
+}
+
+#accomplishments i{
+    padding: 0;
+}
+
+}
