@@ -2,6 +2,8 @@
 /*CREATE ICON FONT*/
 /*FIX LOGO IN NAV BAR*/
 /*FIGURE OUT SHIT WITH NAV BAR - SPACING LEFT OF ABOUT*/
+/*CENTER NAV BAR LINKS*/
+/*EVALUATE TABLET SIZE*/
 
 /*FONTS
 
@@ -98,7 +100,7 @@ body, html {
 #navbar ul{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-content: center;
     justify-content: space-around;
 }
 
@@ -123,6 +125,17 @@ body, html {
 #navbar ul li a.active{
     color: rgba(116, 204,209,1);
 }
+
+.hamburger{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamburger i{
+  color: #fff;
+  font-size: 2rem;
+}
+
 
 /* END OF NAV BAR */
 /* GENERAL CONTENT */
@@ -293,6 +306,12 @@ footer a img:hover{
 #icons a{
   margin: 0.2em;
 }
+
+/*FIX THIS*/
+
+/*#icons a svg {
+  fill:red;
+}*/
 
 /* END OF INDEX */
 
@@ -535,45 +554,40 @@ footer a img:hover{
 
 /* CLASS WEBSITE */
 
-#dma2{
-  position:relative;
-  width: 100%;
+#dma h1{
+  font-family: "korolev-condensed",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size : 2em;
+  letter-spacing : 0.04em;
+  color:rgba(82,94,94,1);
 }
 
-#dma2 h1{
-  width: 100%;
+#dma a{
+  text-decoration: none;
+  color: rgba(116,204,209,1);
 }
 
-.dma {
-  background: rgba(116,204,209,0.75);
-  position:relative;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  padding: .5em;
-  border-radius: 7px;
-  width: 100%;
+#dma{
   display: flex;
-  justify-content: center;
-  float:left;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+
+  font-family: "korolev-condensed",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size : 2em;
+  letter-spacing : 0.04em;
+  text-align: center;
+
+  background: #fff;
 }
 
-.dma h2 a:visited {
-  text-decoration: none;
-  color: #465151;
-}
-
-.dma h2 a:link {
-  text-decoration: none;
-  color: #465151;
-}
-
-.dma h2 a:visited {
-  text-decoration: none;
-  color: #465151;
-}
-
-.dma h2 a:hover {
-  color: #fff;
+#dma a:hover {
+  color: rgba(82,94,94,1);
 }
 
 /* MOBILE RESPONSIVE */
@@ -610,9 +624,90 @@ footer a img:hover{
   display:block !important;
 }
 
+/* PHONE */
 
 @media (min-width:0px) and (max-width:500px){
 
+  #navbar{
+    padding:0rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar ul li img{
+      width: 100%;
+      height: auto;
+  }
+
+  .content{
+    margin: 0.75rem;
+  }
+
+  #content {
+    flex-direction: column;
+
+  }
+
+  #homelogo{
+    display: none;
+  }
+
+  .text{
+    width:100%;
+    padding: 1em;
+  }
+
+  .text a{
+    /*font-size: 2em;*/
+  }
+
+  h2{
+    font-size: 1.85em;
+    line-height: 2em;
+  }
+
+  p{
+    font-size: 1.25em;
+  }
+
+  #textlinks {
+    flex-direction: column;
+    align-items:flex-start;
+  }
+
+  #textlinks p{
+    font-size: 1.5em;
+
+  }
+
+  footer{
+    padding: 0.25rem;
+  }
+
+  #footercontent{
+    flex-direction:column-reverse;
+    font-size: 1em;
+    /*font-size: 1em;*/
+  }
+
+  #email{
+    display: none;
+  }
+
+}
+
+
+/*TABLET*/
+
+@media (min-width:501px) and (max-width:1200px){
   #navbar{
     padding:0rem;
   }
@@ -684,14 +779,9 @@ footer a img:hover{
   #email{
     display: none;
   }
-
 }
 
 
-/*TABLET*/
-
-@media (min-width:501px) and (max-width:1200px){
-}
 
 /*FROM WORK CODEPEN*/
 @media (min-width:720px) {
@@ -711,7 +801,4 @@ footer a img:hover{
   .card:last-child {
   margin-right:auto;
   margin-left:1.333333333%;
-}
-#icons svg {
-  fill:red;
 }

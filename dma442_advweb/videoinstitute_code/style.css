@@ -44,7 +44,6 @@ body{
 }
 
 header{
-  height:
 }
 
 header img{
@@ -311,6 +310,92 @@ footer{
 
 #icons i:hover{
   background: rgba(253,221,0,1);
+}
+
+/*ABOUT PAGE*/
+
+#aboutcontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:3rem;
+}
+
+#aboutcontent p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+#aboutcontent h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  /*padding-top: 0.75em;*/
+  padding-bottom: 0.75em;
+}
+
+#aboutcontent h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+
+/*VIDE0S PAGE*/
+
+.videocategory {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  padding:2rem;
+}
+
+.videocategory h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+  font-size: 2em;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #fff;
+}
+
+.videogroup{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.video p{
+  padding: 1em;
+  text-align: center;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+}
+
+.video a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.video a:hover{
+  color: rgba(253,221,0,1);
 }
 
 
