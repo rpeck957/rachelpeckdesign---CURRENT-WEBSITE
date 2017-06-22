@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: center bottom url(images/nycblue.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#navbar{
+    background: rgba(11, 106, 160,1);
+    /*background: rgba(3, 119, 186,1);*/
+    text-align: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#navbar ul li img{
+    width: 80%;
+    height: auto;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#navbar ul li{
+    display: inline-flex;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+}
+
+#navbar ul li a.active{
+}
+
+/*.hamburger{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamburger i{
+  color: #fff;
+  font-size: 2rem;
+}*/
+
+body{
+  background: #fff;
+}
+
+footer{
+  background: rgba(11, 106, 160,1);
+}
