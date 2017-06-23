@@ -6,6 +6,7 @@
     <title>Sylvester & Peck Media</title>
     <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d7164769e0/UntitledProject/style.css"> -->
     <script src="https://use.fontawesome.com/825d01d0f3.js"></script>
+    <script src="src/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,16 +19,11 @@
         <a href="index.html"><img src="images/sp_logo.png" alt="Logo"></a>
       </div>
       <!-- SLIDESHOW -->
-      <div class="w3-content w3-section" style="max-width:500px">
-        <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
-
-        <img class="mySlides w3-animate-fading" src="img_rr_01.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="img_rr_02.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="img_rr_03.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="img_rr_04.jpg" style="width:100%">
-      </div>
-      <!-- <div id="headerimage">
-        <img src="images/field.jpg" alt="Football Field">
+      <!-- <div class="w3-content w3-section">
+        <img class="mySlides w3-animate-fading" src="images/field.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/kevinpaul.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/field.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/kevinpaul.jpg" style="width:100%">
       </div> -->
     </header>
 
@@ -52,21 +48,27 @@
 
         <!-- Edit Page Here -->
 
-        <div id="content" class="content">
-              <div><img src="images/kevinpaul.jpg" alt="Paul & Kevin"></div>
+        <div class="content">
+              <div id="paulkevin"><img src="images/kevinpaul.jpg" alt="Paul & Kevin"></div>
               <div class="text">
                   <h1>Sylvester & Peck, LLC Coaching</h1>
-                  <p>Use our experience to your advantage…and navigate the ever-changing media world.</p>
-                  <p>With nearly 50 years of combined experience, Paul Peck & Kevin Sylvester have evolved and thrived in television, radio and all forms of media.</p>
-                  <p>Now, we can help you achieve and enhance your goals through one-one-one coaching, corporate group programs and event hosting.</p>
-                  <div>
+                  <p>Use our experience to your advantage…and navigate the ever-changing media world.<br>With nearly 50 years of combined experience, Paul Peck & Kevin Sylvester have evolved and thrived in television, radio and all forms of media.<br>Now, we can help you achieve and enhance your goals through one-one-one coaching, corporate group programs and event hosting.</p>
+                  <div id="blurbs">
+                  <div class="blurb">
                     <h2>Services</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque scelerisque dui, vel blandit purus rhoncus eget. Sed hendrerit ipsum nec efficitur pharetra. Phasellus pellentesque tempor massa fermentum malesuada. Sed eu erat consectetur, elementum nibh ut, feugiat turpis. Nulla facilisi. Donec tincidunt arcu eget magna efficitur consectetur. Nunc quis semper nisi. Praesent vitae bibendum sapien. Ut non sem a erat porttitor iaculis. Integer scelerisque dictum velit non dapibus. Sed vitae augue scelerisque, sollicitudin leo id, blandit dolor.</p>
+                    <ul>
+                      <li><a href="#"></a>Media Coaching</li>
+                      <li><a href="#"></a>Event Hosting</li>
+                      <li><a href="#"></a>Corperate Programs</li>
+                    </ul>
                   </div>
-                  <div>
+                  <div class="blurb">
                     <h2>Buffalo Sports Page</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque scelerisque dui, vel blandit purus rhoncus eget. Sed hendrerit ipsum nec efficitur pharetra. Phasellus pellentesque tempor massa fermentum malesuada. Sed eu erat consectetur, elementum nibh ut, feugiat turpis. Nulla facilisi. Donec tincidunt arcu eget magna efficitur consectetur. Nunc quis semper nisi. Praesent vitae bibendum sapien. Ut non sem a erat porttitor iaculis.</p>
                     <img src="images/bsp_logo.png" alt="Buffalo Sports Page">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque scelerisque dui, vel blandit purus rhoncus eget. Sed hendrerit ipsum nec efficitur pharetra. Phasellus pellentesque tempor massa fermentum malesuada. Sed eu erat consectetur, elementum nibh ut, feugiat turpis. Nulla facilisi. Donec tincidunt arcu eget magna efficitur consectetur. Nunc quis semper nisi. Praesent vitae bibendum sapien. Ut non sem a erat porttitor iaculis. Integer scelerisque dictum velit non dapibus. Sed vitae augue scelerisque, sollicitudin leo id, blandit dolor.</p>
+                    <p> Visit <a href="https://buffalosportspage.com/">Buffalo Sports Page</a>!</p>
+                  </div>
                   </div>
                 </div>
         </div>
@@ -94,7 +96,7 @@
 <!-- END OF FOOTER -->
     </div>
     <!-- SLIDESHOW -->
-    <script>
+    <!-- <script>
     var myIndex = 0;
     carousel();
 
@@ -107,9 +109,9 @@
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 9000);
+        setTimeout(carousel, 9000); //Change every 9 seconds
     }
-    </script>
-    <script src="src/js/script.js"></script>
+    </script> -->
+    <!-- <script src="src/script.js"></script> -->
 </body>
 </html>

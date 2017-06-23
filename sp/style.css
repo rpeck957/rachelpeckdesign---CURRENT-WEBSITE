@@ -10,16 +10,16 @@ header{
     width: 100%;
     display: flex;
     background: center 74% url(images/field.jpg) no-repeat;
-    /*x% y%	 or center center
+    /* x% y%	 or center center
     The first value is the horizontal position and the second value is the vertical.
     The top left corner is 0% 0%. The right bottom corner is 100% 100%.
     If you only specify one value, the other value will be 50%.
-    Default value is: 0% 0%*/
+    Default value is: 0% 0% */
 }
 
 #logo{
-    background: rgba(255,255,255,.6);
-    width: 25%;
+    background: rgba(255,255,255,.7);
+    width: 30%;
     height: auto;
 }
 
@@ -28,13 +28,10 @@ header{
     height: auto;
 }
 
-/*body{
-    background: center bottom url(images/nycblue.jpg) no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}*/
+/*SLIDESHOW
+
+
+.mySlides {display:none;}*/
 
 body, html {
   overflow-x: hidden;
@@ -54,12 +51,12 @@ body, html {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
 
-#navbar ul li img{
-    width: 80%;
-    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1.25em;
 }
 
 #navbar ul{
@@ -71,13 +68,23 @@ body, html {
 
 #navbar ul li{
     display: inline-flex;
+    padding: 0.75rem;
 }
 
 #navbar a{
     text-decoration: none;
+    color: #fff;
 }
 
 #navbar ul li a:hover{
+    /*color: rgba(237, 28, 36,1);*/
+    /*text-shadow: 0.75px 0.75px rgba(255, 255,255,1);*/
+}
+
+#navbar ul li:hover{
+      background: rgba(237, 28, 36,1);
+      /*text-shadow: 0.75px 0.75px rgba(0,0,0,1)*/
+      /*border: #000 solid thick;*/
 }
 
 #navbar ul li a.active{
@@ -95,6 +102,75 @@ body, html {
 
 body{
   background: #fff;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  width: 70%;
+  padding: 1.5rem;
+  margin: 0.25rem;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+/*.text */
+h1{
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 2.25em;
+
+  color: rgba(237, 28, 36,1);
+}
+
+h2{
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.5em;
+
+  color: rgba(237, 28, 36,1);
+}
+
+/*.text */
+p{
+  font-weight: 400;
+  font-size: 1.15em;
+  line-height: normal;
+}
+
+#blurbs{
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+}
+
+#blurbs img{
+  width: 75%;
+  justify-content: center;
+}
+
+.blurb{
+  background: rgba(237, 28, 36,.5);
+  width: 50%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+#paulkevin{
+  width: 30%;
+  height: auto;
+  overflow: hidden;
+}
+
+#paulkevin img{
+  width: 100%;
+  height: auto;
 }
 
 footer{
