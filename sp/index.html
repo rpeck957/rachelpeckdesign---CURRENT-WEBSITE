@@ -6,6 +6,7 @@
     <title>Sylvester & Peck Media</title>
     <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d7164769e0/UntitledProject/style.css"> -->
     <script src="https://use.fontawesome.com/825d01d0f3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,8 +14,21 @@
     <div id="wrapper">
 <!-- HEADER -->
     <header>
-      <a href="index.html"><img src="sp_logo.png" alt="Logo"></a>
-      <img src="#" alt="image">
+      <div id="logo">
+        <a href="index.html"><img src="images/sp_logo.png" alt="Logo"></a>
+      </div>
+      <!-- SLIDESHOW -->
+      <div class="w3-content w3-section" style="max-width:500px">
+        <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
+
+        <img class="mySlides w3-animate-fading" src="img_rr_01.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img_rr_02.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img_rr_03.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img_rr_04.jpg" style="width:100%">
+      </div>
+      <!-- <div id="headerimage">
+        <img src="images/field.jpg" alt="Football Field">
+      </div> -->
     </header>
 
 <!-- END OF HEADER -->
@@ -39,7 +53,7 @@
         <!-- Edit Page Here -->
 
         <div id="content" class="content">
-              <div><img src="kevinpaul.jpg" alt="Paul & Kevin"></div>
+              <div><img src="images/kevinpaul.jpg" alt="Paul & Kevin"></div>
               <div class="text">
                   <h1>Sylvester & Peck, LLC Coaching</h1>
                   <p>Use our experience to your advantage…and navigate the ever-changing media world.</p>
@@ -51,6 +65,7 @@
                   </div>
                   <div>
                     <h2>Buffalo Sports Page</h2>
+                    <img src="images/bsp_logo.png" alt="Buffalo Sports Page">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque scelerisque dui, vel blandit purus rhoncus eget. Sed hendrerit ipsum nec efficitur pharetra. Phasellus pellentesque tempor massa fermentum malesuada. Sed eu erat consectetur, elementum nibh ut, feugiat turpis. Nulla facilisi. Donec tincidunt arcu eget magna efficitur consectetur. Nunc quis semper nisi. Praesent vitae bibendum sapien. Ut non sem a erat porttitor iaculis. Integer scelerisque dictum velit non dapibus. Sed vitae augue scelerisque, sollicitudin leo id, blandit dolor.</p>
                   </div>
                 </div>
@@ -78,6 +93,23 @@
         </footer>
 <!-- END OF FOOTER -->
     </div>
+    <!-- SLIDESHOW -->
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 9000);
+    }
+    </script>
     <script src="src/js/script.js"></script>
 </body>
 </html>

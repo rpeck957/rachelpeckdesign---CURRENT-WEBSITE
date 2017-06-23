@@ -1,16 +1,40 @@
+/*font-family: 'Roboto', sans-serif;*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+header{
+    width: 100%;
+    display: flex;
+    background: center 74% url(images/field.jpg) no-repeat;
+    /*x% y%	 or center center
+    The first value is the horizontal position and the second value is the vertical.
+    The top left corner is 0% 0%. The right bottom corner is 100% 100%.
+    If you only specify one value, the other value will be 50%.
+    Default value is: 0% 0%*/
+}
+
+#logo{
+    background: rgba(255,255,255,.6);
+    width: 25%;
+    height: auto;
+}
+
+#logo a img{
+    width: 100%;
+    height: auto;
+}
+
+/*body{
     background: center bottom url(images/nycblue.jpg) no-repeat;
     background-size: cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
+}*/
 
 body, html {
   overflow-x: hidden;
