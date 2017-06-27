@@ -10,6 +10,7 @@ header{
     width: 100%;
     display: flex;
     background: center 74% url(images/field.jpg) no-repeat;
+    /*background: center 60% url(images/mic.jpg) no-repeat;*/
     /* x% y%	 or center center
     The first value is the horizontal position and the second value is the vertical.
     The top left corner is 0% 0%. The right bottom corner is 100% 100%.
@@ -106,15 +107,17 @@ body{
 
 .content{
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
+  flex: 1;
+  align-content: center;
 }
 
 .text{
   width: 70%;
-  padding: 1.5rem;
-  margin: 0.25rem;
-
+  padding: 2rem;
+  /*margin: 0.25rem;*/
   font-family: 'Roboto', sans-serif;
 }
 
@@ -132,47 +135,82 @@ h2{
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 1.5em;
+  font-size: 1.75em;
+  text-align: center;
 
-  color: rgba(237, 28, 36,1);
+  /*color: rgba(237, 28, 36,1);*/
+  color: #fff;
+  padding: 0.25rem;
 }
 
 /*.text */
 p{
   font-weight: 400;
-  font-size: 1.15em;
+  font-size: 1.25em;
   line-height: normal;
+}
+
+.blurb p{
+  font-weight: 400;
+  font-size: 1em;
+  line-height: normal;
+
+  /*color: rgba(11, 106, 160,1);*/
 }
 
 #blurbs{
   display: flex;
   flex-direction: row;
-  /*justify-content: center;*/
+  justify-content: center;
+  /*align-items: center;*/
 }
 
 #blurbs img{
   width: 75%;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 
 .blurb{
-  background: rgba(237, 28, 36,.5);
+  background: rgba(237, 28, 36,1);
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0,0,0,0.5);
   width: 50%;
   height: auto;
-  margin-top: 1rem;
+  margin: 1.25rem;
+  padding: 1.25rem;
+}
+
+.blurb ul{
+  padding: 1.25rem;
 }
 
 #paulkevin{
   width: 30%;
-  height: auto;
+  height: 100%;
   overflow: hidden;
 }
 
 #paulkevin img{
   width: 100%;
+  /*height:100%;*/
   height: auto;
 }
 
 footer{
   background: rgba(11, 106, 160,1);
+  color: #fff;
+  padding: 1.25rem;
 }
+
+#footercontent {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: normal;
+}
+
+/*#footercontent a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25em;
+}*/
