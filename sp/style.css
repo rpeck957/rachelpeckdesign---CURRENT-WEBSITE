@@ -152,6 +152,7 @@ h2{
   text-shadow: 0.07em 0.07em rgba(11, 106, 160,1);
   padding: 0.6rem;
   margin-top: 0.3em;
+  /*margin-top: 1.25rem;*/
   margin-bottom: 0.3em;
 
   background: rgba(237, 28, 36,1);
@@ -182,7 +183,6 @@ p{
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  /*align-items: center;*/
 }
 
 .blurb img{
@@ -212,7 +212,7 @@ p{
   max-height: auto;
   min-height: 25rem;
   margin-top: 1.25rem;
-  /*margin-bottom: 1.25rem;*/
+
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
@@ -222,7 +222,6 @@ p{
 .blurb ul{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  /*width: 80%;*/
   color: #fff;
 }
 
@@ -233,7 +232,6 @@ p{
   font-size: 1.75em;
   text-align: center;
 
-  /*color: rgba(237, 28, 36,1);*/
   color: #fff;
   text-shadow: 0.07em 0.07em rgba(11, 106, 160,1);
   padding: 0.25rem;
@@ -241,7 +239,8 @@ p{
 
 .fullblurb{
   /*background: rgba(237, 28, 36,1);*/
-  border: 0.4rem solid rgba(11, 106, 160,1);
+  /*border: 0.4rem solid rgba(11, 106, 160,1);*/
+  border-top: 0.4rem solid rgba(11, 106, 160,1);
   /*box-shadow: 0.15rem 0.15rem 0.5rem rgba(0,0,0,0.5);*/
   width: 100%;
   max-height: auto;
@@ -254,6 +253,7 @@ p{
 
 .fullblurbin {
   width: 48%;
+  /*border-top: 0.4rem solid rgba(11, 106, 160,1);*/
 }
 
 .fullblurb p{
@@ -271,12 +271,30 @@ p{
   list-style-type: disc;
 }
 
+.fullblurbin a i{
+  color: rgba(11, 106, 160,1);
+  font-size: 1.25em;
+  margin-left: 0.15em;
+}
+
+.fullblurbin a i:hover{
+  color: rgba(237, 28, 36,1);
+}
+
+.fullblurbin img{
+  width: 100%;
+  height: auto;
+}
+
+#bspblurb{
+  background: rgba(237, 28, 36,1);
+}
+
 #paulkevin{
   width: 30%;
   overflow: hidden;
   background: url(images/kevinpaul.jpg) no-repeat -13% 0% fixed;
   background-size: 45%;
-
 }
 
 /*#paulkevin img{
