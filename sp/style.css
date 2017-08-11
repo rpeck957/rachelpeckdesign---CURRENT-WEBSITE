@@ -10,6 +10,7 @@ header{
     width: 100%;
     display: flex;
     background: center 74% url(images/field.jpg) no-repeat;
+    background-size: cover;
     /*background-size: cover;*/
     /*background: center 60% url(images/mic.jpg) no-repeat;*/
     /* x% y%	 or center center
@@ -42,7 +43,9 @@ body, html {
 #wrapper{
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
+    min-height: 100;
+    flex:1;
 }
 
 #navbar{
@@ -119,6 +122,7 @@ body{
 
 .text{
   width: 70%;
+  min-height: 100%;
   padding: 2rem;
   /*margin: 0.25rem;*/
   font-family: 'Roboto', sans-serif;
@@ -126,6 +130,7 @@ body{
 
 .pagetext{
   width: 100%;
+  min-height: 100%;
   padding: 2rem;
   /*margin: 0.25rem;*/
   font-family: 'Roboto', sans-serif;
@@ -151,7 +156,7 @@ h2{
   color: #fff;
   text-shadow: 0.07em 0.07em rgba(11, 106, 160,1);
   padding: 0.6rem;
-  margin-top: 0.3em;
+  margin-top: 0.5em;
   /*margin-top: 1.25rem;*/
   margin-bottom: 0.3em;
 
@@ -185,65 +190,13 @@ p{
   width: 100%;
 }
 
-.blurb img{
-  max-width: 80%;
-  max-height: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.blurb a{
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 500;
-}
-
-.blurb a:hover {
-  color: rgba(11, 106, 160,1);
-}
-
-.blurb{
-  background: rgba(237, 28, 36,1);
-  /*border: 0.75rem solid rgba(237, 28, 36,1);*/
-  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0,0,0,0.5);
-  /*box-shadow: 0.5em 0.5em rgba(11, 106, 160,1);*/
-  width: 48%;
-  max-height: auto;
-  min-height: 25rem;
-  margin-top: 1.25rem;
-
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.blurb ul{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  color: #fff;
-}
-
-.blurb h2{
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 1.75em;
-  text-align: center;
-
-  color: #fff;
-  text-shadow: 0.07em 0.07em rgba(11, 106, 160,1);
-  padding: 0.25rem;
-}
-
 .fullblurb{
-  /*background: rgba(237, 28, 36,1);*/
   /*border: 0.4rem solid rgba(11, 106, 160,1);*/
   border-top: 0.4rem solid rgba(11, 106, 160,1);
   /*box-shadow: 0.15rem 0.15rem 0.5rem rgba(0,0,0,0.5);*/
   width: 100%;
   max-height: auto;
+  /*min-height: 1000px;*/
   margin-top: 1.25rem;
   padding: 1.25rem;
   display: flex;
@@ -253,7 +206,6 @@ p{
 
 .fullblurbin {
   width: 48%;
-  /*border-top: 0.4rem solid rgba(11, 106, 160,1);*/
 }
 
 .fullblurb p{
@@ -281,6 +233,17 @@ p{
   color: rgba(237, 28, 36,1);
 }
 
+.fullblurbin a{
+  color: rgba(11, 106, 160,1);
+  margin-left: 0.15em;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.fullblurbin a:hover{
+  color: rgba(237, 28, 36,1);
+}
+
 .fullblurbin img{
   width: 100%;
   height: auto;
@@ -288,6 +251,38 @@ p{
 
 #bspblurb{
   background: rgba(237, 28, 36,1);
+  margin-top: 1em;
+  padding: 1rem;
+  padding-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bspblurb h2{
+  padding-top:0;
+  background: none;
+  margin:0;
+}
+
+#bspblurb img{
+  width: 80%;
+  height: auto;
+  margin: 0.75em;
+}
+
+#blurblink{
+  text-align: center;
+}
+
+#bspblurb a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+#bspblurb a:hover{
+  color: rgba(11, 106, 160,1);
 }
 
 #paulkevin{
@@ -297,17 +292,13 @@ p{
   background-size: 45%;
 }
 
-/*#paulkevin img{
-  max-width: 100%;
-  max-height: 100%;
-}*/
-
 footer{
   background: rgba(11, 106, 160,1);
   color: #fff;
   padding: 1.25rem;
   bottom: 0;
   width: 100%;
+
 }
 
 #footercontent {
@@ -385,7 +376,7 @@ footer{
 
   .content {
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.75);
   }
 
   .text{
@@ -404,18 +395,24 @@ footer{
     font-size: 1em;
   }
 
-  .blurb p{
-    font-size: 1em;
-  }
-
   #blurbs{
     flex-direction: column;
   }
 
-  .blurb{
+  .fullblurb{
+    flex-direction: column;
+  }
+
+  .fullblurbin{
     width: 100%;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+  }
+
+  .fullblurbin h2{
+    font-size: 1.05em;
+  }
+
+  .fullblurbin iframe{
+    width: 100%;
   }
 
   body{
@@ -480,7 +477,7 @@ footer{
 
   .content {
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.75);
   }
 
   .text{
@@ -499,18 +496,24 @@ footer{
     font-size: 1.25em;
   }
 
-  .blurb p{
-    font-size: 1em;
-  }
-
   #blurbs{
     flex-direction: column;
   }
 
-  .blurb{
+  .fullblurb{
+    flex-direction: column;
+  }
+
+  .fullblurbin{
     width: 100%;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+  }
+
+  .fullblurbin h2{
+    font-size: 1.05em;
+  }
+
+  .fullblurbin iframe{
+    width: 100%;
   }
 
   body{
