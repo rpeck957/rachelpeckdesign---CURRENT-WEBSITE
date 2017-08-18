@@ -9,15 +9,9 @@
 header{
     width: 100%;
     display: flex;
-    background: center 74% url(images/field.jpg) no-repeat;
+    /*background: center 74% url(images/field.jpg) no-repeat;*/
+    background: center 33% url(images/studio.jpg) no-repeat;
     background-size: cover;
-    /*background-size: cover;*/
-    /*background: center 60% url(images/mic.jpg) no-repeat;*/
-    /* x% y%	 or center center
-    The first value is the horizontal position and the second value is the vertical.
-    The top left corner is 0% 0%. The right bottom corner is 100% 100%.
-    If you only specify one value, the other value will be 50%.
-    Default value is: 0% 0% */
 }
 
 #logo{
@@ -30,11 +24,6 @@ header{
     width: 100%;
     height: auto;
 }
-
-/*SLIDESHOW
-
-
-.mySlides {display:none;}*/
 
 body, html {
   overflow-x: hidden;
@@ -94,16 +83,6 @@ body, html {
 
 .current {
   background: rgba(237, 28, 36,1);
-}
-
-.hamburger{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hamburger i{
-  color: #fff;
-  font-size: 2rem;
 }
 
 body{
@@ -298,7 +277,6 @@ footer{
   padding: 1.25rem;
   bottom: 0;
   width: 100%;
-
 }
 
 #footercontent {
@@ -339,15 +317,6 @@ footer{
     width:100%;
   }
 
-  .hamburger {
-    justify-content: center;
-  }
-
-  .hamburger i{
-    font-size: 2.5rem;
-    padding: 0.75rem;
-  }
-
   #navbar {
     font-size: 1.25em;
   }
@@ -376,7 +345,7 @@ footer{
 
   .content {
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.85);
   }
 
   .text{
@@ -411,10 +380,6 @@ footer{
     font-size: 1.05em;
   }
 
-  .fullblurbin iframe{
-    width: 100%;
-  }
-
   body{
     width: 100%;
     background: url(images/kevinpaul.jpg) no-repeat 50% 50% fixed;
@@ -438,15 +403,6 @@ footer{
 
   #logo{
     width:30%;
-  }
-
-  .hamburger {
-    justify-content: center;
-  }
-
-  .hamburger i{
-    font-size: 2.5rem;
-    padding: 0.75rem;
   }
 
   #navbar {
@@ -510,10 +466,6 @@ footer{
 
   .fullblurbin h2{
     font-size: 1.05em;
-  }
-
-  .fullblurbin iframe{
-    width: 100%;
   }
 
   body{
