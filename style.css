@@ -181,7 +181,7 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*align-items: flex-start;*/
+    align-items: flex-start;
     /*align-content: center;*/
     padding:2rem;
     background-color: rgba(255,255,255,.87);
@@ -202,12 +202,14 @@ body, html {
 
 h2 {
     font-weight: 300;
-    font-size: 3.2em;
+    font-size: 3em;
     letter-spacing: 0.04em;
     font-family:"korolev-condensed",sans-serif;
     text-transform: uppercase;
     color: rgba(116,204,209,1);
     line-height: 1.25em;
+
+    padding-bottom:1rem;
 }
 
 h3 {
@@ -222,7 +224,8 @@ h3 {
 
 p{
     font-weight: 300;
-    font-size: 1.4em;
+    /*font-size: 1.4em;*/
+    font-size: 1.3em;
     letter-spacing: 0em;
     color: rgba(82,94,94,1);
     line-height: normal;
@@ -244,6 +247,8 @@ i:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    padding-bottom:1rem;
 }
 
 #textlinks p{
