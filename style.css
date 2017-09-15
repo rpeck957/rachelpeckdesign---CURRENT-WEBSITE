@@ -57,7 +57,11 @@ White
 /* BACKGROUND */
 
 body{
-    background: center bottom url(images/nycblue.jpg) no-repeat;
+    background: center bottom url(images/nyc_blue.jpg) no-repeat;
+    /*background: center bottom url(images/nyc_gray.jpg) no-repeat;*/
+    /*background: center bottom url(images/nyc_bw.jpg) no-repeat;*/
+
+
     /*background: center bottom url(images/nyc_banner_2.jpg) no-repeat;*/
     /*background-color: rgba(185,215,217,.5)*/
     background-size: cover;
@@ -80,27 +84,29 @@ body, html {
 
 #navbar{
     background: rgba(116,204,209,1);
+    /*background: rgba(116,204,209,0.5);*/
     text-align: center;
     width: 100%;
-    padding-top: 0.6rem;
+    /*padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     padding-left: 0rem;
-    padding-right: 0rem;
+    padding-right: 0rem;*/
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-around;*/
 }
 
 #navbar ul li img{
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
 #navbar ul{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    /*align-content: center;*/
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -156,6 +162,9 @@ body, html {
     flex: 1;
     flex-direction: row;
     font-family: "korolev", sans-serif;
+
+    /*QUICK FIX*/
+    align-items: center;
 }
 
 #homelogo{
@@ -180,7 +189,7 @@ body, html {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: flex-start;
     /*align-content: center;*/
     padding:2rem;
@@ -191,8 +200,8 @@ body, html {
 .text a{
     text-decoration: none;
     color: rgba(116,204,209,1);
-    font-size: 1.4em;
-    margin-left: 0.5em;
+    font-size: 1.3rem;
+    /*margin-left: 0.5em;*/
 }
 
 .text a:hover{
@@ -200,16 +209,49 @@ body, html {
     color: rgba(82,94,94,.85);
 }
 
+/*CONSTRUCTION*/
+
+#construction{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*align-content: center;*/
+    padding:2rem;
+    background-color: rgba(255,255,255,.87);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
+    text-align: center;
+}
+
+#construction img{
+    width: 18rem;
+    height: auto;
+    margin: 2.25rem;
+}
+
+#construction a{
+    text-decoration: none;
+    color: rgba(116,204,209,1);
+}
+
+#construction a:hover{
+    text-decoration: none;
+    color: rgba(82,94,94,.85);
+}
+
 h2 {
     font-weight: 300;
     font-size: 3em;
-    letter-spacing: 0.04em;
+    /*letter-spacing: 0.04em;*/
+    letter-spacing: 0.01em;
     font-family:"korolev-condensed",sans-serif;
     text-transform: uppercase;
     color: rgba(116,204,209,1);
-    line-height: 1.25em;
+    /*line-height: -1.25em;*/
 
-    padding-bottom:1rem;
+    /*padding-bottom:1rem;*/
 }
 
 h3 {
@@ -220,6 +262,7 @@ h3 {
     text-transform: uppercase;
     color: rgba(116,204,209,1);
     line-height: 1.25em;
+
 }
 
 p{
@@ -230,6 +273,9 @@ p{
     color: rgba(82,94,94,1);
     line-height: normal;
     /*margin-top: 0.75em;*/
+
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
 }
 
 /*a i {
@@ -260,6 +306,7 @@ i:hover{
 
 footer{
   background: rgba(116,204,209,1);
+  /*background: rgba(116,204,209,0.5);*/
   width: 100%;
   bottom: 0;
   padding:0.75rem;
@@ -430,11 +477,11 @@ footer a img:hover{
   margin-bottom:1rem;
   height:160px;
   display:flex;
-  background-position:center center;
+  background-position: center center;
 }
 
 .overlay {
-  background:rgba(82,94,94,.85);
+  background:rgba(82,94,94,.90);
   color:#fff;
   text-align: center;
   display:flex;
@@ -443,51 +490,115 @@ footer a img:hover{
   justify-content:center;
   opacity:0;
   cursor:pointer;
-  transition:opacity ease .4s;
+  transition: opacity ease .4s;
 
   font-family: "korolev",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.25rem;
+  font-weight: 700;
   letter-spacing: 0em;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .title{
   font-family: "korolev-condensed",sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-size: 2rem;
+  /*letter-spacing: 0.04em;*/
+  letter-spacing: 0.02em;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .overlay:hover {
   opacity:1;
 }
 
+.comingsoon {
+  background: rgba(82,94,94,.90);
+  color:#fff;
+  text-align: center;
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  justify-content:center;
+  /*opacity:0;*/
+  cursor:pointer;
+  transition:opacity ease .4s;
+
+  font-family: "korolev",sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0em;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 /* PUT PROJECT IMAGES HERE */
 
-#pr1 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+#c1 {
+  background-image: url("images/shirtphoto2_small.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#pr2 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+#c2 {
+  background-image: url("images/martin_02.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
 }
 
-#pr3 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+#c3 {
+  background-image: url("images/carteblanche_small.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#pr4 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+#c4 {
+  background-image: url("images/cmykcover_large.jpg");
+  background-size: 147%;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
 }
 
-#pr5 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+#c5 {
+  background-image: url("images/comnewsletter1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#pr6 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+#c6 {
+  background-image: url("images/lloydmenu3.png");
+  background-size: 250%;
+  background-repeat: no-repeat;
+  background-position: 90% 7%;
 }
+
+#c7 {
+  background-image: url("images/designculturenow2_small.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 23%;
+}
+
+#c8 {
+  background-image: url("images/ventureout4.png");
+  background-size: 250%;
+  background-repeat: no-repeat;
+  background-position:31% 16%;
+}
+
+
+/*#pr1 {
+  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
+}*/
 
 /* RESUME */
 
@@ -678,7 +789,6 @@ footer a img:hover{
 
   h2{
     font-size: 1.85em;
-    line-height: 2em;
   }
 
   p{
@@ -756,7 +866,6 @@ footer a img:hover{
 
   h2{
     font-size: 1.85em;
-    line-height: 2em;
   }
 
   p{
