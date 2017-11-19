@@ -18,12 +18,6 @@ KOROLEV CONDENSED
       font-weight: 300;
     BOLD
       font-weight: 700;
-
-
-    KERNING 40
-      letter-spacing: 0.04em;
-    KERNING 20
-      letter-spacing: 0.02em;
 */
 
 /* COLORS
@@ -83,23 +77,17 @@ body, html {
     padding-bottom: 0.6rem;
     padding-left: 0rem;
     padding-right: 0rem;*/
+    padding: 1.75rem;
 
     display: flex;
     flex-direction: column;
     /*justify-content: space-around;*/
 }
 
-#navbar ul li img{
-    width: 100%;
-    height: auto;
-}
-
 #navbar ul{
     display: flex;
     flex-direction: row;
-    /*align-content: center;*/
     align-items: center;
-    /*justify-content: space-around;*/
     justify-content: space-evenly;
 }
 
@@ -115,6 +103,11 @@ body, html {
 #navbar a{
     text-decoration: none;
     color: rgb(82,94,94);
+}
+
+#navbar ul li img{
+    width: 100%;
+    height: auto;
 }
 
 #navbar ul li a:hover{
@@ -135,113 +128,16 @@ body, html {
   font-size: 2rem;
 }
 
-
 /* END OF NAV BAR */
 /* GENERAL CONTENT */
 
 .content{
-  margin:1.25rem;
+  margin:1.75rem;
 }
 
 .column {
     flex-direction: column;
     flex:1;
-}
-
-/* INDEX CONTENT */
-
-#content {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    font-family: "korolev", sans-serif;
-
-    /*QUICK FIX*/
-    align-items: center;
-}
-
-#homelogo{
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    padding-top:1.25rem;
-    padding-bottom:1.25rem;
-    padding-right: 1.25rem;
-}
-
-#homelogo img{
-    width:100%;
-    height: auto;
-    text-shadow: 0.75px 0.75px 0.5px rgba(70, 81, 81,0.5);
-}
-
-.text{
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    align-items: flex-start;
-    /*align-content: center;*/
-    padding:2rem;
-    background-color: rgba(255,255,255,.87);
-    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
-
-    /*flex-grow: 1;*/
-}
-
-.text h2,h3 {
-  /*flex-grow: 1;*/
-}
-
-.text p{
-  /*flex-grow: 2*/
-}
-
-.text a{
-    text-decoration: none;
-    color: rgba(116,204,209,1);
-    font-size: 1.3rem;
-    /*margin-left: 0.5em;*/
-}
-
-.text a:hover{
-    text-decoration: none;
-    color: rgba(82,94,94,.85);
-}
-
-/*CONSTRUCTION*/
-
-#construction{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /*align-content: center;*/
-    padding:2rem;
-    background-color: rgba(255,255,255,.87);
-    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
-    text-align: center;
-}
-
-#construction img{
-    width: 18rem;
-    height: auto;
-    margin: 2.25rem;
-}
-
-#construction a{
-    text-decoration: none;
-    color: rgba(116,204,209,1);
-}
-
-#construction a:hover{
-    text-decoration: none;
-    color: rgba(82,94,94,.85);
 }
 
 h2 {
@@ -253,7 +149,6 @@ h2 {
     text-transform: uppercase;
     color: rgba(116,204,209,1);
     /*line-height: -1.25em;*/
-
     /*padding-bottom:1rem;*/
 }
 
@@ -265,14 +160,13 @@ h3 {
     text-transform: uppercase;
     color: rgba(116,204,209,1);
     line-height: 1.25em;
-
 }
 
 p{
     font-weight: 300;
     /*font-size: 1.4em;*/
     font-size: 1.3em;
-    letter-spacing: 0em;
+    letter-spacing: 0.01em;
     color: rgba(82,94,94,1);
     line-height: normal;
     /*margin-top: 0.75em;*/
@@ -281,30 +175,7 @@ p{
     padding-bottom:0.5rem;
 }
 
-/*a i {
-  color: #fff;
-  text-decoration: none;
-  font-size: 3em;
-}
-
-i:hover{
-  color: rgba(82,94,94,1);
-}*/
-
-#textlinks {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    padding-bottom:1rem;
-}
-
-#textlinks p{
-    font-size: 1.6em;
-}
-
-/* END OF INDEX CONTENT */
+/*END OF GENERAL CONTENT*/
 /* FOOTER */
 
 footer{
@@ -370,54 +241,182 @@ footer a img:hover{
   fill:red;
 }*/
 
-/* END OF INDEX */
+/*END OF FOOTER*/
+/*CONSTRUCTION PAGE*/
 
-/*ABOUT*/
+#construction{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*align-content: center;*/
+    padding:2rem;
+    background-color: rgba(255,255,255,.87);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
+    text-align: center;
+}
 
+#construction img{
+    width: 18rem;
+    height: auto;
+    margin: 2.25rem;
+}
+
+#construction a{
+    text-decoration: none;
+    color: rgba(116,204,209,1);
+}
+
+#construction a:hover{
+    text-decoration: none;
+    color: rgba(82,94,94,.85);
+}
+
+/*END OF CONSTRUCTION PAGE*/
+/* INDEX CONTENT */
+
+#content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    font-family: "korolev", sans-serif;
+
+    /*QUICK FIX*/
+    align-items: center;
+}
+
+#homelogo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    padding-right: 1.75rem;
+    /*padding-left: 0.5rem;*/
+}
+
+#homelogo img{
+    width:100%;
+    height: auto;
+    text-shadow: 0.75px 0.75px 0.5px rgba(70, 81, 81,0.5);
+}
+
+.text{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: flex-start;
+    /*align-content: center;*/
+    padding:2rem;
+    background-color: rgba(255,255,255,.87);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
+
+    /*flex-grow: 1;*/
+}
+
+.text a{
+    text-decoration: none;
+    color: rgba(116,204,209,1);
+    font-size: 1.3rem;
+    /*margin-left: 0.5em;*/
+}
+
+.text a:hover{
+    text-decoration: none;
+    color: rgba(82,94,94,.85);
+}
+
+#signature{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /*padding-right: 2rem;*/
+}
+
+#signature img{
+  max-width: 40%;
+  height: auto;
+}
+
+/*a i {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+i:hover{
+  color: rgba(82,94,94,1);
+}*/
+
+#textlinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom:1rem;
+}
+
+#textlinks p{
+    font-size: 1.6em;
+}
+
+/* END OF INDEX CONTENT */
 /*ABOUT CONTENT*/
 
-#aboutcol1, #aboutcol2 {
-    margin: 1em;
+#aboutcontainer{
+  display: flex;
+  flex-direction: column;
 }
 
-#student h1, #designer h1, #lover h1, #untitled h1 {
-    font-size: 2em;
+.aboutsection{
+  display: flex;
+  flex-direction: row;
 }
 
-#photo {
-    text-align: center;
-/*    display: flex;*/
-/*    align-content: center;*/
-/*    justify-content: center;*/
-/*    padding: 0.75em;*/
-    margin: 1em;
+.abouttext{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  padding:2rem;
+  background-color: rgba(255,255,255,.87);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
 }
 
-#photo img{
-/*    width: 100%;*/
-    max-width: 407px;
-    max-height: 600px;
-/*    height: 100%;*/
+.aboutpic{
+  width: 50%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0,0.20);
+
+  overflow: hidden;
 }
 
-#student{
-    position: relative;
+  /*ABOUT IMAGES*/
 
+#portrait{
+    background:url(images/portrait.jpg) fixed no-repeat;
+    background-size: 50% auto;
+    background-position: right 25%;
 }
 
-#designer{
-    position: relative;
-
+#graduation{
+    background:url(images/buffalomapshirt_large.jpg) fixed no-repeat;
+    background-size: 50% auto;
+    background-position: left;
 }
 
-#lover{
-   position: relative;
-}
-
-/* END OF ABOUT */
-
-/*WORK*/
-
+/*END OF ABOUT CONTENT*/
 /*WORK CONTENT*/
 
 #workcontent {
@@ -603,7 +602,7 @@ footer a img:hover{
   background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
 }*/
 
-/* RESUME */
+/* RESUME CONTENT */
 
 #resumecontent{
   display: flex;
@@ -673,6 +672,7 @@ footer a img:hover{
   color: rgba(82,94,94,1);
 }
 
+
 /* CLASS WEBSITE */
 
 #dma h1{
@@ -711,6 +711,7 @@ footer a img:hover{
   color: rgba(82,94,94,1);
 }
 
+/* End of Class Website */
 /* MOBILE RESPONSIVE */
 
 @media (max-width:1000px){
@@ -769,6 +770,11 @@ footer a img:hover{
 
   #navbar ul li img{
       width: 100%;
+      height: auto;
+  }
+
+  #mobilelogo img{
+      width:100%;
       height: auto;
   }
 
@@ -850,6 +856,11 @@ footer a img:hover{
   }
 
   #navbar ul li img{
+      width: 100%;
+      height: auto;
+  }
+
+  #mobilelogo img{
       width: 100%;
       height: auto;
   }
