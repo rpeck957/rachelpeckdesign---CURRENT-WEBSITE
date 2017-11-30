@@ -45,7 +45,7 @@ White
 }
 
 
-/* BACKGROUND */
+/*BACKGROUND*/
 
 body {
   /*background: center bottom url(images/nyc_blue.jpg) no-repeat;*/
@@ -69,8 +69,8 @@ body, html {
   flex: 1;
 }
 
-/* END OF BACKGROUND */
-/* NAVBAR */
+/*END OF BACKGROUND*/
+/*NAVBAR*/
 
 #navbar {
   background: rgba(116, 204, 209, 1);
@@ -126,8 +126,8 @@ body, html {
 }
 
 
-/* END OF NAV BAR */
-/* GENERAL CONTENT */
+/*END OF NAV BAR*/
+/*GENERAL CONTENT*/
 
 .content {
   margin: 2rem;
@@ -802,10 +802,14 @@ footer a img:hover {
 }
 
 
-/*HIDING LOGO ON INDEX*/
+/*HIDING ON INDEX (LOGO)*/
 
 @media (min-width:1024px) {
   #hideindex {
+    display: none;
+  }
+
+  #hideicon{
     display: none;
   }
 }
@@ -938,7 +942,7 @@ footer a img:hover {
 
 .aboutpic{
   width: 100%;
-  /*min-height: 30vh; possibly change*/
+  min-height: 40vh;
 }
 
 #switchmobile{
@@ -973,7 +977,11 @@ footer a img:hover {
 
 .projectpic{
   width: 100%;
-  /*min-height: 30vh; possibly change*/
+  min-height: 30vh;
+}
+
+.finalprojectpic{
+min-height: 30vh;
 }
 
 #switchmobile{
@@ -1000,7 +1008,9 @@ footer a img:hover {
 /*END OF RESUME CONTENT*/
 /*PHOTOGRAPHY CONTENT*/
 
-
+#photopic{
+  min-height: 30vh;
+}
 
 /*END OF PHOTOGRAPHY CONTENT*/
 /*FOOTER*/
@@ -1021,6 +1031,10 @@ footer {
 
 footer a img{
   width: 2.25em;
+}
+
+#footercontent p{
+  display: none;
 }
 
 /*END OF FOOTER*/
@@ -1045,157 +1059,131 @@ footer a img{
 
 @media (min-width:501px) and (max-width:1023px) {
 
-  /*NAVBAR*/
+/*NAVBAR*/
 
-    #hideindex2 {
-        display: none;
-      }
+#hideindex{
+  display: none;
+}
 
-    .mobile {
-        display: none;
-      }
+#navbar{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
-      #mobilelogo{
-      padding-left: 6rem;
-      padding-right: 6rem;
-      }
+#navbar ul li{
+  font-size: 1.95em;
+}
 
-    #navbar{
-      padding-top: 3rem;
-      padding-left: 3rem;
-      padding-right: 3rem;
-    }
+#hideindex2{
+  display: none;
+}
 
-    #navbar ul {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+/*#navbar ul li:nth-child(3){
+  display: none;
+}*/
 
-    #navbar ul li{
-      line-height: 1.5em;
-    }
+/*END OF NAVBAR*/
+/*GENERAL CONTENT*/
 
-    #navbar ul li img {
-      width: 100%;
-      height: auto;
-    }
+h2 {
+  font-size: 2em;
+}
 
-    #mobilelogo img {
-      width: 100%;
-      height: auto;
-    }
+h3{
+  font-size: 1.85em;
+}
 
-  /*END OF NAVBAR*/
-  /*GENERAL CONTENT*/
+h4{
+  font-size: 1.75em;
+}
 
-    #homelogo {
-      display: none;
-    }
+p {
+  font-size: 1.25em;
+}
 
-    .content {
-      margin: 1.5rem;
-    }
+/*END OF GENERAL CONTENT*/
+/*GALLERY*/
 
-    h2 {
-      font-size: 2em;
-      /*font-size: 1.85em;*/
-    }
+.card {
+  min-width: 49%;
+}
 
-    h3{
-      font-size: 1.85em;
-    }
+/*END OF GALLERY*/
+/*CONSTRUCTION PAGE*/
 
-    h4{
-      font-size: 1.75em;
-    }
 
-    p {
-      font-size: 1.25em;
-      /*font-size: 1.25em;*/
-    }
 
-    .text {
-      width: 100%;
-      padding: 2rem;
-      /*padding: 1em;*/
-    }
+/*END OF CONSTRUCTION PAGE*/
+/*INDEX CONTENT*/
 
-    .text a {
+#indexcontent{
+  flex-direction: column;
+}
 
-    }
+#homelogo{
+  width: 100%;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
-  /*END OF GENERAL CONTENT*/
-  /*GALLERY*/
+#indextext{
+  width: 100%;
+}
 
-  #gallerymargin{
-    padding: 2rem;
+/*END OF INDEX CONTENT*/
+ /*ABOUT CONTENT*/
+
+ .aboutpic{
+   min-height: 30vh;
+ }
+
+ /*END OF ABOUT CONTENT*/
+ /*WORK CONTENT*/
+
+
+
+ /*END OF WORK CONTENT*/
+ /*PROJECT CONTENT*/
+
+  .finalprojectpic{
+  min-height: 30vh;
   }
 
-  .gallery{
-    /*flex-direction: column;*/
-  }
+ .projectpic{
+   min-height: 30vh;
+ }
 
-  .card{
+ /*END OF PROJECT PAGE CONTENT*/
+ /*RESUME CONTENT*/
 
-  }
+ #resumecontent{
+   flex-direction: column;
+   flex-direction: column-reverse;
+ }
 
-  /*END OF GALLERY*/
-  /*CONSTRUCTION PAGE*/
+ #resumetext{
+   width: 100%;
+ }
 
-  #construction{
-    padding: 2rem;
-  }
+ #resumepic{
+   width: 100%;
+   height: auto;
+   padding: 1.5rem;
+ }
 
-  /*END OF CONSTRUCTION PAGE*/
-  /*INDEX CONTENT*/
+ /*END OF RESUME CONTENT*/
+ /*PHOTOGRAPHY CONTENT*/
 
-  /*#indextext{
-    width: 100%;
-    padding: 2rem;
-  }*/
+#photopic{
+  min-height: 30vh;
+}
 
-  /*END OF INDEX CONTENT*/
-  /*ABOUT CONTENT*/
+ /*END OF PHOTOGRAPHY CONTENT*/
+ /*FOOTER*/
 
-  .aboutsection{
-    flex-direction: column;
-  }
-
-  #abouttext{
-    width: 100%;
-  }
-
-  .aboutpic{
-    width: 100%;
-    min-height: 25vh;
-  }
-
-  #switchmobile{
-    flex-direction: column-reverse;
-  }
-
-  /*END OF ABOUT CONTENT*/
-  /*WORK CONTENT*/
-
-  #filter{
-    padding: 2em;
-  }
-
-  #filter ul {
-    flex-direction: column;
-  }
-
-  #filter ul li{
-    line-height: 1.5em;
-  }
-
-  /*END OF WORK CONTENT*/
-
-
-
-  footer {
-    padding: 0.25rem;
+ footer {
+    padding: 1rem;
   }
   #footercontent {
     flex-direction: column-reverse;
@@ -1205,8 +1193,92 @@ footer a img{
   #email {
     display: none;
   }
+
+  footer a img{
+    width: 3em;
+  }
+
+  #icons a{
+    margin: 0.3rem;
+  }
+
+  #footercontent p{
+    padding-bottom: 0.75rem;
+  }
+
+  #footercontent p a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+  }
+
+ /*END OF FOOTER*/
+
 }
 
+
+/*DESKTOP*/
+@media (min-width:1024px){
+
+/*NAVBAR*/
+
+
+
+/*END OF NAVBAR*/
+/*GENERAL CONTENT*/
+
+
+
+/*END OF GENERAL CONTENT*/
+/*GALLERY*/
+
+
+
+/*END OF GALLERY*/
+/*CONSTRUCTION PAGE*/
+
+
+
+/*END OF CONSTRUCTION PAGE*/
+/*INDEX CONTENT*/
+
+
+
+/*END OF INDEX CONTENT*/
+/*ABOUT CONTENT*/
+
+
+
+/*END OF ABOUT CONTENT*/
+/*WORK CONTENT*/
+
+
+
+/*END OF WORK CONTENT*/
+/*PROJECT CONTENT*/
+
+
+
+/*END OF PROJECT PAGE CONTENT*/
+/*RESUME CONTENT*/
+
+
+
+/*END OF RESUME CONTENT*/
+/*PHOTOGRAPHY CONTENT*/
+
+
+
+/*END OF PHOTOGRAPHY CONTENT*/
+/*FOOTER*/
+
+#footercontent p{
+  display: none;
+}
+
+/*END OF FOOTER*/
+
+}
 
 /*CARD - FROM WORK CODEPEN*/
 
