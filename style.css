@@ -69,6 +69,7 @@ body, html {
   flex: 1;
 }
 
+
 /*END OF BACKGROUND*/
 /*NAVBAR*/
 
@@ -95,6 +96,10 @@ body, html {
   text-transform: uppercase;
   font-size: 2em;
   letter-spacing: 0.04em;
+
+  justify-content: center;
+  text-align: center;
+  
 }
 
 #navbar a {
@@ -123,6 +128,11 @@ body, html {
 .hamburger i {
   color: #fff;
   font-size: 2rem;
+}
+
+.hamburger img{
+  width: 2.25rem;
+  height: 2.25rem;
 }
 
 
@@ -234,7 +244,6 @@ p {
   /*change for margin*/
   background-position: center center;
 }
-
 
   /*USE LASTCARD ONLY ON LAST ELEMENT OF ROW OF 2*/
 
@@ -437,7 +446,6 @@ i:hover{
   overflow: hidden;
 }
 
-
   /*ABOUT IMAGES*/
 
 #portrait {
@@ -496,7 +504,6 @@ i:hover{
 #filter ul li a:hover {
   color: rgba(116, 204, 209, 1);
 }
-
 
   /* PUT PROJECT IMAGES HERE */
 
@@ -557,10 +564,6 @@ i:hover{
 }
 
 
-/*#pr1 {
-  background-image:url(http://rachelpeckdesign.com/images/p_quadcmyk.jpg);
-}*/
-
 /*END OF WORK CONTENT*/
 /*PROJECT PAGE CONTENT*/
 
@@ -593,6 +596,31 @@ i:hover{
   background-position: right 25%;
 }
 
+#projectarrow{
+  display: flex;
+  padding-bottom: 0.75rem;
+}
+
+#projectarrow p{
+  display: flex;
+  align-items: center;
+}
+
+#projectarrow a{
+  display: flex;
+  align-items: center;
+}
+
+#projectarrow a:hover{
+  opacity: 0.5;
+}
+
+#projectarrow p a img{
+  width: 2.0rem;
+  height: 2.0rem;
+  margin-right: 0.5rem;
+}
+
 .projectsection {
   display: flex;
   flex-direction: row;
@@ -615,6 +643,7 @@ i:hover{
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
   overflow: hidden;
 }
+
 
 /*END OF PROJECT PAGE CONTENT*/
 /* RESUME CONTENT */
@@ -641,6 +670,7 @@ i:hover{
   height: 100%;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
 }
+
 
 /*END OF RESUME CONTENT*/
 /*PHOTOGRAPHY CONTENT*/
@@ -670,7 +700,7 @@ i:hover{
 
 
 /*END OF PHOTOGRAPHY CONTENT*/
-/* CLASS WEBSITE - HIDDEN PAGE FOR BLOG*/
+/*CLASS WEBSITE - HIDDEN PAGE FOR BLOG*/
 
 #dma h1 {
   font-family: "korolev-condensed", sans-serif;
@@ -708,7 +738,7 @@ i:hover{
 
 
 /*END OF CLASS WEBSITE*/
-/* FOOTER */
+/*FOOTER*/
 
 footer {
   background: rgba(116, 204, 209, 1);
@@ -734,8 +764,6 @@ footer {
 footer a img {
   width: 2.5rem;
   height: auto;
-  /*display:inline;*/
-  fill: #fff;
 }
 
 footer a img:hover {
@@ -764,15 +792,9 @@ footer a img:hover {
 }
 
 #icons a {
-  margin: 0.2em;
+  margin: 0.2rem;
 }
 
-
-/*FIX THIS*/
-
-/*#icons a svg {
-  fill:red;
-}*/
 
 /*END OF FOOTER*/
 
@@ -783,7 +805,7 @@ footer a img:hover {
 /*RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE*/
 
 
-/* MOBILE RESPONSIVE */
+/*MOBILE RESPONSIVE*/
 
 @media (max-width:1024px) {
   #content {
@@ -862,6 +884,7 @@ footer a img:hover {
     height: auto;
   }
 
+
 /*END OF NAVBAR*/
 /*GENERAL CONTENT*/
 
@@ -871,7 +894,6 @@ footer a img:hover {
 
   .content {
     margin: 1.5rem;
-    /*margin: 0rem;*/
   }
 
   h2 {
@@ -896,8 +918,8 @@ footer a img:hover {
   }
 
   .text a {
-
   }
+
 
 /*END OF GENERAL CONTENT*/
 /*GALLERY*/
@@ -911,8 +933,8 @@ footer a img:hover {
 }
 
 .card{
-
 }
+
 
 /*END OF GALLERY*/
 /*CONSTRUCTION PAGE*/
@@ -949,6 +971,7 @@ footer a img:hover {
   flex-direction: column-reverse;
 }
 
+
 /*END OF ABOUT CONTENT*/
 /*WORK CONTENT*/
 
@@ -963,6 +986,7 @@ footer a img:hover {
 #filter ul li{
   line-height: 1.5em;
 }
+
 
 /*END OF WORK CONTENT*/
 /*PROJECT CONTENT*/
@@ -988,6 +1012,7 @@ min-height: 30vh;
   flex-direction: column-reverse;
 }
 
+
 /*END OF PROJECT PAGE CONTENT*/
 /*RESUME CONTENT*/
 
@@ -1005,12 +1030,14 @@ min-height: 30vh;
   padding: 1.5rem;
 }
 
+
 /*END OF RESUME CONTENT*/
 /*PHOTOGRAPHY CONTENT*/
 
 #photopic{
   min-height: 30vh;
 }
+
 
 /*END OF PHOTOGRAPHY CONTENT*/
 /*FOOTER*/
@@ -1037,8 +1064,12 @@ footer a img{
   display: none;
 }
 
-/*END OF FOOTER*/
+/*#homearrow{
+  display: none;
+}*/
 
+
+/*END OF FOOTER*/
 
   #textlinks {
     flex-direction: column;
@@ -1050,9 +1081,7 @@ footer a img{
 
 }
 
-/*1140 REVALUATE FOR INDEX*/
-
-/*TABLET*/
+/*TABLET TABLET TABLET TABLET TABLET*/
 
 /*FROM BEFORE*/
 /*@media (min-width:501px) and (max-width:1200px){}*/
@@ -1078,9 +1107,6 @@ footer a img{
   display: none;
 }
 
-/*#navbar ul li:nth-child(3){
-  display: none;
-}*/
 
 /*END OF NAVBAR*/
 /*GENERAL CONTENT*/
@@ -1101,12 +1127,14 @@ p {
   font-size: 1.25em;
 }
 
+
 /*END OF GENERAL CONTENT*/
 /*GALLERY*/
 
 .card {
   min-width: 49%;
 }
+
 
 /*END OF GALLERY*/
 /*CONSTRUCTION PAGE*/
@@ -1116,20 +1144,21 @@ p {
 /*END OF CONSTRUCTION PAGE*/
 /*INDEX CONTENT*/
 
-#indexcontent{
-  flex-direction: column;
-}
+  #indexcontent{
+    flex-direction: column;
+  }
 
-#homelogo{
-  width: 100%;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
+  #homelogo{
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
-#indextext{
-  width: 100%;
-}
+  #indextext{
+    width: 100%;
+  }
+
 
 /*END OF INDEX CONTENT*/
  /*ABOUT CONTENT*/
@@ -1137,6 +1166,7 @@ p {
  .aboutpic{
    min-height: 30vh;
  }
+
 
  /*END OF ABOUT CONTENT*/
  /*WORK CONTENT*/
@@ -1150,34 +1180,37 @@ p {
   min-height: 30vh;
   }
 
- .projectpic{
-   min-height: 30vh;
- }
+   .projectpic{
+     min-height: 30vh;
+   }
+
 
  /*END OF PROJECT PAGE CONTENT*/
  /*RESUME CONTENT*/
 
- #resumecontent{
-   flex-direction: column;
-   flex-direction: column-reverse;
- }
+   #resumecontent{
+     flex-direction: column;
+     flex-direction: column-reverse;
+   }
 
- #resumetext{
-   width: 100%;
- }
+   #resumetext{
+     width: 100%;
+   }
 
- #resumepic{
-   width: 100%;
-   height: auto;
-   padding: 1.5rem;
- }
+   #resumepic{
+     width: 100%;
+     height: auto;
+     padding: 1.5rem;
+   }
+
 
  /*END OF RESUME CONTENT*/
  /*PHOTOGRAPHY CONTENT*/
 
-#photopic{
-  min-height: 30vh;
-}
+  #photopic{
+    min-height: 30vh;
+  }
+
 
  /*END OF PHOTOGRAPHY CONTENT*/
  /*FOOTER*/
@@ -1204,20 +1237,41 @@ p {
 
   #footercontent p{
     padding-bottom: 0.75rem;
+    display: flex;
   }
 
   #footercontent p a{
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
     font-size: 1.25rem;
+    margin-left: 0.3rem;
   }
+
+  /*#homearrow{
+    display: flex;
+    padding-bottom: 0.75rem;
+    font-size: 1.25em;
+  }
+
+  #homearrow p,a{
+    display: flex;
+    align-items: center;
+  }
+
+  #homearrow p a img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+  }*/
+
 
  /*END OF FOOTER*/
 
 }
 
 
-/*DESKTOP*/
+/*DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP*/
+
 @media (min-width:1024px){
 
 /*NAVBAR*/
@@ -1272,21 +1326,20 @@ p {
 /*END OF PHOTOGRAPHY CONTENT*/
 /*FOOTER*/
 
-#footercontent p{
-  display: none;
-}
+  #footercontent p{
+    display: none;
+  }
+
 
 /*END OF FOOTER*/
 
 }
 
-/*CARD - FROM WORK CODEPEN*/
 
 
-/* REVISIT IN RESPONSIVE
+/*CARD - FROM WORK BEN/CODEPEN*/
 
-
-@media (min-width:720px) {
+/*@media (min-width:720px) {
   .card {
     width:49%;
   }
@@ -1299,9 +1352,7 @@ p {
   margin-right:auto;
   margin-left:2%;
   }
-}
-
-*/
+}*/
 
 /*DESKTOP 1170*/
 
