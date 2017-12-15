@@ -31,7 +31,8 @@
 
         <nav id="navbar">
           <div class="hamburger" id="hideindex">
-            <i class="fa fa-navicon"></i>
+            <!-- <i class="fa fa-navicon"></i> -->
+            <img src="images/icon_hamburger.svg" alt="Display Menu">
           </div>
           <div id="mobilelogo">
             <a href="index.html"><img src="images/rplogo.svg" alt="Home" id="hideindex"></a>
@@ -54,125 +55,91 @@
 
         <!-- FILTER -->
         <div id="filter">
-          <h3>Click the image to expand & view full project</h3>
           <a href="project.html">Project Page</a>
-          <h3>Filter work by category:</h3>
+          <h2>Filter work by category:</h2>
           <ul>
             <li><a href="#" style="color: rgba(255, 255, 255,1);">All</a></li>
-            <li><a href="#">Print</a></li>
+
+          <!-- JQUERY TOGGLE -->
+            <li><button>Print</button></li>
+
+            <li><a href="#">Branding</a></li>
             <li><a href="#">Web</a></li>
             <li><a href="#">Advertising</a></li>
             <li><a href="#">Motion</a></li>
             <li><a href="#">Logos</a></li>
-            <li><a href="#">Graphics</a></li>
-            <li><a href="#">Branding</a></li>
+            <li><a href="#">Social Media</a></li>
           </ul>
+          <h3>Click the image to expand & view full project</h3>
         </div>
 
         <!-- GALLERY -->
         <div class="gallery" id="gallerymargin">
 
-          <!-- Buffalo Map Silkscreen T-Shirt -->
-          <a href="images/buffalomapshirt_large.jpg" data-lightbox="c1" data-title="Buffalo Map Silkscreen T-Shirt" class="card" id="c1">
-            <div class="overlay">
-              <!-- <span class="title">Buffalo Map Silkscreen T-Shirt</span>Apparel Design -->
-            </div>
-          </a>
-          <a href="images/shirtphoto1_large.jpg" data-lightbox="c1" data-title="Buffalo Map Silkscreen T-Shirt" id="c1" style="display: none;"></a>
-          <a href="images/shirtphoto2_large.jpg" data-lightbox="c1" data-title="Buffalo Map Silkscreen T-Shirt" id="c1" style="display: none;"></a>
-          <a href="images/liamshirtphoto.jpg" data-lightbox="c1" data-title="Buffalo Map Silkscreen T-Shirt" id="c1" style="display: none;"></a>
+
 
           <!-- Intern Onboarding Kit for the Martin Group -->
-          <a href="images/martin_01.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" class="card" id="c2">
+          <a href="project_martin.html" class="card" id="martin">
             <div class="overlay">
-              <!-- <span class="title">Intern Onboarding Kit for The Martin Group</span>Print Design -->
+              <h5>Intern Onboarding Kit for The Martin Group</h5>
+              <h6>Print Design</h6>
             </div>
           </a>
-          <a href="images/martin_02.jpg" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_03.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_04.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_05.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_06.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_07.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_08.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_09.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_10.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_11.jpg" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_12.jpg" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_13.jpg" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_14.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_15.png" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
-          <a href="images/martin_16.jpg" data-lightbox="c2" data-title="Intern Onboarding Kit for The Martin Group" id="c2" style="display: none;"></a>
 
-          <!-- ISSUU Embed
-          <div data-configid="28028788/53236353" style="width:1400px; height:1812px;" class="issuuembed"></div>
-          <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-          -->
-
+          <!-- Buffalo Map Silkscreen T-Shirt -->
+          <a href="images/buffalomapshirt_large.jpg" data-lightbox="c1" data-title="Buffalo Map Silkscreen T-Shirt" class="card" id="c1" class="print">
+            <div class="overlay">
+              <h5>Buffalo Map Silkscreen T-Shirt</h5>
+              <h6>Apparel Design</h6>
+            </div>
+          </a>
 
           <!-- Carte Blanche Restaurant -->
           <a href="images/carteblanche_large.jpg" data-lightbox="c3" data-title="Carte Blanche Restaurant Logo Proposal" class="card" id="c3">
             <div class="overlay">
-              <!-- <span class="title">Carte Blanche Restaurant Logo Proposal</span>Logo Design -->
+              <h5>Carte Blanche Restaurant Logo Proposal</h5>
+              <h6>Logo Design</h6>
             </div>
           </a>
 
           <!-- CMYK Quadrangle -->
           <a href="images/cmykcover_large.jpg" data-lightbox="c4" data-title="ADDY Award Winning CMYk Publication" class="card" id="c4">
             <div class="overlay">
-              <!-- <span class="title">ADDY Award Winning CMYK Publication</span>Literary Magazine Design Proposal -->
+              <h5>ADDY Award Winning CMYK Publication</h5>
+              <h6>Literary Magazine Design Proposal</h6>
             </div>
           </a>
-          <a href="images/cmykspreads_large.jpg" data-lightbox="c4" data-title="ADDY Award Winning CMYk Publication" id="c4" style="display: none;"></a>
-          <a href="images/cmykmulti_large.jpg" data-lightbox="c4" data-title="ADDY Award Winning CMYk Publication" id="c4" style="display: none;"></a>
 
           <!-- Canisius Com Newsletter -->
           <a href="images/comnewsletter2.jpg" data-lightbox="c5" data-title="Canisius Communications Newsletter Redesign" class="card" id="c5">
             <div class="overlay">
-              <!-- <span class="title">Canisius Communications Newsletter Redesign</span>Multi-Page Print Document Design -->
+              <h5>Canisius Communications Newsletter Redesign</h5>
+              <h6>Multi-Page Print Document Design</h6>
             </div>
           </a>
-          <a href="images/comnewsletter1.jpg" data-lightbox="c5" data-title="Canisius Communications Newsletter Redesign" id="c5" style="display: none;"></a>
 
           <!-- Lloyd Cocktail Menu -->
           <a href="images/lloydmenu1.png" data-lightbox="c6" data-title="Lloyd Taco Factory Cocktail Menus" class="card" id="c6">
             <div class="overlay">
-              <!-- <span class="title">Lloyd Taco Factory Cocktail Menus</span>Menu Design -->
+              <h5>Lloyd Taco Factory Cocktail Menus</h5>
+              <h6>Menu Design</h6>
             </div>
           </a>
-          <a href="images/lloydmenu3.png" data-lightbox="c6" data-title="Lloyd Taco Factory Cocktail Menus" id="c6" style="display: none;"></a>
-          <a href="images/lloydmenu2.png" data-lightbox="c6" data-title="Lloyd Taco Factory Cocktail Menus" id="c6" style="display: none;"></a>
 
           <!-- Pop Art Poster -->
           <a href="images/designculturenow1_large.jpg" data-lightbox="c7" data-title="Pop Art Inspired Event Poster" class="card" id="c7">
             <div class="overlay">
-              <!-- <span class="title">Pop Art Inspired Event Poster</span>Poster Design -->
+              <h5>Pop Art Inspired Event Poster</h5>
+              <h6>Poster Design</h6>
             </div>
           </a>
-          <a href="images/designculturenow2_large.png" data-lightbox="c7" data-title="Pop Art Inspired Event Poster" id="c7" style="display: none;"></a>
 
 
           <!-- Venture Out -->
           <a href="images/ventureout2.jpg" data-lightbox="c8" data-title="Nokia "Venture" Phone Social Media Campaign" class="card" id="c8">
             <div class="overlay">
-              <!-- <span class="title">Nokia "Venture" Phone Social Media Campaign</span>Interactive Social Media Advertising -->
-            </div>
-          </a>
-          <a href="images/ventureout3.png" data-lightbox="c8" data-title="Nokia "Venture" Phone Social Media Campaign" id="c8" style="display: none;"></a>
-          <a href="images/ventureout1.jpg" data-lightbox="c8" data-title="Nokia "Venture" Phone Social Media Campaign" id="c8" style="display: none;"></a>
-          <a href="images/ventureout4.png" data-lightbox="c8" data-title="Nokia "Venture" Phone Social Media Campaign" id="c8" style="display: none;"></a>
-
-          <!-- Coming Soon -->
-          <a href="#" data-lightbox="#" data-title="#" class="card" id="">
-            <div class="comingsoon">
-              <!-- <span class="title">Coming Soon</span> -->
-            </div>
-          </a>
-
-          <!-- Coming Soon -->
-          <a href="#" data-lightbox="#" data-title="#" class="lastcard" id="">
-            <div class="comingsoon">
-              <!-- <span class="title">Coming Soon</span> -->
+              <h5>Nokia "Venture" Phone Social Media Campaign</h5>
+              <h6>Interactive Social Media Advertising</h6>
             </div>
           </a>
 
@@ -208,6 +175,6 @@
 <!-- END OF FOOTER -->
     </div>
     <script src="src/js/lightbox.js"></script>
-    <script src="src/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
