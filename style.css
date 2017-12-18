@@ -659,70 +659,84 @@ i:hover{
 /* Canisius Quadrangle 2016 */
 
   /*THUMBNAIL*/
-  #cmyk_thumb {
-    background-image: url("images/cmyk_thumb.jpg");
-    background-size: 140%;
+  #quadrangle_thumb {
+    background-image: url("images/quadrangle_thumb.jpg");
+    background-size: 100%;
     background-repeat: repeat;
     background-position: 50% 30%;
   }
 
   /*FEATURE IMAGE*/
-  #cmyk_feature{
-    background: url(images/cmyk_feature.jpg) fixed;
+  #quadrangle_feature{
+    background: url(images/quadrangle_feature.jpg) fixed;
     background-size: 100% auto;
-    background-position: 50% 65%;
+    background-position: 50% 70%;
+  }
+
+  /*SMALL IMAGE*/
+  #quadrangle_small_1{
+    background: url(images/quadrangle_small_1.jpg);
+    background-size: 100% auto;
+    background-position: 100% 50%;
   }
 
     /*SMALL IMAGE*/
-    #cmyk_small_1{
-      background: url(images/cmyk_small_1.jpg);
-      background-size: 100% auto;
-      background-position: 100% 100%;
-    }
-
-    /*SMALL IMAGE*/
-    #cmyk_small_2{
-      background: url(images/cmyk_small_2.jpg);
+      #quadrangle_small_2{
+      background: url(images/quadrangle_small_2.jpg);
       background-size: 100% auto;
       background-position: 100% 50%;
     }
 
     /*SMALL IMAGE*/
-    #cmyk_small_3{
-      background: url(images/cmyk_small_3.jpg);
+      #quadrangle_small_3{
+      background: url(images/quadrangle_small_3.jpg);
       background-size: 100% auto;
-      background-position: 100% 100%;
+      background-position: 100% 50%;
     }
 
     /*SMALL IMAGE*/
-    #cmyk_small_4{
-      background: url(images/cmyk_small_4.png);
+    #quadrangle_small_4{
+      background: url(images/quadrangle_small_4.jpg);
       background-size: 100% auto;
-      background-position: 100% 100%;
+      background-position: 100% 50%;
     }
 
+    /* Juicy Burger Bar Restuarant */
+
+      /*THUMBNAIL*/
+      #juicy_thumb {
+        background-image: url("images/juicy_thumb.jpg");
+        background-size: 100%;
+        background-repeat: repeat;
+        background-position: 50% 30%;
+      }
+
+      /* Green Friday */
+
+        /*THUMBNAIL*/
+        #greenfriday_thumb {
+          background-image: url("images/greenfriday_thumb.jpg");
+          background-size: 100%;
+          background-repeat: repeat;
+          background-position: 50% 30%;
+        }
+
+        /* Carte Blanche */
+
+          /*THUMBNAIL*/
+          #carteblanche_thumb {
+            background-image: url("images/carteblanche_thumb.jpg");
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: 50% 50%;
+          }
 
 
 
-
-
-#c3 {
-  background-image: url("images/carteblanche_small.jpg");
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#c4 {
-  background-image: url("images/cmykcover_large.jpg");
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-position: 50% 40%;
-}
 
 #c5 {
   background-image: url("images/comnewsletter1.jpg");
-  background-size: 100%;
+  background-size: 140%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -743,7 +757,7 @@ i:hover{
 
 #c8 {
   background-image: url("images/ventureout4.png");
-  background-size: 250%;
+  background-size: 290%;
   background-repeat: no-repeat;
   background-position: 31% 16%;
 }
