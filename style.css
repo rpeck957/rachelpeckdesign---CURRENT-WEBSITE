@@ -44,14 +44,32 @@ White
   box-sizing: border-box;
 }
 
+/*TYPEKIT - Flash of unstyled text*/
+
+.wf-loading {
+/* styles to use when web fonts are loading */
+
+font-family: "droid-sans";
+visibility: hidden;
+}
+
+.wf-active {
+/* styles to use when web fonts are active */
+
+  visibility: visible;
+}
+
+.wf-inactive {
+/* styles to use when web fonts are inactive */
+}
+
 
 /*BACKGROUND*/
 
 body {
   /*background: center bottom url(images/nyc_blue.jpg) no-repeat;*/
-  /*background: center bottom url(images/nyc_gray.jpg) no-repeat;*/
-  background: center bottom url(images/nyc_bw.jpg) no-repeat;
-  /*background: center bottom url(images/nyc_banner_2.jpg) no-repeat;*/
+  /*background: center bottom url(images/nyc_bw.jpg) no-repeat;*/
+  background: center bottom url(images/background.jpg) no-repeat;
   /*background-color: rgba(185,215,217,.5)*/
   background-size: cover;
   min-height: 100vh;
@@ -462,15 +480,39 @@ i:hover{
   /*ABOUT IMAGES*/
 
 #portrait {
-  background: url(images/portrait.jpg) fixed no-repeat;
+  background: url(images/about_portrait.jpg) fixed no-repeat;
   background-size: 50% auto;
   background-position: right 25%;
 }
 
-#graduation {
-  background: url(images/buffalomapshirt_large.jpg) fixed no-repeat;
-  background-size: 50% auto;
-  background-position: left;
+#grad {
+  background: url(images/about_grad.jpg) fixed no-repeat;
+  background-size: 55%;
+  background-position: 0% 0%;
+}
+
+#designer {
+  background: url(images/about_designer.jpg) fixed no-repeat;
+  background-size: 55%;
+  background-position: 103% 10%;
+}
+
+#city {
+  background: url(images/about_city.jpg) fixed;
+  background-size: 55%;
+  background-position:0% 0%;
+}
+
+#funfact{
+  background: url(images/about_theater.jpg) fixed;
+  background-size: 60%;
+  background-position: right 75%;
+}
+
+#coffee{
+  background: url(images/about_coffee.jpg) fixed;
+  background-size: 55%;
+  background-position: 0% 0%;
 }
 
 
@@ -496,6 +538,7 @@ i:hover{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding: 1.5rem;
 }
 
 #filter ul li {
@@ -518,27 +561,150 @@ i:hover{
   color: rgba(116, 204, 209, 1);
 }
 
-  /* PUT PROJECT IMAGES HERE */
-
-#c1 {
-  background-image: url("images/shirtphoto2_small.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+#filter h3{
+  text-align: center;
 }
 
-#martin {
-    background-image: url("images/martin_small.jpg");
-    background-size: 250%;
-    background-repeat: no-repeat;
-    /*background-position: 50% 20%;*/
-}
+/* PUT PROJECT IMAGES HERE */
 
-#martin_feature{
-  background: url(images/martin_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: right 30%;
-}
+/* Intern Onboarding Kit for The Martin Group */
+
+  /*THUMBNAIL*/
+  #martin_thumb {
+      background-image: url("images/martin_thumb.jpg");
+      background-size: 120%;
+      background-repeat: repeat;
+  }
+
+  /*FEATURE IMAGE*/
+  #martin_feature{
+    background: url(images/martin_feature.jpg) fixed;
+    background-size: 100% auto;
+    background-position: right 30%;
+  }
+
+  /*SMALL IMAGE*/
+  #martin_small_1{
+    background: url(images/martin_small_1.jpg);
+    background-size: 100% auto;
+    background-position: 100% 50%;
+  }
+
+  /*SMALL IMAGE*/
+  #martin_small_2{
+    background: url(images/martin_small_2.png);
+    background-size: 100% auto;
+    background-position: 100% 50%;
+  }
+
+  /*SMALL IMAGE*/
+  #martin_small_3{
+    background: url(images/martin_small_3.jpg);
+    background-size: 100% auto;
+    background-position: 100% 50%;
+  }
+
+  /*SMALL IMAGE*/
+  #martin_small_4{
+    background: url(images/martin_small_4.jpg);
+    background-size: 100% auto;
+    background-position: 100% 50%;
+  }
+
+/* ADDY Award Winning CMYK Publication */
+
+  /*THUMBNAIL*/
+  #cmyk_thumb {
+    background-image: url("images/cmyk_thumb.jpg");
+    background-size: 140%;
+    background-repeat: repeat;
+    background-position: 50% 30%;
+  }
+
+  /*FEATURE IMAGE*/
+  #cmyk_feature{
+    background: url(images/cmyk_feature.jpg) fixed;
+    background-size: 100% auto;
+    background-position: 50% 65%;
+  }
+
+  /*SMALL IMAGE*/
+  #cmyk_small_1{
+    background: url(images/cmyk_small_1.jpg);
+    background-size: 100% auto;
+    background-position: 100% 100%;
+  }
+
+  /*SMALL IMAGE*/
+  #cmyk_small_2{
+    background: url(images/cmyk_small_2.jpg);
+    background-size: 100% auto;
+    background-position: 100% 50%;
+  }
+
+  /*SMALL IMAGE*/
+  #cmyk_small_3{
+    background: url(images/cmyk_small_3.jpg);
+    background-size: 100% auto;
+    background-position: 100% 100%;
+  }
+
+  /*SMALL IMAGE*/
+  #cmyk_small_4{
+    background: url(images/cmyk_small_4.png);
+    background-size: 100% auto;
+    background-position: 100% 100%;
+  }
+
+/* Canisius Quadrangle 2016 */
+
+  /*THUMBNAIL*/
+  #cmyk_thumb {
+    background-image: url("images/cmyk_thumb.jpg");
+    background-size: 140%;
+    background-repeat: repeat;
+    background-position: 50% 30%;
+  }
+
+  /*FEATURE IMAGE*/
+  #cmyk_feature{
+    background: url(images/cmyk_feature.jpg) fixed;
+    background-size: 100% auto;
+    background-position: 50% 65%;
+  }
+
+    /*SMALL IMAGE*/
+    #cmyk_small_1{
+      background: url(images/cmyk_small_1.jpg);
+      background-size: 100% auto;
+      background-position: 100% 100%;
+    }
+
+    /*SMALL IMAGE*/
+    #cmyk_small_2{
+      background: url(images/cmyk_small_2.jpg);
+      background-size: 100% auto;
+      background-position: 100% 50%;
+    }
+
+    /*SMALL IMAGE*/
+    #cmyk_small_3{
+      background: url(images/cmyk_small_3.jpg);
+      background-size: 100% auto;
+      background-position: 100% 100%;
+    }
+
+    /*SMALL IMAGE*/
+    #cmyk_small_4{
+      background: url(images/cmyk_small_4.png);
+      background-size: 100% auto;
+      background-position: 100% 100%;
+    }
+
+
+
+
+
 
 #c3 {
   background-image: url("images/carteblanche_small.jpg");
@@ -600,7 +766,7 @@ i:hover{
 
 .finalprojectpic {
   width: 100%;
-  min-height: 50vh;
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
