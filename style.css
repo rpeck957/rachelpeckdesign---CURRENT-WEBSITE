@@ -122,7 +122,7 @@ body, html {
 
 #navbar a {
   text-decoration: none;
-  color: rgb(82, 94, 94);
+  color: rgba(82, 94, 94, 1);
 }
 
 #navbar ul li img {
@@ -422,17 +422,6 @@ p {
   height: auto;
 }
 
-
-/*a i {
-  color: #fff;
-  text-decoration: none;
-  font-size: 3em;
-}
-
-i:hover{
-  color: rgba(82,94,94,1);
-}*/
-
 #textlinks {
   width: 100%;
   display: flex;
@@ -538,7 +527,7 @@ i:hover{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 1.5rem;
+  /*padding: 1.5rem;*/
 }
 
 #filter ul li {
@@ -561,206 +550,15 @@ i:hover{
   color: rgba(116, 204, 209, 1);
 }
 
+#filter ul h2{
+  align-items: center;
+}
+
 #filter h3{
   text-align: center;
 }
 
-/* PUT PROJECT IMAGES HERE */
-
-/* Intern Onboarding Kit for The Martin Group */
-
-  /*THUMBNAIL*/
-  #martin_thumb {
-      background-image: url("images/martin_thumb.jpg");
-      background-size: 120%;
-      background-repeat: repeat;
-  }
-
-  /*FEATURE IMAGE*/
-  #martin_feature{
-    background: url(images/martin_feature.jpg) fixed;
-    background-size: 100% auto;
-    background-position: right 30%;
-  }
-
-  /*SMALL IMAGE*/
-  #martin_small_1{
-    background: url(images/martin_small_1.jpg);
-    background-size: 100% auto;
-    background-position: 100% 50%;
-  }
-
-  /*SMALL IMAGE*/
-  #martin_small_2{
-    background: url(images/martin_small_2.png);
-    background-size: 100% auto;
-    background-position: 100% 50%;
-  }
-
-  /*SMALL IMAGE*/
-  #martin_small_3{
-    background: url(images/martin_small_3.jpg);
-    background-size: 100% auto;
-    background-position: 100% 50%;
-  }
-
-  /*SMALL IMAGE*/
-  #martin_small_4{
-    background: url(images/martin_small_4.jpg);
-    background-size: 100% auto;
-    background-position: 100% 50%;
-  }
-
-/* ADDY Award Winning CMYK Publication */
-
-  /*THUMBNAIL*/
-  #cmyk_thumb {
-    background-image: url("images/cmyk_thumb.jpg");
-    background-size: 140%;
-    background-repeat: repeat;
-    background-position: 50% 30%;
-  }
-
-  /*FEATURE IMAGE*/
-  #cmyk_feature{
-    background: url(images/cmyk_feature.jpg) fixed;
-    background-size: 100% auto;
-    background-position: 50% 65%;
-  }
-
-  /*SMALL IMAGE*/
-  #cmyk_small_1{
-    background: url(images/cmyk_small_1.jpg);
-    background-size: 100% auto;
-    background-position: 100% 100%;
-  }
-
-  /*SMALL IMAGE*/
-  #cmyk_small_2{
-    background: url(images/cmyk_small_2.jpg);
-    background-size: 100% auto;
-    background-position: 100% 50%;
-  }
-
-  /*SMALL IMAGE*/
-  #cmyk_small_3{
-    background: url(images/cmyk_small_3.jpg);
-    background-size: 100% auto;
-    background-position: 100% 100%;
-  }
-
-  /*SMALL IMAGE*/
-  #cmyk_small_4{
-    background: url(images/cmyk_small_4.png);
-    background-size: 100% auto;
-    background-position: 100% 100%;
-  }
-
-/* Canisius Quadrangle 2016 */
-
-  /*THUMBNAIL*/
-  #quadrangle_thumb {
-    background-image: url("images/quadrangle_thumb.jpg");
-    background-size: 100%;
-    background-repeat: repeat;
-    background-position: 50% 30%;
-  }
-
-  /*FEATURE IMAGE*/
-  #quadrangle_feature{
-    background: url(images/quadrangle_feature.jpg) fixed;
-    background-size: 100% auto;
-    background-position: 50% 70%;
-  }
-
-  /*SMALL IMAGE*/
-  #quadrangle_small_1{
-    background: url(images/quadrangle_small_1.jpg);
-    background-size: 100% auto;
-    background-position: 100% 50%;
-  }
-
-    /*SMALL IMAGE*/
-      #quadrangle_small_2{
-      background: url(images/quadrangle_small_2.jpg);
-      background-size: 100% auto;
-      background-position: 100% 50%;
-    }
-
-    /*SMALL IMAGE*/
-      #quadrangle_small_3{
-      background: url(images/quadrangle_small_3.jpg);
-      background-size: 100% auto;
-      background-position: 100% 50%;
-    }
-
-    /*SMALL IMAGE*/
-    #quadrangle_small_4{
-      background: url(images/quadrangle_small_4.jpg);
-      background-size: 100% auto;
-      background-position: 100% 50%;
-    }
-
-    /* Juicy Burger Bar Restuarant */
-
-      /*THUMBNAIL*/
-      #juicy_thumb {
-        background-image: url("images/juicy_thumb.jpg");
-        background-size: 100%;
-        background-repeat: repeat;
-        background-position: 50% 30%;
-      }
-
-      /* Green Friday */
-
-        /*THUMBNAIL*/
-        #greenfriday_thumb {
-          background-image: url("images/greenfriday_thumb.jpg");
-          background-size: 100%;
-          background-repeat: repeat;
-          background-position: 50% 30%;
-        }
-
-        /* Carte Blanche */
-
-          /*THUMBNAIL*/
-          #carteblanche_thumb {
-            background-image: url("images/carteblanche_thumb.jpg");
-            background-size: 100%;
-            background-repeat: repeat;
-            background-position: 50% 50%;
-          }
-
-
-
-
-#c5 {
-  background-image: url("images/comnewsletter1.jpg");
-  background-size: 140%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#c6 {
-  background-image: url("images/lloydmenu3.png");
-  background-size: 250%;
-  background-repeat: no-repeat;
-  background-position: 90% 7%;
-}
-
-#c7 {
-  background-image: url("images/designculturenow2_small.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 23%;
-}
-
-#c8 {
-  background-image: url("images/ventureout4.png");
-  background-size: 290%;
-  background-repeat: no-repeat;
-  background-position: 31% 16%;
-}
+  /*Project Content Images At End of Sheet Before Responsive*/
 
 
 /*END OF WORK CONTENT*/
@@ -785,8 +583,51 @@ i:hover{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
   overflow: hidden;
+}
+
+.largeprojectpic {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  overflow: hidden;
+  background: rgba(255,255,255,1);
+}
+
+.large2{
+  min-width: 50%;
+  min-height: 100%;
+  display: flex;
+  opacity:1;
+}
+
+.large2:hover{
+  opacity: 0.80;
+}
+
+.large3{
+  min-width: 33.3%;
+  min-height: 100%;
+  display: flex;
+  opacity:1;
+}
+
+.large3:hover{
+  opacity: 0.80;
+}
+
+.large4{
+  min-width: 25%;
+  min-height: 100%;
+  display: flex;
+  opacity:1;
+}
+
+.large4:hover{
+  opacity: 0.80;
 }
 
 #final{
@@ -943,7 +784,7 @@ i:hover{
   to {opacity: 1}
 }
 
-
+/*END OF SLIDESHOW*/
 
 
 .projectsection {
@@ -1124,6 +965,239 @@ footer a img:hover {
 
 
 /*END OF FOOTER*/
+/*PROJECT CONTENT IMAGES*/
+
+
+/* Intern Onboarding Kit for The Martin Group */
+
+/*THUMBNAIL*/
+
+#martin_thumb {
+  background-image: url("images/martin_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+}
+
+/*FEATURE IMAGE*/
+
+#martin_feature {
+  background: url(images/martin_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: right 30%;
+}
+
+/*SMALL IMAGE*/
+
+#martin_small_1 {
+  background: url(images/martin_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#martin_small_2 {
+  background: url(images/martin_small_2.png);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#martin_small_3 {
+  background: url(images/martin_small_3.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#martin_small_4 {
+  background: url(images/martin_small_4.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/* ADDY Award Winning CMYK Publication */
+
+/*THUMBNAIL*/
+
+#cmyk_thumb {
+  background-image: url("images/cmyk_thumb.jpg");
+  background-size: 140%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#cmyk_feature {
+  background: url(images/cmyk_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#cmyk_large_1 {
+  background: url(images/cmyk_large_1.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#cmyk_large_2 {
+  background: url(images/cmyk_large_2.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#cmyk_small_1 {
+  background: url(images/cmyk_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#cmyk_small_2 {
+  background: url(images/cmyk_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#cmyk_small_3 {
+  background: url(images/cmyk_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#cmyk_small_4 {
+  background: url(images/cmyk_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* Canisius Quadrangle 2016 */
+
+/*THUMBNAIL*/
+
+#quadrangle_thumb {
+  background-image: url("images/quadrangle_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#quadrangle_feature {
+  background: url(images/quadrangle_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 70%;
+}
+
+/*SMALL IMAGE*/
+
+#quadrangle_small_1 {
+  background: url(images/quadrangle_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#quadrangle_small_2 {
+  background: url(images/quadrangle_small_2.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#quadrangle_small_3 {
+  background: url(images/quadrangle_small_3.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#quadrangle_small_4 {
+  background: url(images/quadrangle_small_4.jpg);
+  background-size: 100% auto;
+  background-position: 100% 50%;
+}
+
+/* Juicy Burger Bar Restuarant */
+
+/*THUMBNAIL*/
+
+#juicy_thumb {
+  background-image: url("images/juicy_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/* Green Friday */
+
+/*THUMBNAIL*/
+
+#greenfriday_thumb {
+  background-image: url("images/greenfriday_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/* Carte Blanche */
+
+/*THUMBNAIL*/
+
+#carteblanche_thumb {
+  background-image: url("images/carteblanche_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#c5 {
+  background-image: url("images/comnewsletter1.jpg");
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#c6 {
+  background-image: url("images/lloydmenu3.png");
+  background-size: 250%;
+  background-repeat: no-repeat;
+  background-position: 90% 7%;
+}
+
+#c7 {
+  background-image: url("images/designculturenow2_small.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 23%;
+}
+
+#c8 {
+  background-image: url("images/ventureout4.png");
+  background-size: 290%;
+  background-repeat: no-repeat;
+  background-position: 31% 16%;
+}
+
+/*END OF PROJECT CONTENT IMAGES*/
 
 
 
