@@ -290,6 +290,7 @@ p {
   margin-bottom: 1.25rem;
   /*change for margin*/
   background-position: center center;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
 }
 
   /*USE LASTCARD ONLY ON LAST ELEMENT OF ROW OF 2*/
@@ -300,10 +301,11 @@ p {
   min-width: 24%;
   min-height: 300px;
   max-height: 400px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   /*change for margin*/
   /*height:160px;*/
   background-position: center center;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
 }
 
 .overlay {
@@ -548,10 +550,6 @@ p {
 
 #filter ul li a:hover {
   color: rgba(116, 204, 209, 1);
-}
-
-#filter ul h2{
-  align-items: center;
 }
 
 #filter h3{
@@ -1018,6 +1016,7 @@ footer a img:hover {
   background-position: 100% 50%;
 }
 
+
 /* ADDY Award Winning CMYK Publication */
 
 /*THUMBNAIL*/
@@ -1053,6 +1052,14 @@ footer a img:hover {
   background-position: center center;
 }
 
+/*LARGE IMAGE*/
+
+#cmyk_large_3 {
+  background: url(images/cmyk_large_3.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
 /*SMALL IMAGE*/
 
 #cmyk_small_1 {
@@ -1084,6 +1091,7 @@ footer a img:hover {
   background-size: 100% auto;
   background-position: center;
 }
+
 
 /* Canisius Quadrangle 2016 */
 
@@ -1136,6 +1144,7 @@ footer a img:hover {
   background-position: 100% 50%;
 }
 
+
 /* Juicy Burger Bar Restuarant */
 
 /*THUMBNAIL*/
@@ -1146,6 +1155,71 @@ footer a img:hover {
   background-repeat: repeat;
   background-position: 50% 30%;
 }
+
+/*FEATURE IMAGE*/
+
+#juicy_feature {
+  background: url(images/juicy_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#juicy_large_1 {
+  background: url(images/juicy_large_1.jpg);
+  background-size: 125% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#juicy_large_2 {
+  background: url(images/juicy_large_2.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#juicy_large_3 {
+  background: url(images/juicy_large_3.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_1 {
+  background: url(images/juicy_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_2 {
+  background: url(images/juicy_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_3 {
+  background: url(images/juicy_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_4 {
+  background: url(images/juicy_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
 
 /* Green Friday */
 
@@ -1158,6 +1232,55 @@ footer a img:hover {
   background-position: 50% 30%;
 }
 
+/*FEATURE IMAGE*/
+
+#greenfriday_feature {
+  background: url(images/greenfriday_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#greenfriday_large_1 {
+  background: url(images/greenfriday_large_1.jpg);
+  background-size: 125% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#greenfriday_large_2 {
+  background: url(images/greenfriday_large_2.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#greenfriday_large_3 {
+  background: url(images/greenfriday_large_3.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#greenfriday_small_1 {
+  background: url(images/juicy_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#greenfriday_small_2 {
+  background: url(images/juicy_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
 /* Carte Blanche */
 
 /*THUMBNAIL*/
@@ -1169,33 +1292,70 @@ footer a img:hover {
   background-position: 50% 50%;
 }
 
-#c5 {
-  background-image: url("images/comnewsletter1.jpg");
-  background-size: 140%;
-  background-repeat: no-repeat;
+/*FEATURE IMAGE*/
+
+#carteblanche_feature {
+  background: url(images/carteblanche_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#carteblanche_large_1 {
+  background: url(images/carteblanche_large_1.jpg);
+  background-size: 125% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#carteblanche_large_2 {
+  background: url(images/carteblanche_large_2.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#carteblanche_large_3 {
+  background: url(images/carteblanche_large_3.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#carteblanche_small_1 {
+  background: url(images/carteblanche_small_1.jpg);
+  background-size: 105% auto;
   background-position: center;
 }
 
-#c6 {
-  background-image: url("images/lloydmenu3.png");
-  background-size: 250%;
-  background-repeat: no-repeat;
-  background-position: 90% 7%;
+/*SMALL IMAGE*/
+
+#carteblanche_small_2 {
+  background: url(images/carteblanche_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
 }
 
-#c7 {
-  background-image: url("images/designculturenow2_small.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 23%;
+/*SMALL IMAGE*/
+
+#carteblanche_small_3 {
+  background: url(images/carteblanche_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
 }
 
-#c8 {
-  background-image: url("images/ventureout4.png");
-  background-size: 290%;
-  background-repeat: no-repeat;
-  background-position: 31% 16%;
+/*SMALL IMAGE*/
+
+#carteblanche_small_4 {
+  background: url(images/carteblanche_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
 }
+
 
 /*END OF PROJECT CONTENT IMAGES*/
 

@@ -6,13 +6,6 @@ $( document ).ready(function() {
 });
 
 
-// toggle between the hide() and show()
-
-$("button").click(function(){
-    $(".print").toggle();
-});
-
-
 
 // SLIDESHOW
 
