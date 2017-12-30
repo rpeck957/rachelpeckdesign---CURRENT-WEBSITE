@@ -117,7 +117,6 @@ body, html {
 
   justify-content: center;
   text-align: center;
-
 }
 
 #navbar a {
@@ -263,47 +262,62 @@ p {
 /*END OF GENERAL CONTENT*/
 /*GALLERY*/
 
-#gallerymargin {
-  padding: 2rem;
-}
-
 .gallery {
   width: 100%;
+  padding: 1.5rem;
+  height:100%;
+  margin:auto;
+
+  /*Me Before Ben*/
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center;*/
-  /*change for no-margin*/
   justify-content: space-between;
-  /*change for margin*/
+
+  /*BEN/GRID -- works!*/
+  /*display:grid;*/
+  /*grid-template-columns: 25% 25% 25% 25%;*/
 }
 
-.gallery a {
+.gallery a{
   text-decoration: none;
 }
 
 .card {
-  display: flex;
-  background: #fff;
-  min-width: 24%;
   min-height: 300px;
   max-height: 400px;
   margin-bottom: 1.25rem;
-  /*change for margin*/
   background-position: center center;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
+
+  /*BEN/GRID -- works!*/
+  /*margin:8px;*/
+  /*width: 100%;*/
+
+  /*Me Before Ben*/
+  display: flex;
+  background: #fff;
+  min-width: 24%;
+  max-width: 24%;
 }
 
-  /*USE LASTCARD ONLY ON LAST ELEMENT OF ROW OF 2*/
+  /*BEN/GRID -- works!*/
+/*@media screen and (max-width:500px){
+  .gallery{
+    grid-template-columns: 50% 50%;
+  }
+}*/
+
+
+/*USE LASTCARD ONLY ON LAST ELEMENT OF ROW OF 2*/
 
 .lastcard {
   display: flex;
   background: #fff;
   min-width: 24%;
+  max-width: 24%;
   min-height: 300px;
   max-height: 400px;
   margin-bottom: 1.25rem;
-  /*change for margin*/
-  /*height:160px;*/
   background-position: center center;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
 }
@@ -326,24 +340,6 @@ p {
   opacity: 1;
 }
 
-.comingsoon {
-  background: rgba(82, 94, 94, .90);
-  color: #fff;
-  text-align: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  cursor: pointer;
-  transition: opacity ease .4s;
-  font-family: "korolev", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 0em;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 
 /*END OF GALLERY*/
 /*CONSTRUCTION PAGE*/
@@ -355,7 +351,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*align-content: center;*/
   padding: 2rem;
   background-color: rgba(255, 255, 255, .87);
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
@@ -512,6 +507,7 @@ p {
 
 #workcontent {
   display: flex;
+  /*justify-content: center;*/
   flex: 1;
   flex-direction: column;
   font-family: "korolev", sans-serif;
@@ -522,17 +518,14 @@ p {
   background-color: rgba(255, 255, 255, .87);
   padding: 2rem;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
-}
 
-#filter ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  /*padding: 1.5rem;*/
 }
 
-#filter ul li {
+#filter button {
   display: inline-flex;
   font-family: "korolev-condensed", sans-serif;
   font-weight: 300;
@@ -540,21 +533,16 @@ p {
   font-size: 1.5em;
   letter-spacing: 0.04em;
   color: rgba(82, 94, 94, 1);
+  border: none;
+  background: none;
+  cursor: pointer;
   /*color: rgba(116,204,209,1);*/
 }
 
-#filter a {
-  text-decoration: none;
-  color: rgb(82, 94, 94);
-}
-
-#filter ul li a:hover {
+#filter button:hover {
   color: rgba(116, 204, 209, 1);
 }
 
-#filter h3{
-  text-align: center;
-}
 
   /*Project Content Images At End of Sheet Before Responsive*/
 
@@ -1490,10 +1478,12 @@ footer a img:hover {
 }
 
 .gallery{
+  padding: 1.5rem;
   flex-direction: column;
 }
 
 .card{
+  /*min-width: 100%;*/
 }
 
 
@@ -1538,13 +1528,10 @@ footer a img:hover {
 
 #filter{
   padding: 1.5em;
-}
-
-#filter ul {
   flex-direction: column;
 }
 
-#filter ul li{
+#filter button{
   line-height: 1.5em;
 }
 
@@ -1692,9 +1679,11 @@ p {
 /*END OF GENERAL CONTENT*/
 /*GALLERY*/
 
-.card {
-  min-width: 49%;
+.card{
+  /*min-width: 49%;*/
 }
+
+
 
 
 /*END OF GALLERY*/
@@ -1899,6 +1888,7 @@ p {
 
 
 /*CARD - FROM WORK BEN/CODEPEN*/
+/*Maybe have to get rid of to work with filter*/
 
 @media (min-width:501px) and (max-width:1169px) {
   .card {
