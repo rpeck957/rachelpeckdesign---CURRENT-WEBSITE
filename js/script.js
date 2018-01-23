@@ -5,6 +5,15 @@ $( document ).ready(function() {
     });
 });
 
+// Hamburger for Work Gallery Filter
+
+// $( document ).ready(function() {
+//     // console.log( "ready!" );
+//     $('.hamburgerfilter').click(function(){
+//       $('.mobilefilter').toggleClass('visible');
+//     });
+// });
+
 
 // gallery filter
 var $btns = $('.btn').click(function() {
