@@ -934,9 +934,129 @@ p {
   width: 100%;
   min-height: 50vh;
   overflow: hidden;
-  background: url(images/portrait.jpg) fixed no-repeat;
-  background-size: 100% auto;
-  background-position: right 25%;
+  background: url(images/photography_brooklynbridge.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+}
+
+/*GALLERY THUMBNAILS*/
+
+
+/* Buffalo's Renaissance */
+
+#buffalo_1_wilkesonpointe {
+  background-image: url("images/buffalo_wilkesonpointe_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+#buffalo_2_downtown {
+  background-image: url("images/buffalo_downtown_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#buffalo_3_waterfront {
+  background-image: url("images/buffalo_waterfront_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 10%;
+}
+
+#buffalo_4_outerharbor {
+  background-image: url("images/buffalo_outerharbor_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 90% 50%;
+}
+
+#buffalo_5_elmwoodvillage {
+  background-image: url("images/buffalo_elmwoodvillage_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#buffalo_6_theaterdistrict {
+  background-image: url("images/buffalo_theaterdistrict_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 20%;
+}
+
+#buffalo_7_mainstreet {
+  background-image: url("images/buffalo_mainstreet_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 40%;
+}
+
+#buffalo_8_canalside {
+  background-image: url("images/buffalo_canalside_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 70%;
+}
+
+/* Hillview Helpers */
+
+#hillview_1_inquisitive {
+  background-image: url("images/hillview_inquisitive_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#hillview_2_excitable {
+  background-image: url("images/hillview_excitable_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 85% 50%;
+}
+
+#hillview_3_tenacious {
+  background-image: url("images/hillview_tenacious_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#hillview_4_wondrous {
+  background-image: url("images/hillview_wondrous_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 25% 0%;
+}
+
+#hillview_5_lively {
+  background-image: url("images/hillview_lively_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 100%;
+}
+
+#hillview_6_ambitious {
+  background-image: url("images/hillview_ambitious_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 20% 50%;
+}
+
+#hillview_7_creative {
+  background-image: url("images/hillview_creative_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 90% 50%;
+}
+
+#hillview_8_determined {
+  background-image: url("images/hillview_determined_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 0% 50%;
 }
 
 
