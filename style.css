@@ -1059,6 +1059,122 @@ p {
   background-position: 0% 50%;
 }
 
+/* Unecpected Beauty */
+
+#beauty_1 {
+  background-image: url("images/beauty_1_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#beauty_2 {
+  background-image: url("images/beauty_2_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+#beauty_3 {
+  background-image: url("images/beauty_3_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#beauty_4 {
+  background-image: url("images/beauty_4_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#beauty_5 {
+  background-image: url("images/beauty_5_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#beauty_6 {
+  background-image: url("images/beauty_6_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#beauty_7 {
+  background-image: url("images/beauty_7_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 50% 0%;
+}
+
+#beauty_8 {
+  background-image: url("images/beauty_8_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 40%;
+}
+
+/* Unecpected Beauty */
+
+#misc_1 {
+  background-image: url("images/misc_1_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+#misc_2 {
+  background-image: url("images/misc_2_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+#misc_3 {
+  background-image: url("images/misc_3_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 70%;
+}
+
+#misc_4 {
+  background-image: url("images/misc_4_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 30% 25%;
+}
+
+#misc_5 {
+  background-image: url("images/misc_5_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 40% 50%;
+}
+
+#misc_6 {
+  background-image: url("images/misc_6_thumb.jpg");
+  background-size: 130%;
+  background-repeat: repeat;
+  background-position: 40% 100%;
+}
+
+#misc_7 {
+  background-image: url("images/misc_7_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 55%;
+}
+
+#misc_8 {
+  background-image: url("images/misc_8_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
 
 /*END OF PHOTOGRAPHY CONTENT*/
 /*CLASS WEBSITE - HIDDEN PAGE FOR BLOG*/
