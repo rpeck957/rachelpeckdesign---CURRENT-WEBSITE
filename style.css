@@ -173,7 +173,7 @@ h1 {
   /* font-weight: 300; */
   font-size: 2.5em;
   /*letter-spacing: 0.04em;*/
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   /* font-family: "korolev-condensed", sans-serif; */
   text-transform: uppercase;
   color: rgba(116, 204, 209, 1);
@@ -249,24 +249,25 @@ p {
   color: rgba(82, 94, 94, 1);
   line-height: normal;
   /*margin-top: 0.75em;*/
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .text {
   justify-content: center;
   align-items: flex-start;
-  padding: 2rem;
+  padding: 4rem;
   /* background-color: rgba(255, 255, 255, .87); */
-  background-color: rgba(255, 255, 255, .90);
+  background-color: rgba(255, 255, 255, .94);
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
 }
 
 .text a {
   text-decoration: none;
   color: rgba(116, 204, 209, 1);
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .text a:hover {
@@ -277,7 +278,7 @@ p {
 .twocol{
   column-count: 2;
   column-width: 50vh;
-  column-gap: 4rem;
+  column-gap: 8rem;
   /* column-rule: 1px dotted; */
   column-rule-width:0.17rem;
   column-rule-style: solid;
@@ -753,15 +754,15 @@ p {
 }
 
 #resumetext {
-  width: 30%;
+  width: 35%;
 }
 
 #resumepic {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 65%;
   height: auto;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 #resumepic img {
@@ -1141,8 +1142,9 @@ footer a img:hover {
 
 #martin_thumb {
   background-image: url("images/martin_thumb.jpg");
-  background-size: 120%;
+  background-size: 100%;
   background-repeat: repeat;
+  background-position: 50% 40%;
 }
 
 /*FEATURE IMAGE*/
@@ -1421,7 +1423,7 @@ footer a img:hover {
 
 #greenfriday_large_2 {
   background: url(images/greenfriday_large_2.jpg);
-  background-size: 105% auto;
+  background-size: 120% auto;
   background-position: center center;
 }
 
@@ -1429,8 +1431,8 @@ footer a img:hover {
 
 #greenfriday_large_3 {
   background: url(images/greenfriday_large_3.jpg);
-  background-size: 105% auto;
-  background-position: center center;
+  background-size: 120% auto;
+  background-position: 50% 70%;
 }
 
 /*SMALL IMAGE*/
@@ -1473,7 +1475,7 @@ footer a img:hover {
 
 #carteblanche_large_1 {
   background: url(images/carteblanche_large_1.jpg);
-  background-size: 125% auto;
+  background-size: 120% auto;
   background-position: center center;
 }
 
@@ -1481,7 +1483,7 @@ footer a img:hover {
 
 #carteblanche_large_2 {
   background: url(images/carteblanche_large_2.jpg);
-  background-size: 105% auto;
+  background-size: 120% auto;
   background-position: center center;
 }
 
@@ -1489,7 +1491,7 @@ footer a img:hover {
 
 #carteblanche_large_3 {
   background: url(images/carteblanche_large_3.jpg);
-  background-size: 105% auto;
+  background-size: 110% auto;
   background-position: center center;
 }
 
@@ -1521,6 +1523,310 @@ footer a img:hover {
 
 #carteblanche_small_4 {
   background: url(images/carteblanche_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Canisius Newsletter */
+
+/*THUMBNAIL*/
+
+#comnewsletter_thumb {
+  background-image: url("images/comnewsletter_thumb.jpg");
+  background-size: 130%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#comnewsletter_feature {
+  background: url(images/comnewsletter_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#comnewsletter_small_1 {
+  background: url(images/comnewsletter_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#comnewsletter_small_2 {
+  background: url(images/comnewsletter_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#comnewsletter_small_3 {
+  background: url(images/carteblanche_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#comnewsletter_small_4 {
+  background: url(images/carteblanche_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Buffalo Map Screen Printed T-Shirt */
+
+/*THUMBNAIL*/
+
+#buffmapshirt_thumb {
+  background-image: url("images/buffmapshirt_thumb.jpg");
+  background-size: 140%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#buffmapshirt_feature {
+  background: url(images/buffmapshirt_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+/*LARGE IMAGE*/
+
+#buffmapshirt_large_1 {
+  background: url(images/buffmapshirt_large_1.jpg);
+  background-size: 130% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#buffmapshirt_large_2 {
+  background: url(images/buffmapshirt_large_2.jpg);
+  background-size: 130% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#buffmapshirt_large_3 {
+  background: url(images/buffmapshirt_large_3.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#buffmapshirt_small_1 {
+  background: url(images/buffmapshirt_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#buffmapshirt_small_2 {
+  background: url(images/buffmapshirt_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* You Are Here Starbucks Commercial */
+
+/*THUMBNAIL*/
+
+#youarehere_thumb {
+  background-image: url("images/youarehere_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 20%;
+}
+
+/*FEATURE IMAGE*/
+
+#youarehere_feature {
+  background: url(images/youarehere_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+/*SMALL IMAGE*/
+
+#youarehere_small_1 {
+  background: url(images/youarehere_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 50% 16%;
+}
+
+/*SMALL IMAGE*/
+
+#youarehere_small_2 {
+  background: url(images/youarehere_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Lloyd Taco Factory Cocktail Menus */
+
+/*THUMBNAIL*/
+
+#lloyd_thumb {
+  background-image: url("images/lloyd_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 80% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#lloyd_feature {
+  background: url(images/lloyd_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 90%;
+}
+
+/*LARGE IMAGE*/
+
+#lloyd_large_1 {
+  background: url(images/lloyd_large_1.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#lloyd_large_2 {
+  background: url(images/lloyd_large_2.jpg);
+  background-size: 110% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#lloyd_large_3 {
+  background: url(images/lloyd_large_3.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#lloyd_small_1 {
+  background: url(images/lloyd_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#lloyd_small_2 {
+  background: url(images/lloyd_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Hello Spring Table Tent */
+
+/*THUMBNAIL*/
+
+#hellospring_thumb {
+  background-image: url("images/hellospring_thumb.jpg");
+  background-size: 150%;
+  background-repeat: repeat;
+  background-position: 80% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#hellospring_feature {
+  background: url(images/hellospring_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+}
+
+/*SMALL IMAGE*/
+
+#hellospring_small_1 {
+  background: url(images/hellospring_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#hellospring_small_2 {
+  background: url(images/hellospring_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Matt Urban Hope Center */
+
+/*THUMBNAIL*/
+
+#hopecenter_thumb {
+  background-image: url("images/hopecenter_thumb.jpg");
+  background-size: 130%;
+  background-repeat: repeat;
+  background-position: 50% 90%;
+}
+
+/*FEATURE IMAGE*/
+
+#hopecenter_feature {
+  background: url(images/hopecenter_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#hopecenter_large_1 {
+  background: url(images/hopecenter_large_1.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#hopecenter_large_2 {
+  background: url(images/hopecenter_large_2.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#hopecenter_large_3 {
+  background: url(images/hopecenter_large_3.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#hopecenter_small_1 {
+  background: url(images/hopecenter_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#hopecenter_small_2 {
+  background: url(images/hopecenterd_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
