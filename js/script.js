@@ -1,3 +1,4 @@
+// MOBILE HAMBURGER
 $( document ).ready(function() {
     // console.log( "ready!" );
     $('.hamburger').click(function(){
@@ -15,7 +16,7 @@ $( document ).ready(function() {
 // });
 
 
-// gallery filter
+// GALLERY FILTER
 var $btns = $('.btn').click(function() {
   if (this.id == 'all') {
     $('#parent > a').fadeIn(450);
@@ -26,3 +27,22 @@ var $btns = $('.btn').click(function() {
   $btns.removeClass('active');
   $(this).addClass('active');
 })
+
+// BACK TO TOP BUTTON
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
