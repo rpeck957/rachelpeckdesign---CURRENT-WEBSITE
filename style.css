@@ -249,8 +249,10 @@ p {
   color: rgba(82, 94, 94, 1);
   line-height: normal;
   /*margin-top: 0.75em;*/
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .text {
@@ -260,11 +262,13 @@ p {
   /* background-color: rgba(255, 255, 255, .87); */
   background-color: rgba(255, 255, 255, .94);
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
+  position: relative;
+  z-index: 1;
 }
 
 .text a {
   text-decoration: none;
-  color: rgba(116, 204, 209, 1);
+  color: rgba(82, 94, 94, .85);
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -272,7 +276,7 @@ p {
 
 .text a:hover {
   text-decoration: none;
-  color: rgba(82, 94, 94, .85);
+  color: rgba(116, 204, 209, 1);
 }
 
 .twocol{
@@ -281,6 +285,7 @@ p {
   column-gap: 8rem;
   /* column-rule: 1px dotted; */
   column-rule-width:0.17rem;
+  column-fill: balance;
   column-rule-style: solid;
   column-rule-color: rgba(116, 204, 209, 0.25);
 }
@@ -313,6 +318,90 @@ p {
   /* background-color: rgba(255,255,255,0); */
 }
 
+/* READ MORE/LESS TOGGLE WITH PURE CSS*/
+  /* element1 ~ element2 Selects every <element2> element that are preceded by a <element1> element */
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  /* opacity: 0; */
+  max-height: 0;
+  font-size: 0;
+  /* transition: 2s ease; */
+
+  display: none;
+}
+
+.read-more-wrap{
+  max-height: 40vh;
+}
+
+  /* Extends VH when toggled */
+.read-more-state:checked ~ .read-more-wrap{
+ max-height: 999vh;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  /* opacity: 1; */
+  font-size: 1.25em;
+  max-height: 999em;
+
+  display: block;
+}
+
+.read-more-state:checked ~ .read-more-wrap span.read-more-target {
+  font-size: 1.0em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+/* Button */
+
+.read-more-trigger {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+
+  /* h3 Styling */
+  font-weight: 300;
+  font-size: 1.85em;
+  letter-spacing: 0.04em;
+  font-family: "korolev-condensed", sans-serif;
+  text-transform: uppercase;
+  color: rgba(116, 204, 209, 1);
+  line-height: 1.25em;
+}
+
+label.read-more-trigger{
+  min-width:100%;
+  min-height: 50%;
+  background: #fff;
+  background: linear-gradient(to bottom, rgba(252,252,252,0), rgba(252,252,252,0.90), rgba(252,252,252,0.98), rgba(252,252,252,1));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  /* margin-bottom: 2rem; */
+}
+
+  /* Changes position when toggled */
+ .read-more-state:checked ~ label.read-more-trigger{
+  padding-top: 2rem;
+  position: relative;
+  background: none;
+}
+
+/* END OF READ MORE/LESS TOGGLE WITH PURE CSS*/
 
 /*END OF GENERAL CONTENT*/
 /*GALLERY*/
@@ -455,7 +544,7 @@ p {
   flex-direction: column;
   align-content: center;
   justify-content: space-around;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 #homelogo img {
@@ -478,7 +567,7 @@ p {
 
 .indexgallery {
   width: 100%;
-  padding: 1.5rem;
+  padding-top: 2rem;
   height:100%;
   margin:auto;
 
@@ -487,6 +576,28 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
 
+}
+
+.indexgallery a{
+  text-decoration: none;
+}
+
+.indexcard{
+  min-height: 200px;
+  max-height: 225px;
+  /* margin-bottom: 1.25rem; */
+  background-position: center center;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
+
+  /*BEN/GRID -- works!*/
+  /*margin:8px;*/
+  /*width: 100%;*/
+
+  /*Me Before Ben*/
+  display: flex;
+  background: #fff;
+  min-width: 31.5%;
+  max-width: 31.5%;
 }
 
 
