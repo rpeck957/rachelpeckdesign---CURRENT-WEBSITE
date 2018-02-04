@@ -170,18 +170,17 @@ body, html {
 
   /* Title */
 h1 {
-  /* font-weight: 300; */
   font-size: 2.5em;
-  /*letter-spacing: 0.04em;*/
-  letter-spacing: 0.02em;
-  /* font-family: "korolev-condensed", sans-serif; */
+  letter-spacing: 0.04em;
+  /* letter-spacing: 0.02em; */
+  font-family: "korolev-condensed", sans-serif;
   text-transform: uppercase;
   color: rgba(116, 204, 209, 1);
   /*line-height: -1.25em;*/
   /*padding-bottom:1rem;*/
 
 
-  font-family: "korolev", sans-serif;
+  /* font-family: "korolev", sans-serif; */
   font-weight: 700;
   line-height: normal;
 }
@@ -249,10 +248,10 @@ p {
   color: rgba(82, 94, 94, 1);
   line-height: normal;
   /*margin-top: 0.75em;*/
-  /* padding-top: 0.5rem;
-  padding-bottom: 0.5rem; */
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  /* padding-top: 0.25rem; */
+  /* padding-bottom: 0.25rem; */
 }
 
 .text {
@@ -261,7 +260,8 @@ p {
   padding: 4rem;
   /* background-color: rgba(255, 255, 255, .87); */
   background-color: rgba(255, 255, 255, .94);
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20);
+  /* box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20); */
+  box-shadow: 0.5px 3px 6px rgba(0, 0, 0, 0.20);
   position: relative;
   z-index: 1;
 }
@@ -527,7 +527,7 @@ label.read-more-trigger{
   flex-direction: row;
   font-family: "korolev", sans-serif;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
 }
 
 #indextext {
@@ -544,7 +544,13 @@ label.read-more-trigger{
   flex-direction: column;
   align-content: center;
   justify-content: space-around;
-  padding: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#indexlogo{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 #homelogo img {
@@ -567,7 +573,7 @@ label.read-more-trigger{
 
 .indexgallery {
   width: 100%;
-  padding-top: 2rem;
+  padding-top: 1rem;
   height:100%;
   margin:auto;
 
@@ -710,6 +716,12 @@ label.read-more-trigger{
 
 #filter button:hover {
   color: rgba(116, 204, 209, 1);
+}
+
+button#all.btn.active, button#print.btn.active, button#branding.btn.active, button#web.btn.active, button#socialmedia.btn.active, button#motion.btn.active {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(82, 94, 94, .85);
 }
 
 .hamburgerfilter {
