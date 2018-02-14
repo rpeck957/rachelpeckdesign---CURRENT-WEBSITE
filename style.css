@@ -88,6 +88,7 @@ body, html {
   display: flex;
   flex-direction: column;
   flex: 1;
+  overflow: hidden;
 }
 
 
@@ -207,14 +208,14 @@ h3 {
   line-height: 1.25em;
 }
 
-  /* Date/Time */
+  /* Project Sub-Heading & Date */
 h4 {
   font-family: "korolev", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   color: rgba(82, 94, 94, 1);
-  line-height: normal;
+  line-height: 2.5rem;
 }
 
   /* Card Heading/Title */
@@ -224,18 +225,18 @@ h5 {
   text-transform: uppercase;
   /*letter-spacing: 0.04em;*/
   letter-spacing: 0.04em;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   color: rgba(255,255,255,1);
 }
 
-  /* Card Sub-Heading */
+  /* ? */
 h6 {
   font-family: "korolev", sans-serif;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   /*font-size: 1.30rem;*/
   letter-spacing: 0.01em;
-  color: rgba(255,255,255,1);
+  color: rgba(82, 94, 94, 1);
   line-height: normal;
 }
 
@@ -260,8 +261,7 @@ p {
   padding: 4rem;
   /* background-color: rgba(255, 255, 255, .87); */
   background-color: rgba(255, 255, 255, .94);
-  /* box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.20); */
-  box-shadow: 0.5px 3px 6px rgba(0, 0, 0, 0.20);
+  /* box-shadow: 0.5px 3px 6px rgba(0, 0, 0, 0.20);  /* Turned off for z-index */
   position: relative;
   z-index: 1;
 }
@@ -311,6 +311,7 @@ p {
   /* background-color: rgba(255,255,255,1); */
   border-radius: 1.5rem;
   /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.20); */
+  /* opacity: 0.8 */
 }
 
 #topbutton:hover {
@@ -384,7 +385,7 @@ p {
 
 label.read-more-trigger{
   min-width:100%;
-  min-height: 50%;
+  min-height: 50%;/* Change this possibly */
   background: #fff;
   background: linear-gradient(to bottom, rgba(252,252,252,0), rgba(252,252,252,0.90), rgba(252,252,252,0.98), rgba(252,252,252,1));
   position: absolute;
@@ -410,7 +411,7 @@ label.read-more-trigger{
   width: 100%;
   padding: 1.5rem;
   height:100%;
-  margin:auto;
+  /* margin:auto; */
 
   /*Me Before Ben*/
   display: flex;
@@ -442,6 +443,13 @@ label.read-more-trigger{
   background: #fff;
   min-width: 24%;
   max-width: 24%;
+}
+
+
+
+#workcontent .card:last-child {
+  margin-right: auto;
+  margin-left: 1.333333333%;
 }
 
   /*BEN/GRID -- works!*/
@@ -524,10 +532,10 @@ label.read-more-trigger{
 #indexcontent {
   display: flex;
   flex: 1;
-  flex-direction: row;
+  /* flex-direction: row; */
   font-family: "korolev", sans-serif;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 
 #indextext {
@@ -540,12 +548,11 @@ label.read-more-trigger{
 
 #homelogo {
   width: 55%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-around;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #indexlogo{
@@ -559,28 +566,15 @@ label.read-more-trigger{
   text-shadow: 0.75px 0.75px 0.5px rgba(70, 81, 81, 0.5);
 }
 
-#signature {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  /*padding-right: 2rem;*/
-}
-
-#signature img {
-  max-width: 40%;
-  height: auto;
-}
-
 .indexgallery {
   width: 100%;
-  padding-top: 1rem;
-  height:100%;
-  margin:auto;
+  padding-top: 1.5rem;
+  /* height:100%; */
+  /* margin:auto; */
 
-  /*Me Before Ben*/
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -619,8 +613,8 @@ label.read-more-trigger{
 #abouttext {
   width: 50%;
   height: auto;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .aboutsection {
@@ -1598,4 +1592,5 @@ p {
     margin-right: auto;
     margin-left: 1.333333333%;
   } */
+
 }

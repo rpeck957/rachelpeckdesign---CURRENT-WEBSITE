@@ -929,7 +929,7 @@
 /*SMALL IMAGE*/
 
 #hopecenter_small_2 {
-  background: url(images/hopecenterd_small_2.jpg);
+  background: url(images/hopecenter_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -1086,6 +1086,454 @@
 
 #sp_small_2 {
   background: url(images/sp_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Rachel Peck Design Branding */
+
+/*THUMBNAIL*/
+
+#rpdesign_thumb {
+  background-image: url("images/rpdesign_thumb.jpg");
+  background-size: 140%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#rpdesign_feature {
+  background: url(images/rpdesign_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#rpdesign_large_1 {
+  background: url(images/rpdesign_large_1.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#rpdesign_large_2 {
+  background: url(images/rpdesign_large_2.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#rpdesign_large_3 {
+  background: url(images/rpdesign_large_3.jpg);
+  background-size: 105% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_1 {
+  background: url(images/rpdesign_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_2 {
+  background: url(images/rpdesign_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_3 {
+  background: url(images/rpdesign_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_4 {
+  background: url(images/rpdesign_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Nokia Cellphone “Venture Out” Campaign */
+
+/*THUMBNAIL*/
+
+#ventureout_thumb {
+  background-image: url("images/ventureout_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#ventureout_feature {
+  background: url(images/ventureout_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#ventureout_large_1 {
+  background: url(images/ventureout_large_1.jpg);
+  background-size: 125% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#ventureout_large_2 {
+  background: url(images/ventureout_large_2.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#ventureout_large_3 {
+  background: url(images/ventureout_large_3.jpg);
+  background-size: 120% auto;
+  background-position: 50% 70%;
+}
+
+/*SMALL IMAGE*/
+
+#ventureout_small_1 {
+  background: url(images/ventureout_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#ventureout_small_2 {
+  background: url(images/ventureout_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Wiko Cellphone Social Media */
+
+/*THUMBNAIL*/
+
+#wiko_thumb {
+  background-image: url("images/wiko_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#wiko_feature {
+  background: url(images/wiko_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#wiko_large_1 {
+  background: url(images/wiko_large_1.jpg);
+  background-size: 125% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#wiko_large_2 {
+  background: url(images/wiko_large_2.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#wiko_large_3 {
+  background: url(images/wiko_large_3.jpg);
+  background-size: 120% auto;
+  background-position: 50% 70%;
+}
+
+/*SMALL IMAGE*/
+
+#wiko_small_1 {
+  background: url(images/wiko_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#wiko_small_2 {
+  background: url(images/wiko_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Pringles “Buffalo Flavors” Campaign */
+
+/*THUMBNAIL*/
+
+#pringles_thumb {
+  background-image: url("images/pringles_thumb.jpg");
+  background-size: 130%;
+  background-repeat: repeat;
+  background-position: 50% 90%;
+}
+
+/*FEATURE IMAGE*/
+
+#pringles_feature {
+  background: url(images/pringles_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#pringles_large_1 {
+  background: url(images/pringles_large_1.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#pringles_large_2 {
+  background: url(images/pringles_large_2.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#pringles_large_3 {
+  background: url(images/pringles_large_3.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#pringles_small_1 {
+  background: url(images/pringles_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#pringles_small_2 {
+  background: url(images/pringles_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Design Culture Now Event Series Poster */
+
+/*THUMBNAIL*/
+
+#designculturenow_thumb {
+  background-image: url("images/designculturenow_thumb.jpg");
+  background-size: 130%;
+  background-repeat: repeat;
+  background-position: 50% 90%;
+}
+
+/*FEATURE IMAGE*/
+
+#designculturenow_feature {
+  background: url(images/designculturenow_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#designculturenow_large_1 {
+  background: url(images/designculturenow_large_1.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#designculturenow_large_2 {
+  background: url(images/designculturenow_large_2.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#designculturenow_large_3 {
+  background: url(images/designculturenow_large_3.jpg);
+  background-size: 120% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#designculturenow_small_1 {
+  background: url(images/designculturenow_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#designculturenow_small_2 {
+  background: url(images/designculturenow_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Juicy Burger Bar Digital Signage */
+
+/*THUMBNAIL*/
+
+#digitalsignage_thumb {
+  background-image: url("images/digitalsignage_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 20%;
+}
+
+/*FEATURE IMAGE*/
+
+#digitalsignage_feature {
+  background: url(images/digitalsignage_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+/*SMALL IMAGE*/
+
+#digitalsignage_small_1 {
+  background: url(images/digitalsignage_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 50% 16%;
+}
+
+/*SMALL IMAGE*/
+
+#digitalsignage_small_2 {
+  background: url(images/digitalsignage_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Texting & Driving PSA */
+
+/*THUMBNAIL*/
+
+#psa_thumb {
+  background-image: url("images/psa_thumb.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 50% 20%;
+}
+
+/*FEATURE IMAGE*/
+
+#psa_feature {
+  background: url(images/psa_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+/*SMALL IMAGE*/
+
+#psa_small_1 {
+  background: url(images/psa_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 50% 16%;
+}
+
+/*SMALL IMAGE*/
+
+#psa_small_2 {
+  background: url(images/psa_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Hamburg, NY Map */
+
+/*THUMBNAIL*/
+
+#hamburgmap_thumb {
+  background-image: url("images/hamburgmap_thumb.jpg");
+  background-size: 120%;
+  background-repeat: repeat;
+  background-position: 80% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#hamburgmap_feature {
+  background: url(images/hamburgmap_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 90%;
+}
+
+/*LARGE IMAGE*/
+
+#hamburgmap_large_1 {
+  background: url(images/hamburgmap_large_1.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#hamburgmap_large_2 {
+  background: url(images/hamburgmap_large_2.jpg);
+  background-size: 110% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#hamburgmap_large_3 {
+  background: url(images/hamburgmap_large_3.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#hamburgmap_small_1 {
+  background: url(images/hamburgmap_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#hamburgmap_small_2 {
+  background: url(images/hamburgmap_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
