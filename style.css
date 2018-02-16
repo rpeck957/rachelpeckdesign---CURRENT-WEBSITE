@@ -613,8 +613,8 @@ label.read-more-trigger{
 #abouttext {
   width: 50%;
   height: auto;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutsection {
