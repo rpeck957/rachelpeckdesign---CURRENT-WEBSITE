@@ -208,7 +208,7 @@
 
 #misc_5 {
   background-image: url("images/misc_5_thumb.jpg");
-  background-size: 120%;
+  background-size: 125%;
   background-repeat: repeat;
   background-position: 40% 50%;
 }
@@ -435,7 +435,7 @@
 #juicy_feature {
   background: url(images/juicy_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 90%;
 }
 
 /*LARGE IMAGE*/
@@ -795,7 +795,7 @@
 #lloyd_feature {
   background: url(images/lloyd_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 90%;
+  background-position: 50% 95%;
 }
 
 /*LARGE IMAGE*/
@@ -878,7 +878,7 @@
 
 #hellospring_large_3 {
   background: url(images/hellospring_large_3.jpg);
-  background-size: 100% auto;
+  background-size: 120% auto;
   background-position: center center;
 }
 
@@ -930,7 +930,7 @@
 
 #hopecenter_large_2 {
   background: url(images/hopecenter_large_2.jpg);
-  background-size: 120% auto;
+  background-size: 140% auto;
   background-position: center center;
 }
 
@@ -967,7 +967,7 @@
   background-image: url("images/dreamgirl_thumb.jpg");
   background-size: 115%;
   background-repeat: repeat;
-  background-position: 50% 50%;
+  background-position: 50% 60%;
 }
 
 /*FEATURE IMAGE*/
@@ -975,7 +975,7 @@
 #dreamgirl_feature {
   background: url(images/dreamgirl_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 80%;
 }
 
 /*LARGE IMAGE*/
@@ -1025,9 +1025,9 @@
 
 #kaleidoscope_thumb {
   background-image: url("images/kaleidoscope_thumb.jpg");
-  background-size: 110%;
+  background-size: 105%;
   background-repeat: repeat;
-  background-position: 50% 50%;
+  background-position: 50% 60%;
 }
 
 /*FEATURE IMAGE*/
@@ -1035,14 +1035,14 @@
 #kaleidoscope_feature {
   background: url(images/kaleidoscope_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 15%;
 }
 
 /*LARGE IMAGE*/
 
 #kaleidoscope_large_1 {
   background: url(images/kaleidoscope_large_1.jpg);
-  background-size: 110% auto;
+  background-size: 115% auto;
   background-position: center center;
 }
 
@@ -1058,7 +1058,7 @@
 
 #kaleidoscope_large_3 {
   background: url(images/kaleidoscope_large_3.jpg);
-  background-size: 110% auto;
+  background-size: 115% auto;
   background-position: center center;
 }
 
@@ -1087,7 +1087,7 @@
   background-image: url("images/sp_thumb.jpg");
   background-size: 170%;
   background-repeat: repeat;
-  background-position: 50% 20%;
+  background-position: 50% 55%;
 }
 
 /*FEATURE IMAGE*/
@@ -1095,7 +1095,7 @@
 #sp_feature {
   background: url(images/sp_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 40%;
+  background-position: 50% 0%;
 }
 
 /*LARGE IMAGE*/
@@ -1103,7 +1103,7 @@
 #sp_large_1 {
   background: url(images/sp_large_1.jpg);
   background-size: 150% auto;
-  background-position: center center;
+  background-position: 0% 25%;
 }
 
 /*LARGE IMAGE*/
@@ -1118,7 +1118,7 @@
 
 #sp_large_3 {
   background: url(images/sp_large_3.jpg);
-  background-size: 130% auto;
+  background-size: 120% auto;
   background-position: center center;
 }
 
@@ -1145,9 +1145,9 @@
 
 #rpdesign_thumb {
   background-image: url("images/rpdesign_thumb.jpg");
-  background-size: 140%;
+  background-size: 155%;
   background-repeat: repeat;
-  background-position: 50% 30%;
+  background-position: 50% 100%;
 }
 
 /*FEATURE IMAGE*/
@@ -1155,14 +1155,14 @@
 #rpdesign_feature {
   background: url(images/rpdesign_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 75%;
 }
 
 /*LARGE IMAGE*/
 
 #rpdesign_large_1 {
   background: url(images/rpdesign_large_1.jpg);
-  background-size: 105% auto;
+  background-size: 100% auto;
   background-position: center center;
 }
 
@@ -1170,7 +1170,7 @@
 
 #rpdesign_large_2 {
   background: url(images/rpdesign_large_2.jpg);
-  background-size: 105% auto;
+  background-size: 110% auto;
   background-position: center center;
 }
 
@@ -1178,7 +1178,7 @@
 
 #rpdesign_large_3 {
   background: url(images/rpdesign_large_3.jpg);
-  background-size: 105% auto;
+  background-size: 115% auto;
   background-position: center center;
 }
 
@@ -1221,9 +1221,9 @@
 
 #ventureout_thumb {
   background-image: url("images/ventureout_thumb.jpg");
-  background-size: 100%;
+  background-size: 140%;
   background-repeat: repeat;
-  background-position: 50% 30%;
+  background-position: 50% 50%;
 }
 
 /*FEATURE IMAGE*/
@@ -1231,15 +1231,15 @@
 #ventureout_feature {
   background: url(images/ventureout_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 70%;
 }
 
 /*LARGE IMAGE*/
 
 #ventureout_large_1 {
   background: url(images/ventureout_large_1.jpg);
-  background-size: 125% auto;
-  background-position: center center;
+  background-size: 105% auto;
+  background-position: 50% 37%;
 }
 
 /*LARGE IMAGE*/
@@ -1254,8 +1254,8 @@
 
 #ventureout_large_3 {
   background: url(images/ventureout_large_3.jpg);
-  background-size: 120% auto;
-  background-position: 50% 70%;
+  background-size: 100% auto;
+  background-position: 50% 30%;
 }
 
 /*SMALL IMAGE*/
@@ -1281,9 +1281,9 @@
 
 #wiko_thumb {
   background-image: url("images/wiko_thumb.jpg");
-  background-size: 100%;
+  background-size: 170%;
   background-repeat: repeat;
-  background-position: 50% 30%;
+  background-position: 70% 98%;
 }
 
 /*FEATURE IMAGE*/
@@ -1291,22 +1291,22 @@
 #wiko_feature {
   background: url(images/wiko_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 95%;
 }
 
 /*LARGE IMAGE*/
 
 #wiko_large_1 {
   background: url(images/wiko_large_1.jpg);
-  background-size: 125% auto;
-  background-position: center center;
+  background-size: 120% auto;
+  background-position: 50% 0%;
 }
 
 /*LARGE IMAGE*/
 
 #wiko_large_2 {
   background: url(images/wiko_large_2.jpg);
-  background-size: 120% auto;
+  background-size: 100% auto;
   background-position: center center;
 }
 
@@ -1315,7 +1315,7 @@
 #wiko_large_3 {
   background: url(images/wiko_large_3.jpg);
   background-size: 120% auto;
-  background-position: 50% 70%;
+  background-position: 50% 0%;
 }
 
 /*SMALL IMAGE*/
@@ -1341,9 +1341,9 @@
 
 #pringles_thumb {
   background-image: url("images/pringles_thumb.jpg");
-  background-size: 130%;
+  background-size: 140%;
   background-repeat: repeat;
-  background-position: 50% 90%;
+  background-position: 50% 50%;
 }
 
 /*FEATURE IMAGE*/
@@ -1351,14 +1351,14 @@
 #pringles_feature {
   background: url(images/pringles_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 70%;
 }
 
 /*LARGE IMAGE*/
 
 #pringles_large_1 {
   background: url(images/pringles_large_1.jpg);
-  background-size: 120% auto;
+  background-size: 115% auto;
   background-position: center center;
 }
 
@@ -1411,7 +1411,7 @@
 #designculturenow_feature {
   background: url(images/designculturenow_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 65%;
+  background-position: 50% 43%;
 }
 
 /*LARGE IMAGE*/
@@ -1434,7 +1434,7 @@
 
 #designculturenow_large_3 {
   background: url(images/designculturenow_large_3.jpg);
-  background-size: 100% auto;
+  background-size: 120% auto;
   background-position: center center;
 }
 
@@ -1461,9 +1461,9 @@
 
 #digitalsignage_thumb {
   background-image: url("images/digitalsignage_thumb.jpg");
-  background-size: 100%;
+  background-size: 125%;
   background-repeat: repeat;
-  background-position: 50% 20%;
+  background-position: 50% 50%;
 }
 
 /*FEATURE IMAGE*/
@@ -1471,7 +1471,7 @@
 #digitalsignage_feature {
   background: url(images/digitalsignage_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 40%;
+  background-position: 50% 15%;
 }
 
 /*SMALL IMAGE*/
@@ -1497,9 +1497,9 @@
 
 #psa_thumb {
   background-image: url("images/psa_thumb.jpg");
-  background-size: 100%;
+  background-size: 110%;
   background-repeat: repeat;
-  background-position: 50% 20%;
+  background-position: 50% 55%;
 }
 
 /*FEATURE IMAGE*/
@@ -1507,7 +1507,7 @@
 #psa_feature {
   background: url(images/psa_feature.jpg) fixed;
   background-size: 100% auto;
-  background-position: 50% 40%;
+  background-position: 50% 15%;
 }
 
 /*SMALL IMAGE*/
@@ -1533,9 +1533,9 @@
 
 #hamburgmap_thumb {
   background-image: url("images/hamburgmap_thumb.jpg");
-  background-size: 120%;
+  background-size: 110%;
   background-repeat: repeat;
-  background-position: 80% 50%;
+  background-position: 50% 50%;
 }
 
 /*FEATURE IMAGE*/
@@ -1558,7 +1558,7 @@
 
 #hamburgmap_large_2 {
   background: url(images/hamburgmap_large_2.jpg);
-  background-size: 110% auto;
+  background-size: 100% auto;
   background-position: center center;
 }
 
@@ -1566,7 +1566,7 @@
 
 #hamburgmap_large_3 {
   background: url(images/hamburgmap_large_3.jpg);
-  background-size: 100% auto;
+  background-size: 110% auto;
   background-position: center center;
 }
 
@@ -1582,6 +1582,66 @@
 
 #hamburgmap_small_2 {
   background: url(images/hamburgmap_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Famous Character Typography */
+
+/*THUMBNAIL*/
+
+#famoustype_thumb {
+  background-image: url("images/famoustype_thumb.jpg");
+  background-size: 130%;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#famoustype_feature {
+  background: url(images/famoustype_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% -80%;
+}
+
+/*LARGE IMAGE*/
+
+#famoustype_large_1 {
+  background: url(images/famoustype_large_1.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#famoustype_large_2 {
+  background: url(images/famoustype_large_2.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#famoustype_large_3 {
+  background: url(images/famoustype_large_3.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#famoustype_small_1 {
+  background: url(images/famoustype_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#famoustype_small_2 {
+  background: url(images/famoustype_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
