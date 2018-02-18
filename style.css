@@ -179,8 +179,6 @@ h1 {
   color: rgba(116, 204, 209, 1);
   /*line-height: -1.25em;*/
   /*padding-bottom:1rem;*/
-
-
   /* font-family: "korolev", sans-serif; */
   font-weight: 700;
   line-height: normal;
@@ -214,7 +212,7 @@ h4 {
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.02em;
-  color: rgba(82, 94, 94, 1);
+  color: rgba(82, 94, 94, .85);
   line-height: 2.5rem;
 }
 
@@ -451,10 +449,10 @@ label.read-more-trigger{
 
 
 
-#workcontent .card:last-child, #workcontent .card:nth-last-child(2), #workcontent .card:nth-last-child(3)  {
+/* #workcontent .card:last-child, #workcontent .card:nth-last-child(2), #workcontent .card:nth-last-child(3)  {
   margin-right: auto;
   margin-left: 1.333333333%;
-}
+} */
 
 /* #workcontent .card:nth-last-child(3) {
   margin-right: 1.333333333%;
@@ -1118,7 +1116,7 @@ footer a img:hover {
 /*END OF NAVBAR*/
 /*GENERAL CONTENT*/
 
-  #homelogo {
+  #indexlogo {
     display: none;
   }
 
@@ -1139,7 +1137,8 @@ footer a img:hover {
   }
 
   h4{
-    font-size: 1.75em;
+    font-size: 1.35em;
+    line-height: initial;
   }
 
   p {
@@ -1186,10 +1185,31 @@ footer a img:hover {
 /*END OF CONSTRUCTION PAGE*/
 /*INDEX CONTENT*/
 
+#indexcontent{
+  flex-direction: column-reverse;
+}
+
 #indextext{
   max-width: 100%;
   padding: 1.5rem;
 }
+
+#homelogo{
+  width: 100%;
+}
+
+.indexgallery{
+  flex-direction: column;
+}
+
+.indexcard{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 400px;
+  margin-bottom: 1.25rem;
+}
+
 
 
 /*END OF INDEX CONTENT*/
@@ -1213,42 +1233,37 @@ footer a img:hover {
 }
 
 #portrait{
-  /* background:url(images/about_portrait.jpg) no-repeat; */
-  background-size: 100%;
+  /* background-size: 100%; */
+  background-size: cover;
   background-repeat: repeat;
   background-position: center bottom;
 }
 
 #designer{
-  /* background: url(images/about_designer.jpg) fixed no-repeat; */
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: center bottom;
 }
 
 #grad{
-  /* background: url(images/about_grad.jpg) fixed no-repeat; */
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: center bottom;
 }
 
 #buffalo{
-  /* background: url(images/about_city.jpg) fixed; */
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: center bottom;
 }
 
 #city{
-  /* background: url(images/about_theater.jpg) fixed; */
   background-size: 100%;
   background-repeat: repeat;
   background-position: center bottom;
 }
 
 #funfact{
-  /* background: url(images/about_coffee.jpg) fixed; */
   background-size: 100%;
   background-repeat: repeat;
   background-position: center bottom;
@@ -1292,6 +1307,19 @@ min-height: 30vh;
   flex-direction: column-reverse;
 }
 
+.read-more-wrap{
+  max-height: 30vh;
+}
+
+.largeprojectpic{
+  flex-direction: column;
+  min-height: 0vh;
+}
+
+.large3{
+  min-width: 100%;
+  min-height: 40vh;
+}
 
 /*END OF PROJECT PAGE CONTENT*/
 /*RESUME CONTENT*/
@@ -1371,7 +1399,22 @@ footer a img{
 /*NAVBAR*/
 
 #hideindex{
+  /* display: none; */
+}
+
+.mobile{
   display: none;
+}
+
+#mobilelogo{
+  align-items: center;
+}
+
+#mobilelogo img{
+  width: 100%;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #navbar{
@@ -1379,12 +1422,22 @@ footer a img{
   padding-bottom: 2rem;
 }
 
+#navbar ul{
+  flex-direction: column;
+}
+
 #navbar ul li{
   font-size: 1.95em;
+  line-height: 1.5em;
 }
 
 #hideindex2{
   display: none;
+}
+
+.hamburger img{
+  width: 3rem;
+  height: 3rem;
 }
 
 
@@ -1400,11 +1453,15 @@ h3{
 }
 
 h4{
-  font-size: 1.75em;
+  font-size: 1.45em;
 }
 
 p {
   font-size: 1.25em;
+}
+
+#myBtn{
+  bottom: 125px;
 }
 
 
@@ -1427,26 +1484,72 @@ p {
 /*INDEX CONTENT*/
 
   #indexcontent{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   #homelogo{
     width: 100%;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 2rem; */
+    padding: 2rem;
   }
 
   #indextext{
-    /* width: 100%; */
+    max-width: 100%;
+  }
+
+  #indexlogo{
+    display: none;
+  }
+
+  .indexgallery{
+    padding-top: 0;
   }
 
 
 /*END OF INDEX CONTENT*/
  /*ABOUT CONTENT*/
 
+ .aboutsection{
+   flex-direction: column;
+ }
+
+ #abouttext{
+   width: 100%;
+ }
+
  .aboutpic{
+   width: 100%;
    min-height: 30vh;
+ }
+
+ #switchmobile{
+   flex-direction: column-reverse;
+ }
+
+ #portrait{
+   background-size: cover;
+ }
+
+ #designer{
+   background-size: cover;
+ }
+
+ #grad{
+   background-size: cover;
+ }
+
+ #buffalo{
+   background-size: cover;
+ }
+
+ #city{
+   background-size: cover;
+ }
+
+ #funfact{
+   background-size: cover;
  }
 
 
@@ -1459,11 +1562,30 @@ p {
  /*PROJECT CONTENT*/
 
   .finalprojectpic{
-  min-height: 30vh;
-  }
+    min-height: 30vh;
+    }
 
    .projectpic{
      min-height: 30vh;
+   }
+
+
+   .finalprojectpic{
+   min-height: 40vh;
+   }
+
+   #switchmobile{
+     flex-direction: column-reverse;
+   }
+
+   .largeprojectpic{
+     flex-direction: column;
+     min-height: 0vh;
+   }
+
+   .large3{
+     min-width: 100%;
+     min-height: 50vh;
    }
 
 
@@ -1588,7 +1710,10 @@ p {
 /*END OF ABOUT CONTENT*/
 /*WORK CONTENT*/
 
-
+#workcontent .card:last-child, #workcontent .card:nth-last-child(2), #workcontent .card:nth-last-child(3)  {
+  margin-right: auto;
+  margin-left: 1.333333333%;
+}
 
 /*END OF WORK CONTENT*/
 /*PROJECT CONTENT*/
@@ -1631,10 +1756,10 @@ p {
     width:49%;
   }
 
-  .card:last-child {
+  /* .card:last-child {
   margin-right:auto;
   margin-left:2%;
-  }
+  } */
 }
 
 /*DESKTOP 1170*/
