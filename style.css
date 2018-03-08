@@ -645,7 +645,7 @@ label.read-more-trigger{
 #portrait {
   background: url(images/about_portrait.jpg) fixed no-repeat;
   background-size: 50% auto;
-  background-position: right 25%;
+  background-position: right 12%;
 }
 
 #designer {
@@ -656,25 +656,25 @@ label.read-more-trigger{
 
 #grad {
   background: url(images/about_grad.jpg) fixed no-repeat;
-  background-size: 55%;
+  background-size: 50%;
   background-position: right 10%;
 }
 
 #buffalo {
-  background: url(images/about_city.jpg) fixed;
-  background-size: 55%;
+  background: url(images/about_buff.jpg) fixed;
+  background-size: 50%;
   background-position:0% 0%;
 }
 
 #city{
-  background: url(images/about_theater.jpg) fixed;
-  background-size: 60%;
-  background-position: right 75%;
+  background: url(images/about_city.jpg) fixed;
+  background-size: 50%;
+  /* background-position: right 75%; */
 }
 
 #funfact{
   background: url(images/about_coffee.jpg) fixed;
-  background-size: 55%;
+  background-size: 51%;
   background-position: 0% 0%;
 }
 
@@ -1228,6 +1228,10 @@ footer a img:hover {
   min-height: 40vh;
 }
 
+.text ul{
+  margin: 1rem;
+}
+
 #switchmobile{
   flex-direction: column-reverse;
 }
@@ -1235,38 +1239,43 @@ footer a img:hover {
 #portrait{
   /* background-size: 100%; */
   background-size: cover;
-  background-repeat: repeat;
-  background-position: center bottom;
+  /* background-repeat: repeat; */
+  background-position: center center;
 }
 
 #designer{
+  /* background-size: 100%; */
   background-size: cover;
-  background-repeat: repeat;
-  background-position: center bottom;
+  /* background-repeat: repeat; */
+  background-position: center center;
 }
 
 #grad{
+  /* background-size: 100%; */
   background-size: cover;
-  background-repeat: repeat;
-  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #buffalo{
+  /* background-size: 100%; */
   background-size: cover;
-  background-repeat: repeat;
-  background-position: center bottom;
+  /* background-repeat: repeat; */
+  background-position: center center;
 }
 
 #city{
-  background-size: 100%;
-  background-repeat: repeat;
-  background-position: center bottom;
+  /* background-size: 100%; */
+  background-size: cover;
+  /* background-repeat: repeat; */
+  background-position: center center;
 }
 
 #funfact{
-  background-size: 100%;
-  background-repeat: repeat;
-  background-position: center bottom;
+  /* background-size: 100%; */
+  background-size: cover;
+  /* background-repeat: repeat; */
+  background-position: center center;
 }
 
 

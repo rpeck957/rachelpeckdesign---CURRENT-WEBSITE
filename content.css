@@ -6,56 +6,56 @@
 
 #buffalo_1_wilkesonpointe {
   background-image: url("images/buffalo_wilkesonpointe_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
 
 #buffalo_2_downtown {
   background-image: url("images/buffalo_downtown_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #buffalo_3_waterfront {
   background-image: url("images/buffalo_waterfront_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 10%;
 }
 
 #buffalo_4_outerharbor {
   background-image: url("images/buffalo_outerharbor_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 90% 50%;
 }
 
 #buffalo_5_elmwoodvillage {
   background-image: url("images/buffalo_elmwoodvillage_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #buffalo_6_theaterdistrict {
   background-image: url("images/buffalo_theaterdistrict_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 20%;
 }
 
 #buffalo_7_mainstreet {
   background-image: url("images/buffalo_mainstreet_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 40%;
 }
 
 #buffalo_8_canalside {
   background-image: url("images/buffalo_canalside_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 70%;
 }
@@ -64,56 +64,56 @@
 
 #hillview_1_inquisitive {
   background-image: url("images/hillview_inquisitive_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #hillview_2_excitable {
   background-image: url("images/hillview_excitable_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 85% 50%;
 }
 
 #hillview_3_tenacious {
   background-image: url("images/hillview_tenacious_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #hillview_4_wondrous {
   background-image: url("images/hillview_wondrous_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 25% 0%;
 }
 
 #hillview_5_lively {
   background-image: url("images/hillview_lively_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 100%;
 }
 
 #hillview_6_ambitious {
   background-image: url("images/hillview_ambitious_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 20% 50%;
 }
 
 #hillview_7_creative {
   background-image: url("images/hillview_creative_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 90% 50%;
 }
 
 #hillview_8_determined {
   background-image: url("images/hillview_determined_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 0% 50%;
 }
@@ -122,56 +122,56 @@
 
 #beauty_1 {
   background-image: url("images/beauty_1_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #beauty_2 {
   background-image: url("images/beauty_2_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
 
 #beauty_3 {
   background-image: url("images/beauty_3_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #beauty_4 {
   background-image: url("images/beauty_4_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #beauty_5 {
   background-image: url("images/beauty_5_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #beauty_6 {
   background-image: url("images/beauty_6_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #beauty_7 {
   background-image: url("images/beauty_7_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 0%;
 }
 
 #beauty_8 {
   background-image: url("images/beauty_8_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 40%;
 }
@@ -180,56 +180,56 @@
 
 #misc_1 {
   background-image: url("images/misc_1_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
 
 #misc_2 {
   background-image: url("images/misc_2_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
 
 #misc_3 {
   background-image: url("images/misc_3_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 70%;
 }
 
 #misc_4 {
   background-image: url("images/misc_4_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 30% 25%;
 }
 
 #misc_5 {
   background-image: url("images/misc_5_thumb.jpg");
-  background-size: 125%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 40% 50%;
 }
 
 #misc_6 {
   background-image: url("images/misc_6_thumb.jpg");
-  background-size: 130%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 40% 100%;
 }
 
 #misc_7 {
   background-image: url("images/misc_7_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 55%;
 }
 
 #misc_8 {
   background-image: url("images/misc_8_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -245,7 +245,7 @@
 
 #martin_thumb {
   background-image: url("images/martin_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 40%;
 }
@@ -297,7 +297,7 @@
 
 #cmyk_thumb {
   background-image: url("images/cmyk_thumb.jpg");
-  background-size: 140%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
@@ -373,7 +373,7 @@
 
 #quadrangle_thumb {
   background-image: url("images/quadrangle_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
@@ -425,7 +425,7 @@
 
 #juicy_thumb {
   background-image: url("images/juicy_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
@@ -501,7 +501,7 @@
 
 #greenfriday_thumb {
   background-image: url("images/greenfriday_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 30%;
 }
@@ -561,7 +561,7 @@
 
 #carteblanche_thumb {
   background-image: url("images/carteblanche_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -637,7 +637,7 @@
 
 #comnewsletter_thumb {
   background-image: url("images/comnewsletter_thumb.jpg");
-  background-size: 130%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -689,7 +689,7 @@
 
 #buffmapshirt_thumb {
   background-image: url("images/buffmapshirt_thumb.jpg");
-  background-size: 140%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -749,7 +749,7 @@
 
 #youarehere_thumb {
   background-image: url("images/youarehere_thumb.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 20%;
 }
@@ -785,7 +785,7 @@
 
 #lloyd_thumb {
   background-image: url("images/lloyd_thumb.jpg");
-  background-size: 120%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 80% 50%;
 }
@@ -845,7 +845,7 @@
 
 #hellospring_thumb {
   background-image: url("images/hellospring_thumb.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 80% 50%;
 }
@@ -905,7 +905,7 @@
 
 #hopecenter_thumb {
   background-image: url("images/hopecenter_thumb.jpg");
-  background-size: 130%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 90%;
 }
@@ -965,7 +965,7 @@
 
 #dreamgirl_thumb {
   background-image: url("images/dreamgirl_thumb.jpg");
-  background-size: 115%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 60%;
 }
@@ -1025,7 +1025,7 @@
 
 #kaleidoscope_thumb {
   background-image: url("images/kaleidoscope_thumb.jpg");
-  background-size: 105%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 60%;
 }
@@ -1085,7 +1085,7 @@
 
 #sp_thumb {
   background-image: url("images/sp_thumb.jpg");
-  background-size: 170%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 55%;
 }
@@ -1145,7 +1145,7 @@
 
 #rpdesign_thumb {
   background-image: url("images/rpdesign_thumb.jpg");
-  background-size: 155%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 100%;
 }
@@ -1221,7 +1221,7 @@
 
 #ventureout_thumb {
   background-image: url("images/ventureout_thumb.jpg");
-  background-size: 140%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -1281,7 +1281,7 @@
 
 #wiko_thumb {
   background-image: url("images/wiko_thumb.jpg");
-  background-size: 170%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 70% 98%;
 }
@@ -1341,7 +1341,7 @@
 
 #pringles_thumb {
   background-image: url("images/pringles_thumb.jpg");
-  background-size: 140%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -1401,7 +1401,7 @@
 
 #designculturenow_thumb {
   background-image: url("images/designculturenow_thumb.jpg");
-  background-size: 130%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 90%;
 }
@@ -1461,7 +1461,7 @@
 
 #digitalsignage_thumb {
   background-image: url("images/digitalsignage_thumb.jpg");
-  background-size: 125%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -1497,7 +1497,7 @@
 
 #psa_thumb {
   background-image: url("images/psa_thumb.jpg");
-  background-size: 110%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 55%;
 }
@@ -1533,7 +1533,7 @@
 
 #hamburgmap_thumb {
   background-image: url("images/hamburgmap_thumb.jpg");
-  background-size: 110%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
@@ -1593,7 +1593,7 @@
 
 #famoustype_thumb {
   background-image: url("images/famoustype_thumb.jpg");
-  background-size: 130%;
+  background-size: cover;
   background-repeat: repeat;
   background-position: 50% 50%;
 }
