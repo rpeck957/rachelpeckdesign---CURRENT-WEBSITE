@@ -673,7 +673,7 @@ label.read-more-trigger{
 }
 
 #funfact{
-  background: url(images/about_coffee.jpg) fixed;
+  background: url(images/about_funfact.jpg) fixed;
   background-size: 51%;
   background-position: 0% 0%;
 }
@@ -1225,7 +1225,7 @@ footer a img:hover {
 
 .aboutpic{
   width: 100%;
-  min-height: 40vh;
+  min-height: 50vh;
 }
 
 .text ul{
@@ -1237,45 +1237,51 @@ footer a img:hover {
 }
 
 #portrait{
-  /* background-size: 100%; */
-  background-size: cover;
+  background: url(images/about_portrait.jpg) no-repeat;
+  background-size: 100%;
+  /* background-size: cover; */
   /* background-repeat: repeat; */
-  background-position: center center;
+  background-position: 50% 28%;
 }
 
 #designer{
+  background: url(images/about_designer.jpg) no-repeat;
   /* background-size: 100%; */
   background-size: cover;
   /* background-repeat: repeat; */
-  background-position: center center;
+  background-position: 50% 60%;
 }
 
 #grad{
+  background: url(images/about_grad.jpg) no-repeat;
   /* background-size: 100%; */
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  /* background-repeat: no-repeat; */
+  background-position: 50% 25%;
 }
 
 #buffalo{
+  background: url(images/about_buff.jpg) no-repeat;
   /* background-size: 100%; */
   background-size: cover;
   /* background-repeat: repeat; */
-  background-position: center center;
+  background-position: 50% 30%;
 }
 
 #city{
+  background: url(images/about_city.jpg) no-repeat;
   /* background-size: 100%; */
   background-size: cover;
   /* background-repeat: repeat; */
-  background-position: center center;
+  background-position: 50% 20%;
 }
 
 #funfact{
+  background: url(images/about_funfact.jpg) no-repeat;
   /* background-size: 100%; */
   background-size: cover;
   /* background-repeat: repeat; */
-  background-position: center center;
+  background-position: 50% 100%;
 }
 
 

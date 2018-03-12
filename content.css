@@ -291,6 +291,66 @@
 }
 
 
+/* ADDY Award Winning Buffalo Map Screen Printed T-Shirt */
+
+/*THUMBNAIL*/
+
+#buffmapshirt_thumb {
+  background-image: url("images/buffmapshirt_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#buffmapshirt_feature {
+  background: url(images/buffmapshirt_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+/*LARGE IMAGE*/
+
+#buffmapshirt_large_1 {
+  background: url(images/buffmapshirt_large_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#buffmapshirt_large_2 {
+  background: url(images/buffmapshirt_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#buffmapshirt_large_3 {
+  background: url(images/buffmapshirt_large_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#buffmapshirt_small_1 {
+  background: url(images/buffmapshirt_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#buffmapshirt_small_2 {
+  background: url(images/buffmapshirt_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
 /* ADDY Award Winning CMYK Publication */
 
 /*THUMBNAIL*/
@@ -314,7 +374,7 @@
 
 #cmyk_large_1 {
   background: url(images/cmyk_large_1.jpg);
-  background-size: 105% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -322,7 +382,7 @@
 
 #cmyk_large_2 {
   background: url(images/cmyk_large_2.jpg);
-  background-size: 105% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -330,7 +390,7 @@
 
 #cmyk_large_3 {
   background: url(images/cmyk_large_3.jpg);
-  background-size: 105% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -362,6 +422,66 @@
 
 #cmyk_small_4 {
   background: url(images/cmyk_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Green Friday Event */
+
+/*THUMBNAIL*/
+
+#greenfriday_thumb {
+  background-image: url("images/greenfriday_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#greenfriday_feature {
+  background: url(images/greenfriday_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 65%;
+}
+
+/*LARGE IMAGE*/
+
+#greenfriday_large_1 {
+  background: url(images/greenfriday_large_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#greenfriday_large_2 {
+  background: url(images/greenfriday_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#greenfriday_large_3 {
+  background: url(images/greenfriday_large_3.jpg);
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+/*SMALL IMAGE*/
+
+#greenfriday_small_1 {
+  background: url(images/juicy_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#greenfriday_small_2 {
+  background: url(images/juicy_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -419,142 +539,6 @@
 }
 
 
-/* Juicy Burger Bar Restuarant */
-
-/*THUMBNAIL*/
-
-#juicy_thumb {
-  background-image: url("images/juicy_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 30%;
-}
-
-/*FEATURE IMAGE*/
-
-#juicy_feature {
-  background: url(images/juicy_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 90%;
-}
-
-/*LARGE IMAGE*/
-
-#juicy_large_1 {
-  background: url(images/juicy_large_1.jpg);
-  background-size: 105% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#juicy_large_2 {
-  background: url(images/juicy_large_2.png);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#juicy_large_3 {
-  background: url(images/juicy_large_3.jpg);
-  background-size: 105% auto;
-  background-position: center center;
-}
-
-/*SMALL IMAGE*/
-
-#juicy_small_1 {
-  background: url(images/juicy_small_1.jpg);
-  background-size: 105% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#juicy_small_2 {
-  background: url(images/juicy_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#juicy_small_3 {
-  background: url(images/juicy_small_3.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#juicy_small_4 {
-  background: url(images/juicy_small_4.png);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Green Friday Event */
-
-/*THUMBNAIL*/
-
-#greenfriday_thumb {
-  background-image: url("images/greenfriday_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 30%;
-}
-
-/*FEATURE IMAGE*/
-
-#greenfriday_feature {
-  background: url(images/greenfriday_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 65%;
-}
-
-/*LARGE IMAGE*/
-
-#greenfriday_large_1 {
-  background: url(images/greenfriday_large_1.jpg);
-  background-size: 125% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#greenfriday_large_2 {
-  background: url(images/greenfriday_large_2.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#greenfriday_large_3 {
-  background: url(images/greenfriday_large_3.jpg);
-  background-size: 120% auto;
-  background-position: 50% 70%;
-}
-
-/*SMALL IMAGE*/
-
-#greenfriday_small_1 {
-  background: url(images/juicy_small_1.jpg);
-  background-size: 105% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#greenfriday_small_2 {
-  background: url(images/juicy_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
 /* Carte Blanche Restaurant Logo */
 
 /*THUMBNAIL*/
@@ -578,7 +562,7 @@
 
 #carteblanche_large_1 {
   background: url(images/carteblanche_large_1.jpg);
-  background-size: 120% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -586,7 +570,7 @@
 
 #carteblanche_large_2 {
   background: url(images/carteblanche_large_2.jpg);
-  background-size: 120% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -594,7 +578,7 @@
 
 #carteblanche_large_3 {
   background: url(images/carteblanche_large_3.jpg);
-  background-size: 110% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -683,102 +667,6 @@
 }
 
 
-/* Buffalo Map Screen Printed T-Shirt */
-
-/*THUMBNAIL*/
-
-#buffmapshirt_thumb {
-  background-image: url("images/buffmapshirt_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 50%;
-}
-
-/*FEATURE IMAGE*/
-
-#buffmapshirt_feature {
-  background: url(images/buffmapshirt_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 40%;
-}
-
-/*LARGE IMAGE*/
-
-#buffmapshirt_large_1 {
-  background: url(images/buffmapshirt_large_1.jpg);
-  background-size: 130% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#buffmapshirt_large_2 {
-  background: url(images/buffmapshirt_large_2.jpg);
-  background-size: 130% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#buffmapshirt_large_3 {
-  background: url(images/buffmapshirt_large_3.jpg);
-  background-size: 120% auto;
-  background-position: center center;
-}
-
-/*SMALL IMAGE*/
-
-#buffmapshirt_small_1 {
-  background: url(images/buffmapshirt_small_1.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#buffmapshirt_small_2 {
-  background: url(images/buffmapshirt_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Starbucks “You Are Here” Mugs Commercial */
-
-/*THUMBNAIL*/
-
-#youarehere_thumb {
-  background-image: url("images/youarehere_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 20%;
-}
-
-/*FEATURE IMAGE*/
-
-#youarehere_feature {
-  background: url(images/youarehere_feature.jpg) fixed;
-  background-size: 125% auto;
-  background-position: 50% 40%;
-}
-
-/*SMALL IMAGE*/
-
-#youarehere_small_1 {
-  background: url(images/youarehere_small_1.jpg);
-  background-size: 100% auto;
-  background-position: 50% 16%;
-}
-
-/*SMALL IMAGE*/
-
-#youarehere_small_2 {
-  background: url(images/youarehere_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
 /* Lloyd Taco Factory Cocktail Menu */
 
 /*THUMBNAIL*/
@@ -802,7 +690,7 @@
 
 #lloyd_large_1 {
   background: url(images/lloyd_large_1.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -810,7 +698,7 @@
 
 #lloyd_large_2 {
   background: url(images/lloyd_large_2.jpg);
-  background-size: 110% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -818,7 +706,7 @@
 
 #lloyd_large_3 {
   background: url(images/lloyd_large_3.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -834,6 +722,158 @@
 
 #lloyd_small_2 {
   background: url(images/lloyd_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Juicy Burger Bar Restuarant */
+
+/*THUMBNAIL*/
+
+#juicy_thumb {
+  background-image: url("images/juicy_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 30%;
+}
+
+/*FEATURE IMAGE*/
+
+#juicy_feature {
+  background: url(images/juicy_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 90%;
+}
+
+/*LARGE IMAGE*/
+
+#juicy_large_1 {
+  background: url(images/juicy_large_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#juicy_large_2 {
+  background: url(images/juicy_large_2.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#juicy_large_3 {
+  background: url(images/juicy_large_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_1 {
+  background: url(images/juicy_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_2 {
+  background: url(images/juicy_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_3 {
+  background: url(images/juicy_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#juicy_small_4 {
+  background: url(images/juicy_small_4.png);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Rachel Peck Design Branding */
+
+/*THUMBNAIL*/
+
+#rpdesign_thumb {
+  background-image: url("images/rpdesign_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 100%;
+}
+
+/*FEATURE IMAGE*/
+
+#rpdesign_feature {
+  background: url(images/rpdesign_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 75%;
+}
+
+/*LARGE IMAGE*/
+
+#rpdesign_large_1 {
+  background: url(images/rpdesign_large_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#rpdesign_large_2 {
+  background: url(images/rpdesign_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#rpdesign_large_3 {
+  background: url(images/rpdesign_large_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_1 {
+  background: url(images/rpdesign_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_2 {
+  background: url(images/rpdesign_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_3 {
+  background: url(images/rpdesign_small_3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#rpdesign_small_4 {
+  background: url(images/rpdesign_small_4.png);
   background-size: 100% auto;
   background-position: center;
 }
@@ -862,7 +902,7 @@
 
 #hellospring_large_1 {
   background: url(images/hellospring_large_1.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -870,7 +910,7 @@
 
 #hellospring_large_2 {
   background: url(images/hellospring_large_2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -878,7 +918,7 @@
 
 #hellospring_large_3 {
   background: url(images/hellospring_large_3.jpg);
-  background-size: 120% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -894,6 +934,66 @@
 
 #hellospring_small_2 {
   background: url(images/hellospring_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Design Culture Now Series Event */
+
+/*THUMBNAIL*/
+
+#designculturenow_thumb {
+  background-image: url("images/designculturenow_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 90%;
+}
+
+/*FEATURE IMAGE*/
+
+#designculturenow_feature {
+  background: url(images/designculturenow_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 43%;
+}
+
+/*LARGE IMAGE*/
+
+#designculturenow_large_1 {
+  background: url(images/designculturenow_large_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#designculturenow_large_2 {
+  background: url(images/designculturenow_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#designculturenow_large_3 {
+  background: url(images/designculturenow_large_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#designculturenow_small_1 {
+  background: url(images/designculturenow_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#designculturenow_small_2 {
+  background: url(images/designculturenow_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -922,7 +1022,7 @@
 
 #hopecenter_large_1 {
   background: url(images/hopecenter_large_1.jpg);
-  background-size: 120% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -930,7 +1030,7 @@
 
 #hopecenter_large_2 {
   background: url(images/hopecenter_large_2.jpg);
-  background-size: 140% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -938,7 +1038,7 @@
 
 #hopecenter_large_3 {
   background: url(images/hopecenter_large_3.jpg);
-  background-size: 120% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -982,7 +1082,7 @@
 
 #dreamgirl_large_1 {
   background: url(images/dreamgirl_large_1.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -990,7 +1090,7 @@
 
 #dreamgirl_large_2 {
   background: url(images/dreamgirl_large_2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -998,7 +1098,7 @@
 
 #dreamgirl_large_3 {
   background: url(images/dreamgirl_large_3.jpg);
-  background-size: 130% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1042,7 +1142,7 @@
 
 #kaleidoscope_large_1 {
   background: url(images/kaleidoscope_large_1.jpg);
-  background-size: 115% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1050,7 +1150,7 @@
 
 #kaleidoscope_large_2 {
   background: url(images/kaleidoscope_large_2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1058,7 +1158,7 @@
 
 #kaleidoscope_large_3 {
   background: url(images/kaleidoscope_large_3.jpg);
-  background-size: 115% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1079,137 +1179,37 @@
 }
 
 
-/* Sylvester Peck Media Website */
+/* Starbucks “You Are Here” Mugs Commercial */
 
 /*THUMBNAIL*/
 
-#sp_thumb {
-  background-image: url("images/sp_thumb.jpg");
+#youarehere_thumb {
+  background-image: url("images/youarehere_thumb.jpg");
   background-size: cover;
   background-repeat: repeat;
-  background-position: 50% 55%;
+  background-position: 50% 20%;
 }
 
 /*FEATURE IMAGE*/
 
-#sp_feature {
-  background: url(images/sp_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 0%;
-}
-
-/*LARGE IMAGE*/
-
-#sp_large_1 {
-  background: url(images/sp_large_1.jpg);
-  background-size: 150% auto;
-  background-position: 0% 25%;
-}
-
-/*LARGE IMAGE*/
-
-#sp_large_2 {
-  background: url(images/sp_large_2.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#sp_large_3 {
-  background: url(images/sp_large_3.jpg);
-  background-size: 120% auto;
-  background-position: center center;
+#youarehere_feature {
+  background: url(images/youarehere_feature.jpg) fixed;
+  background-size: 125% auto;
+  background-position: 50% 40%;
 }
 
 /*SMALL IMAGE*/
 
-#sp_small_1 {
-  background: url(images/sp_small_1.jpg);
+#youarehere_small_1 {
+  background: url(images/youarehere_small_1.jpg);
   background-size: 100% auto;
   background-position: 50% 16%;
 }
 
 /*SMALL IMAGE*/
 
-#sp_small_2 {
-  background: url(images/sp_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Rachel Peck Design Branding */
-
-/*THUMBNAIL*/
-
-#rpdesign_thumb {
-  background-image: url("images/rpdesign_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 100%;
-}
-
-/*FEATURE IMAGE*/
-
-#rpdesign_feature {
-  background: url(images/rpdesign_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 75%;
-}
-
-/*LARGE IMAGE*/
-
-#rpdesign_large_1 {
-  background: url(images/rpdesign_large_1.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#rpdesign_large_2 {
-  background: url(images/rpdesign_large_2.jpg);
-  background-size: 110% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#rpdesign_large_3 {
-  background: url(images/rpdesign_large_3.jpg);
-  background-size: 115% auto;
-  background-position: center center;
-}
-
-/*SMALL IMAGE*/
-
-#rpdesign_small_1 {
-  background: url(images/rpdesign_small_1.jpg);
-  background-size: 105% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#rpdesign_small_2 {
-  background: url(images/rpdesign_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#rpdesign_small_3 {
-  background: url(images/rpdesign_small_3.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#rpdesign_small_4 {
-  background: url(images/rpdesign_small_4.png);
+#youarehere_small_2 {
+  background: url(images/youarehere_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -1238,7 +1238,7 @@
 
 #ventureout_large_1 {
   background: url(images/ventureout_large_1.jpg);
-  background-size: 105% auto;
+  background-size: cover;
   background-position: 50% 37%;
 }
 
@@ -1246,7 +1246,7 @@
 
 #ventureout_large_2 {
   background: url(images/ventureout_large_2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1254,7 +1254,7 @@
 
 #ventureout_large_3 {
   background: url(images/ventureout_large_3.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: 50% 30%;
 }
 
@@ -1270,222 +1270,6 @@
 
 #ventureout_small_2 {
   background: url(images/ventureout_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Wiko Cellphone Social Media */
-
-/*THUMBNAIL*/
-
-#wiko_thumb {
-  background-image: url("images/wiko_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 70% 98%;
-}
-
-/*FEATURE IMAGE*/
-
-#wiko_feature {
-  background: url(images/wiko_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 95%;
-}
-
-/*LARGE IMAGE*/
-
-#wiko_large_1 {
-  background: url(images/wiko_large_1.jpg);
-  background-size: 120% auto;
-  background-position: 50% 0%;
-}
-
-/*LARGE IMAGE*/
-
-#wiko_large_2 {
-  background: url(images/wiko_large_2.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#wiko_large_3 {
-  background: url(images/wiko_large_3.jpg);
-  background-size: 120% auto;
-  background-position: 50% 0%;
-}
-
-/*SMALL IMAGE*/
-
-#wiko_small_1 {
-  background: url(images/wiko_small_1.jpg);
-  background-size: 105% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#wiko_small_2 {
-  background: url(images/wiko_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Pringles “Buffalo Flavors” Campaign */
-
-/*THUMBNAIL*/
-
-#pringles_thumb {
-  background-image: url("images/pringles_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 50%;
-}
-
-/*FEATURE IMAGE*/
-
-#pringles_feature {
-  background: url(images/pringles_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 70%;
-}
-
-/*LARGE IMAGE*/
-
-#pringles_large_1 {
-  background: url(images/pringles_large_1.jpg);
-  background-size: 115% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#pringles_large_2 {
-  background: url(images/pringles_large_2.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#pringles_large_3 {
-  background: url(images/pringles_large_3.jpg);
-  background-size: 120% auto;
-  background-position: center center;
-}
-
-/*SMALL IMAGE*/
-
-#pringles_small_1 {
-  background: url(images/pringles_small_1.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#pringles_small_2 {
-  background: url(images/pringles_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Design Culture Now Series Event */
-
-/*THUMBNAIL*/
-
-#designculturenow_thumb {
-  background-image: url("images/designculturenow_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 90%;
-}
-
-/*FEATURE IMAGE*/
-
-#designculturenow_feature {
-  background: url(images/designculturenow_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 43%;
-}
-
-/*LARGE IMAGE*/
-
-#designculturenow_large_1 {
-  background: url(images/designculturenow_large_1.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#designculturenow_large_2 {
-  background: url(images/designculturenow_large_2.jpg);
-  background-size: 100% auto;
-  background-position: center center;
-}
-
-/*LARGE IMAGE*/
-
-#designculturenow_large_3 {
-  background: url(images/designculturenow_large_3.jpg);
-  background-size: 120% auto;
-  background-position: center center;
-}
-
-/*SMALL IMAGE*/
-
-#designculturenow_small_1 {
-  background: url(images/designculturenow_small_1.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-/*SMALL IMAGE*/
-
-#designculturenow_small_2 {
-  background: url(images/designculturenow_small_2.jpg);
-  background-size: 100% auto;
-  background-position: center;
-}
-
-
-/* Juicy Burger Bar Digital Signage */
-
-/*THUMBNAIL*/
-
-#digitalsignage_thumb {
-  background-image: url("images/digitalsignage_thumb.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: 50% 50%;
-}
-
-/*FEATURE IMAGE*/
-
-#digitalsignage_feature {
-  background: url(images/digitalsignage_feature.jpg) fixed;
-  background-size: 100% auto;
-  background-position: 50% 15%;
-}
-
-/*SMALL IMAGE*/
-
-#digitalsignage_small_1 {
-  background: url(images/digitalsignage_small_1.jpg);
-  background-size: 100% auto;
-  background-position: 50% 16%;
-}
-
-/*SMALL IMAGE*/
-
-#digitalsignage_small_2 {
-  background: url(images/digitalsignage_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -1527,6 +1311,66 @@
 }
 
 
+/* Pringles “Buffalo Flavors” Campaign */
+
+/*THUMBNAIL*/
+
+#pringles_thumb {
+  background-image: url("images/pringles_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#pringles_feature {
+  background: url(images/pringles_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 70%;
+}
+
+/*LARGE IMAGE*/
+
+#pringles_large_1 {
+  background: url(images/pringles_large_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#pringles_large_2 {
+  background: url(images/pringles_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#pringles_large_3 {
+  background: url(images/pringles_large_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#pringles_small_1 {
+  background: url(images/pringles_small_1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#pringles_small_2 {
+  background: url(images/pringles_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
 /* Hamburg, NY Map */
 
 /*THUMBNAIL*/
@@ -1550,7 +1394,7 @@
 
 #hamburgmap_large_1 {
   background: url(images/hamburgmap_large_1.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1558,7 +1402,7 @@
 
 #hamburgmap_large_2 {
   background: url(images/hamburgmap_large_2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1566,7 +1410,7 @@
 
 #hamburgmap_large_3 {
   background: url(images/hamburgmap_large_3.jpg);
-  background-size: 110% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1582,6 +1426,162 @@
 
 #hamburgmap_small_2 {
   background: url(images/hamburgmap_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Juicy Burger Bar Digital Signage */
+
+/*THUMBNAIL*/
+
+#digitalsignage_thumb {
+  background-image: url("images/digitalsignage_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/*FEATURE IMAGE*/
+
+#digitalsignage_feature {
+  background: url(images/digitalsignage_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 15%;
+}
+
+/*SMALL IMAGE*/
+
+#digitalsignage_small_1 {
+  background: url(images/digitalsignage_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 50% 16%;
+}
+
+/*SMALL IMAGE*/
+
+#digitalsignage_small_2 {
+  background: url(images/digitalsignage_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Sylvester Peck Media Website */
+
+/*THUMBNAIL*/
+
+#sp_thumb {
+  background-image: url("images/sp_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 55%;
+}
+
+/*FEATURE IMAGE*/
+
+#sp_feature {
+  background: url(images/sp_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+/*LARGE IMAGE*/
+
+#sp_large_1 {
+  background: url(images/sp_large_1.jpg);
+  background-size: cover;
+  background-position: 0% 25%;
+}
+
+/*LARGE IMAGE*/
+
+#sp_large_2 {
+  background: url(images/sp_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#sp_large_3 {
+  background: url(images/sp_large_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*SMALL IMAGE*/
+
+#sp_small_1 {
+  background: url(images/sp_small_1.jpg);
+  background-size: 100% auto;
+  background-position: 50% 16%;
+}
+
+/*SMALL IMAGE*/
+
+#sp_small_2 {
+  background: url(images/sp_small_2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+/* Wiko Cellphone Social Media */
+
+/*THUMBNAIL*/
+
+#wiko_thumb {
+  background-image: url("images/wiko_thumb.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 80% 98%;
+}
+
+/*FEATURE IMAGE*/
+
+#wiko_feature {
+  background: url(images/wiko_feature.jpg) fixed;
+  background-size: 100% auto;
+  background-position: 50% 95%;
+}
+
+/*LARGE IMAGE*/
+
+#wiko_large_1 {
+  background: url(images/wiko_large_1.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+/*LARGE IMAGE*/
+
+#wiko_large_2 {
+  background: url(images/wiko_large_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*LARGE IMAGE*/
+
+#wiko_large_3 {
+  background: url(images/wiko_large_3.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+/*SMALL IMAGE*/
+
+#wiko_small_1 {
+  background: url(images/wiko_small_1.jpg);
+  background-size: 105% auto;
+  background-position: center;
+}
+
+/*SMALL IMAGE*/
+
+#wiko_small_2 {
+  background: url(images/wiko_small_2.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -1610,7 +1610,7 @@
 
 #famoustype_large_1 {
   background: url(images/famoustype_large_1.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1618,7 +1618,7 @@
 
 #famoustype_large_2 {
   background: url(images/famoustype_large_2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1626,7 +1626,7 @@
 
 #famoustype_large_3 {
   background: url(images/famoustype_large_3.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -1647,5 +1647,273 @@
 }
 
 
-
 /*END OF PROJECT CONTENT IMAGES*/
+
+
+
+/* PHONE PHONE PHONE PHONE PHONE */
+
+@media (min-width:0px) and (max-width:500px) {
+
+/* Intern Onboarding Kit for The Martin Group */
+
+/*FEATURE IMAGE*/
+
+#martin_feature {
+  background: url(images/martin_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/* ADDY Award Winning Buffalo Map Screen Printed T-Shirt */
+
+/*FEATURE IMAGE*/
+
+#buffmapshirt_feature {
+  background: url(images/buffmapshirt_feature.jpg);
+  background-size: cover;
+  background-position: 50% 55%;
+}
+
+
+/* ADDY Award Winning CMYK Publication */
+
+/*FEATURE IMAGE*/
+
+#cmyk_feature {
+  background: url(images/cmyk_feature.jpg);
+  background-size: cover;
+  background-position: 50% 37%;
+}
+
+
+/* Green Friday Event */
+
+/*FEATURE IMAGE*/
+
+#greenfriday_feature {
+  background: url(images/greenfriday_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/* Canisius Quadrangle 2016 */
+
+/*FEATURE IMAGE*/
+
+#quadrangle_feature {
+  background: url(images/quadrangle_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/* Carte Blanche Restaurant Logo */
+
+/*FEATURE IMAGE*/
+
+#carteblanche_feature {
+  background: url(images/carteblanche_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/* Canisius Communications Newsletter */
+
+/*FEATURE IMAGE*/
+
+#comnewsletter_feature {
+  background: url(images/comnewsletter_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* Lloyd Taco Factory Cocktail Menu */
+
+/*FEATURE IMAGE*/
+
+#lloyd_feature {
+  background: url(images/lloyd_feature.jpg);
+  background-size: cover;
+  background-position: 50% 95%;
+}
+
+
+/* Juicy Burger Bar Restuarant */
+
+/*FEATURE IMAGE*/
+
+#juicy_feature {
+  background: url(images/juicy_feature.jpg);
+  background-size: cover;
+  background-position: 50% 75%;
+}
+
+
+/* Rachel Peck Design Branding */
+
+/*FEATURE IMAGE*/
+
+#rpdesign_feature {
+  background: url(images/rpdesign_feature.jpg);
+  background-size: cover;
+  background-position: 50% 67%;
+}
+
+
+/* Hello Spring Table Tent */
+
+/*FEATURE IMAGE*/
+
+#hellospring_feature {
+  background: url(images/hellospring_feature.jpg);
+  background-size: cover;
+  background-position: 50% 55%;
+}
+
+
+/* Design Culture Now Series Event */
+
+/*FEATURE IMAGE*/
+
+#designculturenow_feature {
+  background: url(images/designculturenow_feature.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+}
+
+
+/* Hope Center Logo */
+
+/*FEATURE IMAGE*/
+
+#hopecenter_feature {
+  background: url(images/hopecenter_feature.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+
+/* Dream Girl Screening Event */
+
+/*FEATURE IMAGE*/
+
+#dreamgirl_feature {
+  background: url(images/dreamgirl_feature.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+
+/* Kaleidoscope Television Series */
+
+/*FEATURE IMAGE*/
+
+#kaleidoscope_feature {
+  background: url(images/kaleidoscope_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/* Starbucks “You Are Here” Mugs Commercial */
+
+/*FEATURE IMAGE*/
+
+#youarehere_feature {
+  background: url(images/youarehere_feature.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+
+/* Nokia Cellphone “Venture Out” Campaign */
+
+/*FEATURE IMAGE*/
+
+#ventureout_feature {
+  background: url(images/ventureout_feature.jpg);
+  background-size: cover;
+  background-position: 50% 80%;
+}
+
+
+/* Texting & Driving PSA */
+
+#psa_feature {
+  background: url(images/psa_feature.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+
+/* Pringles “Buffalo Flavors” Campaign */
+
+/*FEATURE IMAGE*/
+
+#pringles_feature {
+  background: url(images/pringles_feature.jpg);
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+
+/* Hamburg, NY Map */
+
+/*FEATURE IMAGE*/
+
+#hamburgmap_feature {
+  background: url(images/hamburgmap_feature.jpg);
+  background-size: cover;
+  background-position: 50% 75%;
+}
+
+
+/* Juicy Burger Bar Digital Signage */
+
+/*FEATURE IMAGE*/
+
+#digitalsignage_feature {
+  background: url(images/digitalsignage_feature.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+
+/* Sylvester Peck Media Website */
+
+/*FEATURE IMAGE*/
+
+#sp_feature {
+  background: url(images/sp_feature.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+}
+
+
+/* Wiko Cellphone Social Media */
+
+/*FEATURE IMAGE*/
+
+#wiko_feature {
+  background: url(images/wiko_feature.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+
+/* Famous Character Typography */
+
+/*FEATURE IMAGE*/
+
+#famoustype_feature {
+  background: url(images/famoustype_feature.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+}
