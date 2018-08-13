@@ -1705,7 +1705,10 @@ p {
 /*END OF GENERAL CONTENT*/
 /*GALLERY*/
 
-
+.card {
+  /* min-height: 400px; */
+  /* max-height: 500px; */
+}
 
 /*END OF GALLERY*/
 /*CONSTRUCTION PAGE*/
@@ -1715,7 +1718,10 @@ p {
 /*END OF CONSTRUCTION PAGE*/
 /*INDEX CONTENT*/
 
-
+.indexcard{
+  /* min-height: 300px; */
+  /* max-height: 325px; */
+}
 
 /*END OF INDEX CONTENT*/
 /*ABOUT CONTENT*/
